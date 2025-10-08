@@ -20,6 +20,7 @@ In quantum optics, $\hat{x},\hat{p}$ represent quadratures of the electro-magnet
 | Rotation         | $\hat{R}(\theta)=\exp(-i\theta\hat{n})$                                         |
 | Parity           | $\hat{\Pi}=(-1)^{\hat{n}}$                                                      |
 | Displaced parity | $\hat{\Pi}(\alpha)=\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$           |
+| Phase-point      | $\hat{\Delta}=2\hat{\Pi}(\alpha)$                                               |
 
 ## States
 
@@ -47,9 +48,10 @@ $$\langle n\vert\alpha\rangle=\exp\left(-\tfrac12\alpha\alpha^{\ast}\right)\frac
 
 Thermal states are parameterised through their mean photon-number, i.e. $\bar{n}=\mathrm{Tr}[\hat{\tau}\hat{n}]$.
 
-$$\hat{\tau}=\frac{1}{\bar{n}+1}\sum\limits_{n=0}^{\infty}\left(\frac{\bar{n}}{\bar{n}+1}\right)^n\ket{n}\bra{n}$$
+$$\hat{\tau}(\bar{n})=\frac{1}{\bar{n}+1}\sum\limits_{n=0}^{\infty}\left(\frac{\bar{n}}{\bar{n}+1}\right)^n\ket{n}\bra{n}$$
 
 Another natural paramterisation is $\hat{\tau}=(1-\lambda)\sum_{n=0}^{\infty}\lambda^n\vert n \rangle \langle n\vert$, where $\lambda=\bar{n}/(\bar{n}+1)$.
+We have the relation $\hat{\tau}(-1/2)=2\hat{\Pi}$.
 
 ## Phase space
 
@@ -59,7 +61,25 @@ $$\hat{\rho}=\int\hat{\Pi}(\alpha)W_{\hat{\rho}}(\alpha)\frac{\mathrm{d}^2\alpha
 
 $$\mathrm{Tr}\big[\hat{\rho}\hat{\sigma}\big]=\int W_{\hat{\rho}}(\alpha)W_{\hat{\sigma}}(\alpha)\frac{\mathrm{d}\alpha}{\pi}$$
 
+#### Convolution notation
+
+Let $\hat{\rho},\hat{\sigma}\in T(\mathcal{H})$ and $f,g\in L^2(\mathbb{C})$. We define:
+
+$$
+\begin{align*}
+(f\ast g)(\alpha) &= \int f(\beta)\cdot g(\alpha-\beta)\mathrm{d}\beta
+\\
+(\hat{A}\ast\hat{B})(\alpha)&=\mathrm{Tr}\left[\hat{\rho}\hat{D}(\alpha)\hat{\Pi}\hat{\sigma}\hat{\Pi}\hat{D}^{\dagger}(\alpha)\right]
+\\
+f\ast \hat{A}=\hat{A}\ast f&=\int f(\alpha)\hat{D}(\alpha)\hat{A}\hat{D}^{\dagger}(\alpha)\frac{\mathrm{d}^2\alpha}{\pi}
+\end{align*}
+$$
+
+This gives the simple notation $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Pi}$ and $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Pi}$.
+
 ## Overlaps
+
+#### Coherent states
 
 $$
 \begin{align*}
@@ -70,7 +90,9 @@ $$
 \end{align*}
 $$
 
-Introduce the dispalced Fock states $\vert\alpha,n\rangle\equiv\hat{D}(\alpha)\ket{n}$.
+#### Displaced Fock states
+
+Denote the dispalced Fock states as $\vert\alpha,n\rangle\equiv\hat{D}(\alpha)\ket{n}$.
 
 $$
 \begin{align*}
@@ -82,6 +104,4 @@ $$
 \end{align*}
 $$
 
-$$\bra{m}\hat{D}(\alpha)\ket{n}=(-1)^{\left[m\lt n\right]}\exp(-\tfrac{1}{2}\alpha\alpha^{\ast})\sqrt{\tfrac{\min(m,n)!}{\max(m,n)!}}\alpha^{[m-n]}L^{(\vert n-m\vert)}_{\min(m,n)}(\alpha\alpha^{\ast})$$
-
-Using the notation $\alpha^{[p]}=\alpha^{p}$ if $p\geq 0$ and $\alpha^{[p]}=(\alpha^{\ast})^{-p}$ if $p<0$.
+In the latter equation we have introducd the notation $\alpha^{[p]}=\alpha^{p}$ if $p\geq 0$ and $\alpha^{[p]}=(\alpha^{\ast})^{-p}$ if $p<0$.
