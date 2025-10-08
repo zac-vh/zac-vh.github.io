@@ -63,22 +63,22 @@ $$\mathrm{Tr}\big[\hat{\rho}\hat{\sigma}\big]=\int W_{\hat{\rho}}(\alpha)W_{\hat
 
 $$
 \begin{align*}
-\langle \beta | \alpha \rangle
+\langle \beta \vert \alpha \rangle
 &= \exp\left(\alpha\beta^{\ast}-\tfrac12(\alpha\alpha^{\ast}+\beta\beta^{\ast})\right)
 \\&=
-\exp\left(-\tfrac12 |\alpha-\beta|^2+i\mathrm{Im}[\beta^{\ast}\alpha]\right)
+\exp\left(-\tfrac12 \vert\alpha-\beta\vert^2+i\mathrm{Im}[\beta^{\ast}\alpha]\right)
 \end{align*}
 $$
 
-Introduce the dispalced Fock states $|\alpha,n\rangle\equiv\hat{D}(\alpha)\ket{n}$.
+Introduce the dispalced Fock states $\vert\alpha,n\rangle\equiv\hat{D}(\alpha)\ket{n}$.
 
 $$
 \begin{align*}
-\langle \beta, m | \alpha, n \rangle
-&= \langle \beta | \alpha \rangle \sqrt{m!n!} \sum\limits_{j=0}^{\min(m,n)}\frac{(\alpha-\beta)^{m-j}(\beta^{\ast}-\alpha^{\ast})^{n-j}}{j!(m-j)!(n-j)!}
+\langle \beta, m \vert \alpha, n \rangle
+&= \langle \beta \vert \alpha \rangle \sqrt{m!n!} \sum\limits_{j=0}^{\min(m,n)}\frac{(\alpha-\beta)^{m-j}(\beta^{\ast}-\alpha^{\ast})^{n-j}}{j!(m-j)!(n-j)!}
 \\&=
-\langle \beta | \alpha \rangle
-(-1)^{\left[m\lt n\right]}\sqrt{\tfrac{\min(m,n)!}{\max(m,n)!}}(\alpha-\beta)^{[m-n]}L^{(\vert n-m\vert)}_{\min(m,n)}\left(|\alpha-\beta|^2\right)
+\langle \beta \vert \alpha \rangle
+(-1)^{\left[m\lt n\right]}\sqrt{\tfrac{\min(m,n)!}{\max(m,n)!}}(\alpha-\beta)^{[m-n]}L^{(\vert m-n\vert)}_{\min(m,n)}\left(\vert\alpha-\beta\vert^2\right)
 \end{align*}
 $$
 
