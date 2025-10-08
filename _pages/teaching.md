@@ -22,7 +22,21 @@ In quantum optics, $\hat{x},\hat{p}$ represent quadratures of the electro-magnet
 | Displaced parity | $\hat{\Pi}(\alpha)=\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$           |
 | Phase-point      | $\hat{\Delta}=2\hat{\Pi}(\alpha)$                                               |
 
-## States
+## Bases
+
+In the following table:
+
+- $\ket{x},\ket{y}$ are eigenstates of $\hat{x}$
+- $\ket{p},\ket{q}$ are eigenstates of $\hat{p}$
+- $\ket{n},\ket{m}$ are eigenstates of $\hat{n}$
+- $\ket{\alpha},\ket{\beta}$ are eigenstates of $\hat{a}$
+
+|                      |                                               $\vert x\rangle$                                                |       $\vert p\rangle$        |                          $\vert n\rangle$                           |                                       $\vert \alpha \rangle$                                       |
+| :------------------- | :-----------------------------------------------------------------------------------------------------------: | :---------------------------: | :-----------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
+| $\langle y\vert$     |                                                 $\delta(x-y)$                                                 | $\frac{e^{iyp}}{\sqrt{2\pi}}$ |     $\frac{e^{-\tfrac{y^2}{2}}H_n(y)}{\sqrt{\sqrt{\pi}2^n n!}}$     | $\frac{e^{\tfrac{\alpha^2-\vert\alpha\vert^2}{2}-\tfrac{(y-\sqrt{2}\alpha)^2}{2}}}{\sqrt[4]{\pi}}$ |
+| $\langle q\vert$     |                                        $\frac{e^{-ixq}}{\sqrt{2\pi}}$                                         |         $\delta(p-q)$         |                                  6                                  |                                                 6                                                  |
+| $\langle m\vert$     |                          $\frac{e^{-\tfrac{x^2}{2}}H_m(x)}{\sqrt{\sqrt{\pi}2^m m!}}$                          |               8               |                               $[n=m]$                               |                   $\frac{e^{-\tfrac{\vert\alpha\vert^2}{2}}\alpha^m}{\sqrt{m!}}$                   |
+| $\langle \beta\vert$ | $\frac{e^{\tfrac{\beta^{\ast 2}-\vert\beta\vert^2}{2}-\tfrac{(x-\sqrt{2}\beta^{\ast})^2}{2}}}{\sqrt[4]{\pi}}$ |               8               | $\frac{e^{-\tfrac{\vert\beta\vert^2}{2}}\beta^{\ast n}}{\sqrt{n!}}$ |           $e^{i\mathrm{Im}[\beta^{\ast}\alpha]}e^{-\tfrac{\vert\alpha-\beta\vert^2}{2}}$           |
 
 #### Position eigenstates, momentum eigenstates
 
