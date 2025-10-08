@@ -20,7 +20,7 @@ In quantum optics, $\hat{x},\hat{p}$ represent quadratures of the electro-magnet
 | Parity       | $\hat{\Pi}=(-1)^{\hat{n}}$                                                      |
 | Phase-point  | $\hat{\Delta}=2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$               |
 
-## Bases
+## Bases and overlaps
 
 In the following table:
 
@@ -36,60 +36,10 @@ In the following table:
 | $\langle m\vert$     |                          $\frac{e^{-\tfrac{x^2}{2}}H_m(x)}{\sqrt{\sqrt{\pi}2^m m!}}$                          |                       $\frac{e^{-\tfrac{p^2}{2}}(-1)^m H_m(p)}{\sqrt{\sqrt{\pi}2^m m!}}$                       |                               $[n=m]$                               |                   $\frac{e^{-\tfrac{\vert\alpha\vert^2}{2}}\alpha^m}{\sqrt{m!}}$                    |
 | $\langle \beta\vert$ | $\frac{e^{\tfrac{\beta^{\ast 2}-\vert\beta\vert^2}{2}-\tfrac{(x-\sqrt{2}\beta^{\ast})^2}{2}}}{\sqrt[4]{\pi}}$ | $\frac{e^{\tfrac{\beta^{\ast 2}-\vert\beta\vert^2}{2}-\tfrac{(p-\sqrt{2}i\beta^{\ast})^2}{2}}}{\sqrt[4]{\pi}}$ | $\frac{e^{-\tfrac{\vert\beta\vert^2}{2}}\beta^{\ast n}}{\sqrt{n!}}$ |           $e^{i\mathrm{Im}[\beta^{\ast}\alpha]}e^{-\tfrac{\vert\alpha-\beta\vert^2}{2}}$            |
 
-#### Position eigenstates, momentum eigenstates
 
-$$\int\vert x\rangle\langle x\vert\mathrm{d}x=\int\vert p\rangle\langle p\vert\mathrm{d}p=\hat{1}$$
+#### Displaced Fock states
 
-#### Fock states
-
-$$\sum_{n=0}^{\infty}\vert n\rangle\langle n\vert=\hat{1}$$
-
-$$\langle x\vert n\rangle=\big(\sqrt{\pi}2^n n!\big)^{-\tfrac12} H_n(x)\exp(-x^2/2)$$
-
-#### Coherent states
-
-$\vert\alpha\rangle=\hat{D}(\alpha)\vert 0\rangle$.
-
-$$\langle n\vert\alpha\rangle=\exp\left(-\tfrac12\alpha\alpha^{\ast}\right)\frac{\alpha^n}{\sqrt{n!}}$$
-
-#### Gaussian states
-
-#### Thermal states
-
-Thermal states are parameterised through their mean photon-number, i.e. $\bar{n}=\mathrm{Tr}[\hat{\tau}\hat{n}]$.
-
-$$\hat{\tau}(\bar{n})=\frac{1}{\bar{n}+1}\sum\limits_{n=0}^{\infty}\left(\frac{\bar{n}}{\bar{n}+1}\right)^n\ket{n}\bra{n}$$
-
-Another natural paramterisation is $\hat{\tau}=(1-\lambda)\sum_{n=0}^{\infty}\lambda^n\vert n \rangle \langle n\vert$, where $\lambda=\bar{n}/(\bar{n}+1)$.
-We have the relation $\hat{\tau}(-1/2)=2\hat{\Pi}$.
-
-## Phase space
-
-$$W_{\hat{\rho}}(\alpha)=\mathrm{Tr}\big[\hat{\Pi}(\alpha)\hat{\rho}\big]$$
-
-$$\hat{\rho}=\int\hat{\Pi}(\alpha)W_{\hat{\rho}}(\alpha)\frac{\mathrm{d}^2\alpha}{\pi}$$
-
-$$\mathrm{Tr}\big[\hat{\rho}\hat{\sigma}\big]=\int W_{\hat{\rho}}(\alpha)W_{\hat{\sigma}}(\alpha)\frac{\mathrm{d}\alpha}{\pi}$$
-
-#### Convolution notation
-
-Let $\hat{\rho},\hat{\sigma}\in T(\mathcal{H})$ and $f,g\in L^2(\mathbb{C})$. We define:
-
-$$
-\begin{align*}
-(f\ast g)(\alpha) &= \int f(\beta)\cdot g(\alpha-\beta)\mathrm{d}\beta
-\\
-(\hat{A}\ast\hat{B})(\alpha)&=\mathrm{Tr}\left[\hat{\rho}\hat{D}(\alpha)\hat{\Pi}\hat{\sigma}\hat{\Pi}\hat{D}^{\dagger}(\alpha)\right]
-\\
-f\ast \hat{A}=\hat{A}\ast f&=\int f(\alpha)\hat{D}(\alpha)\hat{A}\hat{D}^{\dagger}(\alpha)\frac{\mathrm{d}^2\alpha}{\pi}
-\end{align*}
-$$
-
-This gives the simple notation $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Pi}$ and $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Pi}$.
-
-## Overlaps
-
-#### Coherent states
+Denote the dispalced Fock states as $\vert\alpha,n\rangle\equiv\hat{D}(\alpha)\ket{n}$.
 
 $$
 \begin{align*}
@@ -99,10 +49,6 @@ $$
 \exp\left(-\tfrac12 \vert\alpha-\beta\vert^2+i\mathrm{Im}[\beta^{\ast}\alpha]\right)
 \end{align*}
 $$
-
-#### Displaced Fock states
-
-Denote the dispalced Fock states as $\vert\alpha,n\rangle\equiv\hat{D}(\alpha)\ket{n}$.
 
 $$
 \begin{align*}
@@ -115,3 +61,39 @@ $$
 $$
 
 In the latter equation we have introducd the notation $\alpha^{[p]}=\alpha^{p}$ if $p\geq 0$ and $\alpha^{[p]}=(\alpha^{\ast})^{-p}$ if $p<0$.
+
+
+## Gaussian kernel
+
+Thermal states are parameterised through their mean photon-number, i.e. $\bar{n}=\mathrm{Tr}[\hat{\tau}\hat{n}]$.
+
+$$\hat{\tau}(\bar{n})=\frac{1}{\bar{n}+1}\sum\limits_{n=0}^{\infty}\left(\frac{\bar{n}}{\bar{n}+1}\right)^n\ket{n}\bra{n}$$
+
+Another natural paramterisation is $\hat{\tau}=(1-\lambda)\sum_{n=0}^{\infty}\lambda^n\vert n \rangle \langle n\vert$, where $\lambda=\bar{n}/(\bar{n}+1)$.
+We have the relation $\hat{\tau}(-1/2)=\hat{\Delta}$.
+
+## Phase space
+
+$$W_{\hat{\rho}}(\alpha)=\mathrm{Tr}\big[\hat{\Delta}(\alpha)\hat{\rho}\big]$$
+
+$$\hat{\rho}=\int\hat{\Delta}(\alpha)W_{\hat{\rho}}(\alpha)\frac{\mathrm{d}^2\alpha}{\pi}$$
+
+$$\mathrm{Tr}\big[\hat{\rho}\hat{\sigma}\big]=\int W_{\hat{\rho}}(\alpha)W_{\hat{\sigma}}(\alpha)\frac{\mathrm{d}\alpha}{\pi}$$
+
+#### Convolution notation
+
+Let $\hat{\rho},\hat{\sigma}\in T(\mathcal{H})$ and $f,g\in L^1(\mathbb{C})$. We define:
+
+$$
+\begin{align*}
+(f\ast g)(\alpha) &= \int f(\beta) g(\alpha-\beta)\mathrm{d}\beta
+\\
+(\hat{A}\ast\hat{B})(\alpha)&=\mathrm{Tr}\left[\hat{\rho}\hat{D}(\alpha)\hat{\Pi}\hat{\sigma}\hat{\Pi}\hat{D}^{\dagger}(\alpha)\right]
+\\
+f\ast \hat{A}=\hat{A}\ast f&=\int f(\alpha)\hat{D}(\alpha)\hat{A}\hat{D}^{\dagger}(\alpha)\frac{\mathrm{d}^2\alpha}{\pi}
+\end{align*}
+$$
+
+This gives the simple notation $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$ and $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Delta}$.
+
+
