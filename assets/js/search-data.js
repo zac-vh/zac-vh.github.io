@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-memo",
           title: "memo",
-          description: "",
+          description: "A short memo for quantum optics",
           section: "Navigation",
           handler: () => {
             window.location.href = "/memo/";
