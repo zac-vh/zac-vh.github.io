@@ -8,6 +8,7 @@ nav_order: 6
 ---
 
 ## Basics
+
 Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$.
 It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$, where $\hbar$ has the units $J\cdot s$.
 
@@ -21,6 +22,7 @@ In quantum optics, $\hat{x},\hat{p}$ represent quadratures of the electro-magnet
 | Displaced parity | $\hat{\Pi}(\alpha)=\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$ |
 
 ## States
+
 ### Position eigenstates, momentum eigenstates
 
 $$\int\vert x\rangle\langle x\vert\mathrm{d}x=\int\vert p\rangle\langle p\vert\mathrm{d}p=\hat{1}$$
@@ -32,7 +34,6 @@ $$\sum_{n=0}^{\infty}\vert n\rangle\langle n\vert=\hat{1}$$
 
 $$\langle x\vert n\rangle=\big(\sqrt{\pi}2^n n!\big)^{-\tfrac12} H_n(x)\exp(-x^2/2)$$
 
-
 ### Coherent states
 $\vert\alpha\rangle=\hat{D}(\alpha)\vert 0\rangle$.
 $$\langle n\vert\alpha\rangle=\exp\left(-\tfrac12\alpha\alpha^{\ast}\right)\frac{\alpha^n}{\sqrt{n!}}$$
@@ -42,10 +43,8 @@ $$\langle n\vert\alpha\rangle=\exp\left(-\tfrac12\alpha\alpha^{\ast}\right)\frac
 ### Thermal states
 $$\hat{\tau}=(1-\lambda)\sum\limits_{n=0}^{\infty} \lambda^n\ket{n}\bra{n}=\frac{1}{\bar{n}+1}\sum\limits_{n=0}^{\infty}\left(\frac{\bar{n}}{\bar{n}+1}\right)^n\ket{n}\bra{n}$$
 
-
-
-
 ## Phase space
+
 $$W_{\hat{\rho}}(\alpha)=\mathrm{Tr}\big[\hat{\Pi}(\alpha)\hat{\rho}\big]$$
 
 $$\hat{\rho}=\int\hat{\Pi}(\alpha)W_{\hat{\rho}}(\alpha)\frac{\mathrm{d}^2\alpha}{\pi}$$
