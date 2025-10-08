@@ -49,7 +49,7 @@ Thermal states are parameterised through their mean photon-number, i.e. $\bar{n}
 
 $$\hat{\tau}=\frac{1}{\bar{n}+1}\sum\limits_{n=0}^{\infty}\left(\frac{\bar{n}}{\bar{n}+1}\right)^n\ket{n}\bra{n}$$
 
-Another natural paramterisation is $\hat{\tau}=(1-\lambda)\sum_{n=0}^{\infty}\lambda^n |n \rangle \langle n|$, where $\lambda=\bar{n}/(\bar{n}+1)$.
+Another natural paramterisation is $\hat{\tau}=(1-\lambda)\sum_{n=0}^{\infty}\lambda^n\vert n \rangle \langle n\vert$, where $\lambda=\bar{n}/(\bar{n}+1)$.
 
 ## Phase space
 
