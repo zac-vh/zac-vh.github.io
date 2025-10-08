@@ -7,6 +7,18 @@ nav: true
 nav_order: 6
 ---
 
+## Table of content
+
+- [Table of content](#table-of-content)
+- [Basics](#basics)
+- [Bases and overlaps](#bases-and-overlaps)
+    - [Displaced Fock states](#displaced-fock-states)
+- [Gaussian kernel](#gaussian-kernel)
+- [Phase space](#phase-space)
+    - [Convolution notation](#convolution-notation)
+- [Wigner functions](#wigner-functions)
+
+
 ## Basics
 
 Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$. It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$, where $\hbar$ has the units $J\cdot s$.
