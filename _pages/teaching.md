@@ -14,12 +14,12 @@ It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, 
 
 In quantum optics, $\hat{x},\hat{p}$ represent quadratures of the electro-magnetic field, and each have the units of $\sqrt{\hbar}$. Define the bosonic mode operator $\hat{a}=(\hat{x}+i\hat{p})/\sqrt{2\hbar}$ and its dagger $\hat{a}^{\dagger}=(\hat{x}-i\hat{p})/\sqrt{2\hbar}$. They obey the bosonic commutation relation $\big[\hat{a},\hat{a}^{\dagger}\big]=1$. We further define the photon number operator $\hat{n}=\hat{a}^{\dagger}\hat{a}$ and its associate _Fock basis_ $\lbrace\ket{n}\rbrace_{n\in\mathbb{N}}$ such that $\hat{n}\ket{n}=n\ket{n}$.
 
-| Unitary operator | Definition |
-|  --------  |  -------  |
-| Displacement | $\hat{D}(\alpha)=\exp\left(\alpha\hat{a}-\alpha^{\ast}\hat{a}^{\dagger}\right)$ |
-| Rotation | $\hat{R}(\theta)=\exp(-i\theta\hat{n})$ |
-| Parity | $\hat{\Pi}=(-1)^{\hat{n}}$ |
-| Displaced parity | $\hat{\Pi}(\alpha)=\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$ |
+| Unitary operator | Definition                                                                      |
+| ---------------- | ------------------------------------------------------------------------------- |
+| Displacement     | $\hat{D}(\alpha)=\exp\left(\alpha\hat{a}-\alpha^{\ast}\hat{a}^{\dagger}\right)$ |
+| Rotation         | $\hat{R}(\theta)=\exp(-i\theta\hat{n})$                                         |
+| Parity           | $\hat{\Pi}=(-1)^{\hat{n}}$                                                      |
+| Displaced parity | $\hat{\Pi}(\alpha)=\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$           |
 
 ## States
 
