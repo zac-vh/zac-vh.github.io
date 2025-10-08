@@ -9,18 +9,16 @@ nav_order: 6
 
 ## Basics
 
-Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$.
-It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$, where $\hbar$ has the units $J\cdot s$.
+Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$. It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$, where $\hbar$ has the units $J\cdot s$.
 
-In quantum optics, $\hat{x},\hat{p}$ represent quadratures of the electro-magnetic field, and each have the units of $\sqrt{\hbar}$. Define the bosonic mode operator $\hat{a}=(\hat{x}+i\hat{p})/\sqrt{2\hbar}$ and its dagger $\hat{a}^{\dagger}=(\hat{x}-i\hat{p})/\sqrt{2\hbar}$. They obey the bosonic commutation relation $\big[\hat{a},\hat{a}^{\dagger}\big]=1$. We further define the photon number operator $\hat{n}=\hat{a}^{\dagger}\hat{a}$ and its associate _Fock basis_ $\lbrace\ket{n}\rbrace_{n\in\mathbb{N}}$ such that $\hat{n}\ket{n}=n\ket{n}$.
+In quantum optics, $\hat{x},\hat{p}$ represent quadratures of the electro-magnetic field, and each have the units of $\sqrt{\hbar}$. Define the bosonic mode operator $\hat{a}=(\hat{x}+i\hat{p})/\sqrt{2\hbar}$ and its dagger $\hat{a}^{\dagger}=(\hat{x}-i\hat{p})/\sqrt{2\hbar}$. They obey the bosonic commutation relation $\big[\hat{a},\hat{a}^{\dagger}\big]=1$. In the following, we chose units such that $\hbar=1$. We further define the photon number operator $\hat{n}=\hat{a}^{\dagger}\hat{a}$ and its associate _Fock basis_ $\lbrace\ket{n}\rbrace_{n\in\mathbb{N}}$ such that $\hat{n}\ket{n}=n\ket{n}$.
 
-| Unitary operator | Definition                                                                      |
-| ---------------- | ------------------------------------------------------------------------------- |
-| Displacement     | $\hat{D}(\alpha)=\exp\left(\alpha\hat{a}-\alpha^{\ast}\hat{a}^{\dagger}\right)$ |
-| Rotation         | $\hat{R}(\theta)=\exp(-i\theta\hat{n})$                                         |
-| Parity           | $\hat{\Pi}=(-1)^{\hat{n}}$                                                      |
-| Displaced parity | $\hat{\Pi}(\alpha)=\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$           |
-| Phase-point      | $\hat{\Delta}=2\hat{\Pi}(\alpha)$                                               |
+| Operator     | Definition                                                                      |
+| ------------ | ------------------------------------------------------------------------------- |
+| Displacement | $\hat{D}(\alpha)=\exp\left(\alpha\hat{a}-\alpha^{\ast}\hat{a}^{\dagger}\right)$ |
+| Rotation     | $\hat{R}(\theta)=\exp(-i\theta\hat{n})$                                         |
+| Parity       | $\hat{\Pi}=(-1)^{\hat{n}}$                                                      |
+| Phase-point  | $\hat{\Delta}=2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$               |
 
 ## Bases
 
@@ -41,8 +39,6 @@ In the following table:
 #### Position eigenstates, momentum eigenstates
 
 $$\int\vert x\rangle\langle x\vert\mathrm{d}x=\int\vert p\rangle\langle p\vert\mathrm{d}p=\hat{1}$$
-
-$$\langle x\vert p\rangle=\frac{\exp\left(ixp/\hbar\right)}{\sqrt{2\pi\hbar}}$$
 
 #### Fock states
 
