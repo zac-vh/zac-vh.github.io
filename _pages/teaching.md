@@ -36,7 +36,6 @@ In the following table:
 | $\langle m\vert$     |                          $\frac{e^{-\tfrac{x^2}{2}}H_m(x)}{\sqrt{\sqrt{\pi}2^m m!}}$                          |                       $\frac{e^{-\tfrac{p^2}{2}}(-1)^m H_m(p)}{\sqrt{\sqrt{\pi}2^m m!}}$                       |                               $[n=m]$                               |                   $\frac{e^{-\tfrac{\vert\alpha\vert^2}{2}}\alpha^m}{\sqrt{m!}}$                    |
 | $\langle \beta\vert$ | $\frac{e^{\tfrac{\beta^{\ast 2}-\vert\beta\vert^2}{2}-\tfrac{(x-\sqrt{2}\beta^{\ast})^2}{2}}}{\sqrt[4]{\pi}}$ | $\frac{e^{\tfrac{\beta^{\ast 2}-\vert\beta\vert^2}{2}-\tfrac{(p-\sqrt{2}i\beta^{\ast})^2}{2}}}{\sqrt[4]{\pi}}$ | $\frac{e^{-\tfrac{\vert\beta\vert^2}{2}}\beta^{\ast n}}{\sqrt{n!}}$ |           $e^{i\mathrm{Im}[\beta^{\ast}\alpha]}e^{-\tfrac{\vert\alpha-\beta\vert^2}{2}}$            |
 
-
 #### Displaced Fock states
 
 Denote the dispalced Fock states as $\vert\alpha,n\rangle\equiv\hat{D}(\alpha)\ket{n}$.
@@ -61,7 +60,6 @@ $$
 $$
 
 In the latter equation we have introducd the notation $\alpha^{[p]}=\alpha^{p}$ if $p\geq 0$ and $\alpha^{[p]}=(\alpha^{\ast})^{-p}$ if $p<0$.
-
 
 ## Gaussian kernel
 
@@ -96,4 +94,12 @@ $$
 
 This gives the simple notation $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$ and $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Delta}$.
 
+## Wigner functions
+
+| Operator $\hat{\rho}$ | Wigner function $W_{\hat{\rho}}(\alpha)$ |
+| --------------------- | ---------------------------------------- |
+| $\hat{1}$             | 1                                        |
+| $\hat{\Delta}(\beta)$ | $\delta(\alpha-\beta)$                   |
+| $\hat{D}(\beta)$      | $\exp(-i(\alpha-\beta))$                 |
+| $\hat{a}$             | $\alpha$                                 |
 
