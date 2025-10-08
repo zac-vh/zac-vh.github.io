@@ -23,29 +23,33 @@ In quantum optics, $\hat{x},\hat{p}$ represent quadratures of the electro-magnet
 
 ## States
 
-### Position eigenstates, momentum eigenstates
+#### Position eigenstates, momentum eigenstates
 
 $$\int\vert x\rangle\langle x\vert\mathrm{d}x=\int\vert p\rangle\langle p\vert\mathrm{d}p=\hat{1}$$
 
 $$\langle x\vert p\rangle=\frac{\exp\left(ixp/\hbar\right)}{\sqrt{2\pi\hbar}}$$
 
-### Fock states
+#### Fock states
 
 $$\sum_{n=0}^{\infty}\vert n\rangle\langle n\vert=\hat{1}$$
 
 $$\langle x\vert n\rangle=\big(\sqrt{\pi}2^n n!\big)^{-\tfrac12} H_n(x)\exp(-x^2/2)$$
 
-### Coherent states
+#### Coherent states
 
 $\vert\alpha\rangle=\hat{D}(\alpha)\vert 0\rangle$.
 
 $$\langle n\vert\alpha\rangle=\exp\left(-\tfrac12\alpha\alpha^{\ast}\right)\frac{\alpha^n}{\sqrt{n!}}$$
 
-### Gaussian states
+#### Gaussian states
 
-### Thermal states
+#### Thermal states
 
-$$\hat{\tau}=(1-\lambda)\sum\limits_{n=0}^{\infty} \lambda^n\ket{n}\bra{n}=\frac{1}{\bar{n}+1}\sum\limits_{n=0}^{\infty}\left(\frac{\bar{n}}{\bar{n}+1}\right)^n\ket{n}\bra{n}$$
+Thermal states are parameterised through their mean photon-number, i.e. $\bar{n}=\mathrm{Tr}[\hat{\tau}\hat{n}]$.
+
+$$\hat{\tau}=\frac{1}{\bar{n}+1}\sum\limits_{n=0}^{\infty}\left(\frac{\bar{n}}{\bar{n}+1}\right)^n\ket{n}\bra{n}$$
+
+Another natural paramterisation is $\hat{\tau}=(1-\lambda)\sum_{n=0}^{\infty}\lambda^n |n \rangle \langle n|$, where $\lambda=\bar{n}/(\bar{n}+1)$.
 
 ## Phase space
 
