@@ -11,7 +11,8 @@ nav_order: 6
 
 - [Table of content](#table-of-content)
 - [Basics](#basics)
-- [Overlaps](#overlaps)
+- [Commutation relations](#commutation-relations)
+- [Inner products](#inner-products)
   - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
   - [Rotated position states](#rotated-position-states)
   - [Displaced Fock states](#displaced-fock-states)
@@ -32,7 +33,13 @@ In quantum optics, $\hat{x},\hat{p}$ represent quadratures of the electro-magnet
 | Parity       | $\hat{\Pi}=(-1)^{\hat{n}}$                                                      |
 | Phase-point  | $\hat{\Delta}(\alpha)=2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$       |
 
-## Overlaps
+## Commutation relations
+
+| Operator  | Commutation                            |
+| --------- | -------------------------------------- |
+| $\hat{D}$ | $\big[\hat{D}(\alpha),\hat{D}(\beta)]$ |
+
+## Inner products
 
 ### Position, momentum, photon-numer, coherent
 
@@ -116,11 +123,11 @@ Let $\hat{\rho},\hat{\sigma}\in T(\mathcal{H})$ and $f,g\in L^1(\mathbb{C})$. We
 
 $$
 \begin{align*}
-(f\ast g)(\alpha) &= \int f(\beta) g(\alpha-\beta)\mathrm{d}\beta
+(f\ast g)(\alpha) &= \int f(\beta) g(\alpha-\beta)\tfrac{\mathrm{d}\beta}{\pi}
 \\
 (\hat{A}\ast\hat{B})(\alpha)&=\mathrm{Tr}\left[\hat{\rho}\hat{D}(\alpha)\hat{\Pi}\hat{\sigma}\hat{\Pi}\hat{D}^{\dagger}(\alpha)\right]
 \\
-f\ast \hat{A}=\hat{A}\ast f&=\int f(\alpha)\hat{D}(\alpha)\hat{A}\hat{D}^{\dagger}(\alpha)\frac{\mathrm{d}^2\alpha}{\pi}
+f\ast \hat{A}=\hat{A}\ast f&=\int f(\alpha)\hat{D}(\alpha)\hat{A}\hat{D}^{\dagger}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
 \end{align*}
 $$
 
@@ -131,7 +138,7 @@ This gives the simple notation $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$ and $
 | Operator $\hat{\rho}$ | Wigner function $W_{\hat{\rho}}(\alpha)$      |
 | --------------------- | --------------------------------------------- |
 | $\hat{1}$             | 1                                             |
-| $\hat{\Delta}(\beta)$ | $\delta(\alpha-\beta)$                        |
+| $\hat{\Delta}(\beta)$ | $\pi\delta(\alpha-\beta)$                     |
 | $\hat{D}(\beta)$      | $\exp(\beta\alpha^{\ast}-\beta^{\ast}\alpha)$ |
 | $\hat{a}$             | $\alpha$                                      |
 | $\hat{x}$             | $\tfrac{1}{\sqrt{2}}\mathrm{Re}[\alpha]$      |
