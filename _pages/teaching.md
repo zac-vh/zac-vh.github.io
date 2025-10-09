@@ -18,7 +18,6 @@ nav_order: 6
     - [Convolution notation](#convolution-notation)
 - [Wigner functions](#wigner-functions)
 
-
 ## Basics
 
 Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$. It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$, where $\hbar$ has the units $J\cdot s$.
@@ -108,10 +107,9 @@ This gives the simple notation $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$ and $
 
 ## Wigner functions
 
-| Operator $\hat{\rho}$ | Wigner function $W_{\hat{\rho}}(\alpha)$ |
-| --------------------- | ---------------------------------------- |
-| $\hat{1}$             | 1                                        |
-| $\hat{\Delta}(\beta)$ | $\delta(\alpha-\beta)$                   |
-| $\hat{D}(\beta)$      | $\exp(-i(\alpha-\beta))$                 |
-| $\hat{a}$             | $\alpha$                                 |
-
+| Operator $\hat{\rho}$ | Wigner function $W_{\hat{\rho}}(\alpha)$      |
+| --------------------- | --------------------------------------------- |
+| $\hat{1}$             | 1                                             |
+| $\hat{\Delta}(\beta)$ | $\delta(\alpha-\beta)$                        |
+| $\hat{D}(\beta)$      | $\exp(\beta\alpha^{\ast}-\beta^{\ast}\alpha)$ |
+| $\hat{a}$             | $\alpha$                                      |
