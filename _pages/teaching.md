@@ -11,9 +11,10 @@ nav_order: 6
 
 - [Table of content](#table-of-content)
 - [Basics](#basics)
-- [Bases and overlaps](#bases-and-overlaps)
-    - [Rotated position states](#rotated-position-states)
-    - [Displaced Fock states](#displaced-fock-states)
+- [Overlaps](#overlaps)
+  - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
+  - [Rotated position states](#rotated-position-states)
+  - [Displaced Fock states](#displaced-fock-states)
 - [Gaussian kernel](#gaussian-kernel)
 - [Phase space](#phase-space)
     - [Convolution notation](#convolution-notation)
@@ -28,12 +29,12 @@ In quantum optics, $\hat{x},\hat{p}$ represent quadratures of the electro-magnet
 | Operator     | Definition                                                                      |
 | ------------ | ------------------------------------------------------------------------------- |
 | Displacement | $\hat{D}(\alpha)=\exp\left(\alpha\hat{a}-\alpha^{\ast}\hat{a}^{\dagger}\right)$ |
-| Rotation     | $\hat{R}(\theta)=\exp(-i\theta\hat{n})$                                         |
 | Parity       | $\hat{\Pi}=(-1)^{\hat{n}}$                                                      |
-| Phase-point  | $\hat{\Delta}=2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$               |
+| Phase-point  | $\hat{\Delta}(\alpha)=2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$       |
 
-## Bases and overlaps
+## Overlaps
 
+### Position, momentum, photon-numer, coherent
 
 |                      |                                               $\vert x\rangle$                                                |                                                $\vert p\rangle$                                                |                          $\vert n\rangle$                           |                                       $\vert \alpha \rangle$                                        |
 | :------------------- | :-----------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
@@ -49,7 +50,7 @@ In the above table:
 - $\ket{n},\ket{m}$ are eigenstates of $\hat{n}$
 - $\ket{\alpha},\ket{\beta}$ are eigenstates of $\hat{a}$
 
-#### Rotated position states
+### Rotated position states
 
 Denote the rotated position state as $\vert x,\theta\rangle\equiv\hat{R}(\theta)\vert x\rangle$.
 
@@ -67,7 +68,7 @@ $$
 
 See fractional Fourier transform.
 
-#### Displaced Fock states
+### Displaced Fock states
 
 Denote the dispalced Fock states as $\vert\alpha,n\rangle\equiv\hat{D}(\alpha)\ket{n}$.
 
@@ -133,3 +134,6 @@ This gives the simple notation $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$ and $
 | $\hat{\Delta}(\beta)$ | $\delta(\alpha-\beta)$                        |
 | $\hat{D}(\beta)$      | $\exp(\beta\alpha^{\ast}-\beta^{\ast}\alpha)$ |
 | $\hat{a}$             | $\alpha$                                      |
+| $\hat{x}$             | $\tfrac{1}{\sqrt{2}}\mathrm{Re}[\alpha]$      |
+| $\hat{p}$             | $\tfrac{1}{\sqrt{2}}\mathrm{Im}[\alpha]$      |
+| $\hat{H}$             | $\vert\alpha\vert^2$                          |
