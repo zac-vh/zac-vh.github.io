@@ -12,6 +12,7 @@ nav_order: 6
 - [Table of content](#table-of-content)
 - [Basics](#basics)
 - [Bases and overlaps](#bases-and-overlaps)
+    - [Rotated position states](#rotated-position-states)
     - [Displaced Fock states](#displaced-fock-states)
 - [Gaussian kernel](#gaussian-kernel)
 - [Phase space](#phase-space)
@@ -33,12 +34,6 @@ In quantum optics, $\hat{x},\hat{p}$ represent quadratures of the electro-magnet
 
 ## Bases and overlaps
 
-In the following table:
-
-- $\ket{x},\ket{y}$ are eigenstates of $\hat{x}$
-- $\ket{p},\ket{q}$ are eigenstates of $\hat{p}$
-- $\ket{n},\ket{m}$ are eigenstates of $\hat{n}$
-- $\ket{\alpha},\ket{\beta}$ are eigenstates of $\hat{a}$
 
 |                      |                                               $\vert x\rangle$                                                |                                                $\vert p\rangle$                                                |                          $\vert n\rangle$                           |                                       $\vert \alpha \rangle$                                        |
 | :------------------- | :-----------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
@@ -46,6 +41,31 @@ In the following table:
 | $\langle q\vert$     |                                        $\frac{e^{-ixq}}{\sqrt{2\pi}}$                                         |                                                 $\delta(p-q)$                                                  | $\frac{e^{-\tfrac{q^2}{2}}(-1)^n H_n(q)}{\sqrt{\sqrt{\pi}2^n n!}}$  | $\frac{e^{\tfrac{\alpha^2-\vert\alpha\vert^2}{2}-\tfrac{(q+\sqrt{2}i\alpha)^2}{2}}}{\sqrt[4]{\pi}}$ |
 | $\langle m\vert$     |                          $\frac{e^{-\tfrac{x^2}{2}}H_m(x)}{\sqrt{\sqrt{\pi}2^m m!}}$                          |                       $\frac{e^{-\tfrac{p^2}{2}}(-1)^m H_m(p)}{\sqrt{\sqrt{\pi}2^m m!}}$                       |                               $[n=m]$                               |                   $\frac{e^{-\tfrac{\vert\alpha\vert^2}{2}}\alpha^m}{\sqrt{m!}}$                    |
 | $\langle \beta\vert$ | $\frac{e^{\tfrac{\beta^{\ast 2}-\vert\beta\vert^2}{2}-\tfrac{(x-\sqrt{2}\beta^{\ast})^2}{2}}}{\sqrt[4]{\pi}}$ | $\frac{e^{\tfrac{\beta^{\ast 2}-\vert\beta\vert^2}{2}-\tfrac{(p-\sqrt{2}i\beta^{\ast})^2}{2}}}{\sqrt[4]{\pi}}$ | $\frac{e^{-\tfrac{\vert\beta\vert^2}{2}}\beta^{\ast n}}{\sqrt{n!}}$ |           $e^{i\mathrm{Im}[\beta^{\ast}\alpha]}e^{-\tfrac{\vert\alpha-\beta\vert^2}{2}}$            |
+
+In the above table:
+
+- $\ket{x},\ket{y}$ are eigenstates of $\hat{x}$
+- $\ket{p},\ket{q}$ are eigenstates of $\hat{p}$
+- $\ket{n},\ket{m}$ are eigenstates of $\hat{n}$
+- $\ket{\alpha},\ket{\beta}$ are eigenstates of $\hat{a}$
+
+#### Rotated position states
+
+Denote the rotated position state as $\vert x,\theta\rangle\equiv\hat{R}(\theta)\vert x\rangle$.
+
+$$
+\begin{align*}
+    \langle y,\varphi \vert x, \theta \rangle
+    =
+    \sqrt{\tfrac{1-i\cot(\theta-\varphi)}{2\pi}}
+    \exp\left(
+    i\cot(\theta-\varphi)y^2
+    -2\pi i\left(\csc(\theta-\varphi)\right)yx-\tfrac{\cot(\theta-\varphi)}{2}x^2
+    \right)
+\end{align*}
+$$
+
+See fractional Fourier transform.
 
 #### Displaced Fock states
 
