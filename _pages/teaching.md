@@ -10,8 +10,8 @@ nav_order: 6
 ## Table of content
 
 - [Table of content](#table-of-content)
-- [Basics](#basics)
-- [Commutation relations](#commutation-relations)
+- [Definitions](#definitions)
+- [Table of Wigner functions](#table-of-wigner-functions)
 - [Inner products](#inner-products)
   - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
   - [Rotated position states](#rotated-position-states)
@@ -21,23 +21,57 @@ nav_order: 6
   - [Convolution notation](#convolution-notation)
 - [Wigner functions](#wigner-functions)
 
-## Basics
+## Definitions
 
-Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$. It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$, where $\hbar$ has the units $J\cdot s$.
+Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$. It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$. We set $\hbar=1$.
 
-In quantum optics, $\hat{x},\hat{p}$ represent quadratures of the electro-magnetic field, and each have the units of $\sqrt{\hbar}$. Define the bosonic mode operator $\hat{a}=(\hat{x}+i\hat{p})/\sqrt{2\hbar}$ and its dagger $\hat{a}^{\dagger}=(\hat{x}-i\hat{p})/\sqrt{2\hbar}$. They obey the bosonic commutation relation $\big[\hat{a},\hat{a}^{\dagger}\big]=1$. In the following, we chose units such that $\hbar=1$. We further define the photon number operator $\hat{n}=\hat{a}^{\dagger}\hat{a}$ and its associate _Fock basis_ $\lbrace\ket{n}\rbrace_{n\in\mathbb{N}}$ such that $\hat{n}\ket{n}=n\ket{n}$.
+| Operator      | Notation               | Definition                                           |
+| ------------- | ---------------------- | ---------------------------------------------------- |
+| Annihilation  | $\hat{a}$              | $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$              |
+| Creation      | $\hat{a}^{\dagger}$    | $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$              |
+| Photon-number | $\hat{n}$              | $\hat{a}^{\dagger}\hat{a}$                           |
+| Displacement  | $\hat{D}(\alpha)$      | $\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a})$ |
+| Parity        | $\hat{\Pi}$            | $(-1)^{\hat{n}}$                                     |
+| Phase-point   | $\hat{\Delta}(\alpha)$ | $2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$ |
 
-| Operator     | Definition                                                                      |
-| ------------ | ------------------------------------------------------------------------------- |
-| Displacement | $\hat{D}(\alpha)=\exp\left(\alpha\hat{a}-\alpha^{\ast}\hat{a}^{\dagger}\right)$ |
-| Parity       | $\hat{\Pi}=(-1)^{\hat{n}}$                                                      |
-| Phase-point  | $\hat{\Delta}(\alpha)=2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$       |
+> **Definition — Wigner function.**  
+> The Wigner function of a quantum operator $\hat{\rho}$ is defined as
+>
+> $$
+> W_{\hat{\rho}}(\alpha) = \mathrm{Tr}\big[\hat{\Delta}(\alpha)\hat{\rho}\big]
+> $$
+>
+> It represents the quasiprobability distribution in phase space.
 
-## Commutation relations
+> **Definition — Inverse Wigner transform.**  
+> A quantum operator $\hat{\rho}$ can be reconstructed from its Wigner function via
+>
+> $$
+> \hat{\rho}=\int\hat{\Delta}(\alpha)W_{\hat{\rho}}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
+> $$
+>
+> This expresses the one-to-one correspondence between operators and their phase-space representations.
 
-| Operator  | Commutation                            |
-| --------- | -------------------------------------- |
-| $\hat{D}$ | $\big[\hat{D}(\alpha),\hat{D}(\beta)]$ |
+> **Definition — Traciality.**  
+> The Hilbert–Schmidt inner product between two operators translates into the $L^2$ inner product of their Wigner functions:
+>
+> $$
+> \mathrm{Tr}\big[\hat{\rho}\hat{\sigma}\big]=\int W_{\hat{\rho}}(\alpha)W_{\hat{\sigma}}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
+> $$
+>
+> This is refer to as _traciality_ or _overlap formula_.
+
+## Table of Wigner functions
+
+| Operator $\hat{\rho}$ | Wigner function $W_{\hat{\rho}}(\alpha)$      |
+| --------------------- | --------------------------------------------- |
+| $\hat{1}$             | 1                                             |
+| $\hat{\Delta}(\beta)$ | $\pi\delta(\alpha-\beta)$                     |
+| $\hat{D}(\beta)$      | $\exp(\beta\alpha^{\ast}-\beta^{\ast}\alpha)$ |
+| $\hat{a}$             | $\alpha$                                      |
+| $\hat{x}$             | $\tfrac{1}{\sqrt{2}}\mathrm{Re}[\alpha]$      |
+| $\hat{p}$             | $\tfrac{1}{\sqrt{2}}\mathrm{Im}[\alpha]$      |
+| $\hat{H}$             | $\vert\alpha\vert^2$                          |
 
 ## Inner products
 
