@@ -29,8 +29,8 @@ Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$.
 | ------------- | ---------------------- | ---------------------------------------------------- |
 | Annihilation  | $\hat{a}$              | $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$              |
 | Creation      | $\hat{a}^{\dagger}$    | $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$              |
-| Photon-number | $\hat{n}$              | $\hat{a}^{\dagger}\hat{a}$                           |
 | Displacement  | $\hat{D}(\alpha)$      | $\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a})$ |
+| Photon-number | $\hat{n}$              | $\hat{a}^{\dagger}\hat{a}$                           |
 | Parity        | $\hat{\Pi}$            | $(-1)^{\hat{n}}$                                     |
 | Phase-point   | $\hat{\Delta}(\alpha)$ | $2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$ |
 
