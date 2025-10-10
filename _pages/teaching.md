@@ -69,8 +69,8 @@ Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$.
 | $\hat{\Delta}(\beta)$ | $\pi\delta(\alpha-\beta)$                     |
 | $\hat{D}(\beta)$      | $\exp(\beta\alpha^{\ast}-\beta^{\ast}\alpha)$ |
 | $\hat{a}$             | $\alpha$                                      |
-| $\hat{x}$             | $\tfrac{1}{\sqrt{2}}\mathrm{Re}[\alpha]$      |
-| $\hat{p}$             | $\tfrac{1}{\sqrt{2}}\mathrm{Im}[\alpha]$      |
+| $\hat{x}$             | $\sqrt{2}\mathrm{Re}[\alpha]$      |
+| $\hat{p}$             | $\sqrt{2}\mathrm{Im}[\alpha]$      |
 | $\hat{H}$             | $\vert\alpha\vert^2$                          |
 
 ## Inner products
