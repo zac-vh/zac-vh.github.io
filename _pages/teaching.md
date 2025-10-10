@@ -18,7 +18,7 @@ nav_order: 6
   - [Displaced Fock states](#displaced-fock-states)
 - [Gaussian kernel](#gaussian-kernel)
 - [Phase space](#phase-space)
-    - [Convolution notation](#convolution-notation)
+  - [Convolution notation](#convolution-notation)
 - [Wigner functions](#wigner-functions)
 
 ## Basics
@@ -117,7 +117,7 @@ $$\hat{\rho}=\int\hat{\Delta}(\alpha)W_{\hat{\rho}}(\alpha)\frac{\mathrm{d}^2\al
 
 $$\mathrm{Tr}\big[\hat{\rho}\hat{\sigma}\big]=\int W_{\hat{\rho}}(\alpha)W_{\hat{\sigma}}(\alpha)\frac{\mathrm{d}\alpha}{\pi}$$
 
-#### Convolution notation
+### Convolution notation
 
 Let $\hat{\rho},\hat{\sigma}\in T(\mathcal{H})$ and $f,g\in L^1(\mathbb{C})$. We define:
 
