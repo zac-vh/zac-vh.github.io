@@ -11,16 +11,18 @@ nav_order: 6
 
 - [Table of content](#table-of-content)
 - [Definitions](#definitions)
+  - [Basics](#basics)
+  - [Convolution notation](#convolution-notation)
 - [Table of Wigner functions](#table-of-wigner-functions)
 - [Inner products](#inner-products)
   - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
   - [Rotated position states](#rotated-position-states)
   - [Displaced Fock states](#displaced-fock-states)
 - [Gaussian kernel](#gaussian-kernel)
-- [Phase space](#phase-space)
-  - [Convolution notation](#convolution-notation)
 
 ## Definitions
+
+### Basics
 
 Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$. It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$. We set $\hbar=1$.
 
@@ -33,13 +35,25 @@ Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$.
 | Parity        |      $\hat{\Pi}$       |                   $(-1)^{\hat{n}}$                   |
 | Phase-point   | $\hat{\Delta}(\alpha)$ | $2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$ |
 
+### Convolution notation
+
+$$
+\begin{align*}
+(f\ast g)(\alpha) &= \int f(\beta) g(\alpha-\beta)\tfrac{\mathrm{d}\beta}{\pi}
+\\
+(\hat{A}\ast\hat{B})(\alpha)&=\mathrm{Tr}\left[\hat{\rho}\hat{D}(\alpha)\hat{\Pi}\hat{\sigma}\hat{\Pi}\hat{D}^{\dagger}(\alpha)\right]
+\\
+f\ast \hat{A}=\hat{A}\ast f&=\int f(\alpha)\hat{D}(\alpha)\hat{A}\hat{D}^{\dagger}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
+\end{align*}
+$$
+
 > **Wigner transform.** The Wigner transform of a quantum operator $\hat{\rho}$ is defined as:
 >
 > $$
 > W_{\hat{\rho}}(\alpha) = \mathrm{Tr}\big[\hat{\Delta}(\alpha)\hat{\rho}\big]
 > $$
 >
-> It represents the quasiprobability distribution in phase space.
+> It represents the quasiprobability distribution in phase space. Alternatively, we can write: $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$.
 
 > **Inverse Wigner transform.** A quantum operator $\hat{\rho}$ can be reconstructed from its Wigner function via
 >
@@ -47,7 +61,7 @@ Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$.
 > \hat{\rho}=\int\hat{\Delta}(\alpha)W_{\hat{\rho}}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
 > $$
 >
-> This expresses the one-to-one correspondence between operators and their phase-space representations.
+> This expresses the one-to-one correspondence between operators and their phase-space representations. Alternatively, we can write: $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Delta}$.
 
 > **Traciality.** The Hilbert–Schmidt inner product between two operators translates into the $L^2$ inner product of their Wigner functions:
 >
@@ -139,26 +153,10 @@ $$\hat{\tau}(\bar{n})=\frac{1}{\bar{n}+1}\sum\limits_{n=0}^{\infty}\left(\frac{\
 Another natural paramterisation is $\hat{\tau}=(1-\lambda)\sum_{n=0}^{\infty}\lambda^n\vert n \rangle \langle n\vert$, where $\lambda=\bar{n}/(\bar{n}+1)$.
 We have the relation $\hat{\tau}(-1/2)=\hat{\Delta}$.
 
-## Phase space
-
-$$W_{\hat{\rho}}(\alpha)=\mathrm{Tr}\big[\hat{\Delta}(\alpha)\hat{\rho}\big]$$
-
-$$\hat{\rho}=\int\hat{\Delta}(\alpha)W_{\hat{\rho}}(\alpha)\frac{\mathrm{d}^2\alpha}{\pi}$$
-
-$$\mathrm{Tr}\big[\hat{\rho}\hat{\sigma}\big]=\int W_{\hat{\rho}}(\alpha)W_{\hat{\sigma}}(\alpha)\frac{\mathrm{d}\alpha}{\pi}$$
-
-### Convolution notation
-
-Let $\hat{\rho},\hat{\sigma}\in T(\mathcal{H})$ and $f,g\in L^1(\mathbb{C})$. We define:
-
-$$
-\begin{align*}
-(f\ast g)(\alpha) &= \int f(\beta) g(\alpha-\beta)\tfrac{\mathrm{d}\beta}{\pi}
-\\
-(\hat{A}\ast\hat{B})(\alpha)&=\mathrm{Tr}\left[\hat{\rho}\hat{D}(\alpha)\hat{\Pi}\hat{\sigma}\hat{\Pi}\hat{D}^{\dagger}(\alpha)\right]
-\\
-f\ast \hat{A}=\hat{A}\ast f&=\int f(\alpha)\hat{D}(\alpha)\hat{A}\hat{D}^{\dagger}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
-\end{align*}
-$$
-
-This gives the simple notation $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$ and $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Delta}$.
+> **Phase-point**. The Hilbert–Schmidt inner product between two operators translates into the $L^2$ inner product of their Wigner functions:
+>
+> $$
+> \hat{\Delta}(\alpha,s)=\hat{D}(\alpha)\hat{\tau}(s)\hat{D}^{\dagger}(\alpha)
+> $$
+>
+> This relation is commonly referred to as the _overlap formula_.
