@@ -34,8 +34,7 @@ Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$.
 | Parity        | $\hat{\Pi}$            | $(-1)^{\hat{n}}$                                     |
 | Phase-point   | $\hat{\Delta}(\alpha)$ | $2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$ |
 
-> **Definition — Wigner function.**  
-> The Wigner function of a quantum operator $\hat{\rho}$ is defined as
+> **Wigner transform.** The Wigner transform of a quantum operator $\hat{\rho}$ is defined as:
 >
 > $$
 > W_{\hat{\rho}}(\alpha) = \mathrm{Tr}\big[\hat{\Delta}(\alpha)\hat{\rho}\big]
@@ -43,8 +42,7 @@ Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$.
 >
 > It represents the quasiprobability distribution in phase space.
 
-> **Definition — Inverse Wigner transform.**  
-> A quantum operator $\hat{\rho}$ can be reconstructed from its Wigner function via
+> **Inverse Wigner transform.** A quantum operator $\hat{\rho}$ can be reconstructed from its Wigner function via
 >
 > $$
 > \hat{\rho}=\int\hat{\Delta}(\alpha)W_{\hat{\rho}}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
@@ -52,14 +50,13 @@ Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$.
 >
 > This expresses the one-to-one correspondence between operators and their phase-space representations.
 
-> **Definition — Traciality.**  
-> The Hilbert–Schmidt inner product between two operators translates into the $L^2$ inner product of their Wigner functions:
+> **Traciality.** The Hilbert–Schmidt inner product between two operators translates into the $L^2$ inner product of their Wigner functions:
 >
 > $$
 > \mathrm{Tr}\big[\hat{\rho}\hat{\sigma}\big]=\int W_{\hat{\rho}}(\alpha)W_{\hat{\sigma}}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
 > $$
 >
-> This is refer to as _traciality_ or _overlap formula_.
+> This relation is commonly referred to as the _overlap formula_.
 
 ## Table of Wigner functions
 
