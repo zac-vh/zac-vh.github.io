@@ -19,19 +19,18 @@ nav_order: 6
 - [Gaussian kernel](#gaussian-kernel)
 - [Phase space](#phase-space)
   - [Convolution notation](#convolution-notation)
-- [Wigner functions](#wigner-functions)
 
 ## Definitions
 
 Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$. It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$. We set $\hbar=1$.
 
-| Operator      | Notation               | Definition                                           |
-| ------------- | ---------------------- | ---------------------------------------------------- |
-| Annihilation  | $\hat{a}$              | $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$              |
-| Creation      | $\hat{a}^{\dagger}$    | $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$              |
-| Displacement  | $\hat{D}(\alpha)$      | $\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a})$ |
-| Photon-number | $\hat{n}$              | $\hat{a}^{\dagger}\hat{a}$                           |
-| Parity        | $\hat{\Pi}$            | $(-1)^{\hat{n}}$                                     |
+| Operator      |        Notation        |                      Definition                      |
+| ------------- | :--------------------: | :--------------------------------------------------: |
+| Annihilation  |       $\hat{a}$        |       $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$        |
+| Creation      |  $\hat{a}^{\dagger}$   |       $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$        |
+| Displacement  |   $\hat{D}(\alpha)$    | $\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a})$ |
+| Photon-number |       $\hat{n}$        |              $\hat{a}^{\dagger}\hat{a}$              |
+| Parity        |      $\hat{\Pi}$       |                   $(-1)^{\hat{n}}$                   |
 | Phase-point   | $\hat{\Delta}(\alpha)$ | $2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$ |
 
 > **Wigner transform.** The Wigner transform of a quantum operator $\hat{\rho}$ is defined as:
@@ -60,15 +59,15 @@ Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$.
 
 ## Table of Wigner functions
 
-| Operator $\hat{\rho}$ | Wigner function $W_{\hat{\rho}}(\alpha)$      |
-| --------------------- | --------------------------------------------- |
-| $\hat{1}$             | 1                                             |
-| $\hat{\Delta}(\beta)$ | $\pi\delta(\alpha-\beta)$                     |
-| $\hat{D}(\beta)$      | $\exp(\beta\alpha^{\ast}-\beta^{\ast}\alpha)$ |
-| $\hat{a}$             | $\alpha$                                      |
-| $\hat{x}$             | $\sqrt{2}\mathrm{Re}[\alpha]$                 |
-| $\hat{p}$             | $\sqrt{2}\mathrm{Im}[\alpha]$                 |
-| $\hat{H}$             | $\vert\alpha\vert^2$                          |
+| Operator $\hat{\rho}$ |   Wigner function $W_{\hat{\rho}}(\alpha)$    |
+| :-------------------: | :-------------------------------------------: |
+|       $\hat{1}$       |                       1                       |
+| $\hat{\Delta}(\beta)$ |           $\pi\delta(\alpha-\beta)$           |
+|   $\hat{D}(\beta)$    | $\exp(\beta\alpha^{\ast}-\beta^{\ast}\alpha)$ |
+|       $\hat{a}$       |                   $\alpha$                    |
+|       $\hat{x}$       |         $\sqrt{2}\mathrm{Re}[\alpha]$         |
+|       $\hat{p}$       |         $\sqrt{2}\mathrm{Im}[\alpha]$         |
+|       $\hat{H}$       |             $\vert\alpha\vert^2$              |
 
 ## Inner products
 
@@ -163,15 +162,3 @@ f\ast \hat{A}=\hat{A}\ast f&=\int f(\alpha)\hat{D}(\alpha)\hat{A}\hat{D}^{\dagge
 $$
 
 This gives the simple notation $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$ and $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Delta}$.
-
-## Wigner functions
-
-| Operator $\hat{\rho}$ | Wigner function $W_{\hat{\rho}}(\alpha)$      |
-| --------------------- | --------------------------------------------- |
-| $\hat{1}$             | 1                                             |
-| $\hat{\Delta}(\beta)$ | $\pi\delta(\alpha-\beta)$                     |
-| $\hat{D}(\beta)$      | $\exp(\beta\alpha^{\ast}-\beta^{\ast}\alpha)$ |
-| $\hat{a}$             | $\alpha$                                      |
-| $\hat{x}$             | $\tfrac{1}{\sqrt{2}}\mathrm{Re}[\alpha]$      |
-| $\hat{p}$             | $\tfrac{1}{\sqrt{2}}\mathrm{Im}[\alpha]$      |
-| $\hat{H}$             | $\vert\alpha\vert^2$                          |
