@@ -12,7 +12,8 @@ nav_order: 6
 - [Table of content](#table-of-content)
 - [Definitions](#definitions)
   - [Basics](#basics)
-  - [Convolution notation](#convolution-notation)
+  - [Quantum convolution](#quantum-convolution)
+  - [Quantum kernels](#quantum-kernels)
 - [Table of Wigner functions](#table-of-wigner-functions)
 - [Inner products](#inner-products)
   - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
@@ -35,7 +36,7 @@ Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$.
 | Parity        |      $\hat{\Pi}$       |                   $(-1)^{\hat{n}}$                   |
 | Phase-point   | $\hat{\Delta}(\alpha)$ | $2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$ |
 
-### Convolution notation
+### Quantum convolution
 
 $$
 \begin{align*}
@@ -54,6 +55,10 @@ $$
 Define the Hilbert-Schimdt (HS) inner product $\langle\hat{\rho},\hat{\sigma}\rangle=\mathrm{Tr}\big[\hat{\rho}^{\dagger}\hat{\sigma}\big]$, and the $L^{2}$ inner product $\langle f,g\rangle=\int f^{\ast}(\alpha)g(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}$.
 
 > **Traciality** (_Overlap formula_)**.** The Hilbert–Schmidt inner product between two operators equals the $L^2$ inner product of their Wigner functions: $\langle\hat{\rho},\hat{\sigma}\rangle=\langle W_{\hat{\rho}},W_{\hat{\sigma}}\rangle$.
+
+### Quantum kernels
+
+Parity, Gaussian, Kirkwood-Dirac
 
 ## Table of Wigner functions
 
