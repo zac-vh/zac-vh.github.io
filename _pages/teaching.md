@@ -12,6 +12,7 @@ nav_order: 6
 - [Table of content](#table-of-content)
 - [Definitions](#definitions)
   - [Basics](#basics)
+  - [Displacement operator](#displacement-operator)
   - [Quantum convolution](#quantum-convolution)
   - [Quantum kernels](#quantum-kernels)
 - [Table of Wigner functions](#table-of-wigner-functions)
@@ -25,7 +26,26 @@ nav_order: 6
 
 ### Basics
 
-Consider a continuous quantum degree of freedom taking values over $\mathbb{R}$. It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$. We set $\hbar=1$.
+Consider a quantum contiuous-variable degree of freedom taking values over $\mathbb{R}$. It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$. We set $\hbar=1$.
+
+| Operator     | Real                | Complex                                           |
+| ------------ | ------------------- | ------------------------------------------------- |
+| Position     | $\hat{x}$           | $\tfrac{1}{\sqrt{2}}(\hat{a}+\hat{a}^{\dagger})$  |
+| Momentum     | $\hat{p}$           | $\tfrac{1}{\sqrt{2}i}(\hat{a}-\hat{a}^{\dagger})$ |
+| Annihilation | $\hat{a}$           | $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$           |
+| Creation     | $\hat{a}^{\dagger}$ | $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$           |
+
+### Displacement operator
+
+Introduce the symplectic form:
+
+$$
+\bm{\omega}=
+\begin{pmatrix}
+0 & 1 \\
+-1 & 0
+\end{pmatrix}
+$$
 
 | Operator      |        Notation        |                      Definition                      |
 | ------------- | :--------------------: | :--------------------------------------------------: |
