@@ -35,6 +35,11 @@ Consider a quantum contiuous-variable degree of freedom taking values over $\mat
 | Annihilation | $\hat{a}$           | $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$           |
 | Creation     | $\hat{a}^{\dagger}$ | $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$           |
 
+|                     Position                     |                     Momentum                      |              Annihilation               |                Creation                 |                         Displacement                         |
+| :----------------------------------------------: | :-----------------------------------------------: | :-------------------------------------: | :-------------------------------------: | :----------------------------------------------------------: |
+|                    $\hat{x}$                     |                     $\hat{p}$                     | $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$ | $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$ |             $\exp\big(i(p\hat{x}-x\hat{p})\big)$             |
+| $\tfrac{1}{\sqrt{2}}(\hat{a}+\hat{a}^{\dagger})$ | $\tfrac{1}{\sqrt{2}i}(\hat{a}-\hat{a}^{\dagger})$ |                $\hat{a}$                |           $\hat{a}^{\dagger}$           | $\exp\big(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}\big)$ |
+
 ### Displacement operator
 
 Introduce the symplectic form:
