@@ -47,29 +47,13 @@ f\ast \hat{A}=\hat{A}\ast f&=\int f(\alpha)\hat{D}(\alpha)\hat{A}\hat{D}^{\dagge
 \end{align*}
 $$
 
-> **Wigner transform.** The Wigner transform of a quantum operator $\hat{\rho}$ is defined as:
->
-> $$
-> W_{\hat{\rho}}(\alpha) = \mathrm{Tr}\big[\hat{\Delta}(\alpha)\hat{\rho}\big]
-> $$
->
-> It represents the quasiprobability distribution in phase space. Alternatively, we can write: $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$.
+> **Wigner transform.** The Wigner transform of a quantum operator $\hat{\rho}$ is defined as $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$.
 
-> **Inverse Wigner transform.** A quantum operator $\hat{\rho}$ can be reconstructed from its Wigner function via
->
-> $$
-> \hat{\rho}=\int\hat{\Delta}(\alpha)W_{\hat{\rho}}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
-> $$
->
-> This expresses the one-to-one correspondence between operators and their phase-space representations. Alternatively, we can write: $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Delta}$.
+> **Inverse Wigner transform.** A quantum operator $\hat{\rho}$ can be reconstructed from its Wigner function via $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Delta}$.
 
-> **Traciality.** The Hilbert–Schmidt inner product between two operators translates into the $L^2$ inner product of their Wigner functions:
->
-> $$
-> \mathrm{Tr}\big[\hat{\rho}\hat{\sigma}\big]=\int W_{\hat{\rho}}(\alpha)W_{\hat{\sigma}}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
-> $$
->
-> This relation is commonly referred to as the _overlap formula_.
+Define the Hilbert-Schimdt (HS) inner product $\langle\hat{\rho},\hat{\sigma}\rangle=\mathrm{Tr}\big[\hat{\rho}^{\dagger}\hat{\sigma}\big]$, and the $L^{2}$ inner product $\langle f,g\rangle=\int f^{\ast}(\alpha)g(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}$.
+
+> **Traciality** (_Overlap formula_)**.** The Hilbert–Schmidt inner product between two operators equals the $L^2$ inner product of their Wigner functions: $\langle\hat{\rho},\hat{\sigma}\rangle=\langle W_{\hat{\rho}},W_{\hat{\sigma}}\rangle$.
 
 ## Table of Wigner functions
 
