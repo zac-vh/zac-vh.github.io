@@ -9,7 +9,7 @@ nav_order: 6
 
 ## Table of content
 
-- [\\bm{\\omega}](#bmomega)
+- [\\boldsymbol{\\omega}](#boldsymbolomega)
 - [\\hat{D}(\\alpha)](#hatdalpha)
     - [Displacement operator](#displacement-operator)
     - [Quantum convolution](#quantum-convolution)
@@ -25,8 +25,14 @@ nav_order: 6
 
 ### Basics
 
+**Continuous variable.**
+A continuous variable (CV) system is a physical system defined with respect to a continuous degree of freedom taking values ranging over $\mathbb{R}$.
+
 **Position, momentum.**
-Consider a quantum contiuous-variable degree of freedom taking values over $\mathbb{R}$. It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. They obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$. We set $\hbar=1$.
+To each value $x\in\mathbb{R}$ of a quantum CV degree of freedom is assocaited a _position_ eigenstate $\vert x\rangle$. We defined the _momentum_ eigenstates $\vert p\rangle$ from the inner product $\langle x\vert p\rangle=\exp(ixp)/\sqrt{2\pi}$. We use the spectral decomposition to define $\hat{x}=\int x\vert x\rangle\langle x\vert\mathrm{d}x$ and $\hat{p}=\int p\vert p\rangle\langle p\vert\mathrm{d}p$. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i$.
+
+**Mode operators.**
+Define the _annihilation_ operator $\hat{a}=\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$ and the _creation_ operator $\hat{a}^{\dagger}=\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$. They obey the bosonic commutation relation $[\hat{a},\hat{a}^{\dagger}]=1$.
 
 **Quadratures.**
 Define the operator $\hat{a}=\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$. We define $\hat{x}_{\theta}=\mathrm{Re}[e^{i\theta}\hat{a}]=\hat{x}\cos\theta+\hat{p}\sin\theta$.
@@ -34,9 +40,10 @@ The operator $\hat{a}$ and its dagger $\hat{a}^{\dagger}$ are respectively calle
 
 **Symplectic form.**
 Define the matrix:
+
 $$
 \begin{align*}
-  \bm{\omega}
+  \boldsymbol{\omega}
   =
   \begin{pmatrix}
     0 & 1\\ -1 & 0
@@ -46,6 +53,7 @@ $$
 
 **Displacement.**
 Define the quadrature vector $(x,p)^{\intercal}$.
+
 $$
 \begin{align*}
   \hat{D}(\alpha)
@@ -64,7 +72,6 @@ $$
 \end{align*}
 $$
 
-
 From position and momentum to quadratures.
 
 | Operator     | Real                | Complex                                           |
@@ -80,16 +87,6 @@ From position and momentum to quadratures.
 | $\tfrac{1}{\sqrt{2}}(\hat{a}+\hat{a}^{\dagger})$ | $\tfrac{1}{\sqrt{2}i}(\hat{a}-\hat{a}^{\dagger})$ |                $\hat{a}$                |           $\hat{a}^{\dagger}$           | $\exp\big(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}\big)$ |
 
 ### Displacement operator
-
-Introduce the symplectic form:
-
-$$
-\bm{\omega}=
-\begin{pmatrix}
-0 & 1 \\
--1 & 0
-\end{pmatrix}
-$$
 
 | Operator      |        Notation        |                      Definition                      |
 | ------------- | :--------------------: | :--------------------------------------------------: |
