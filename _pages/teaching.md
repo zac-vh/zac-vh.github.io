@@ -9,24 +9,63 @@ nav_order: 6
 
 ## Table of content
 
-- [Table of content](#table-of-content)
-- [Definitions](#definitions)
-  - [Basics](#basics)
-  - [Displacement operator](#displacement-operator)
-  - [Quantum convolution](#quantum-convolution)
-  - [Quantum kernels](#quantum-kernels)
-- [Table of Wigner functions](#table-of-wigner-functions)
-- [Inner products](#inner-products)
-  - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
-  - [Rotated position states](#rotated-position-states)
-  - [Displaced Fock states](#displaced-fock-states)
-- [Gaussian kernel](#gaussian-kernel)
+- [\\bm{\\omega}](#bmomega)
+- [\\hat{D}(\\alpha)](#hatdalpha)
+    - [Displacement operator](#displacement-operator)
+    - [Quantum convolution](#quantum-convolution)
+    - [Quantum kernels](#quantum-kernels)
+  - [Table of Wigner functions](#table-of-wigner-functions)
+  - [Inner products](#inner-products)
+    - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
+    - [Rotated position states](#rotated-position-states)
+    - [Displaced Fock states](#displaced-fock-states)
+  - [Gaussian kernel](#gaussian-kernel)
 
 ## Definitions
 
 ### Basics
 
-Consider a quantum contiuous-variable degree of freedom taking values over $\mathbb{R}$. It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$. We set $\hbar=1$.
+**Position, momentum.**
+Consider a quantum contiuous-variable degree of freedom taking values over $\mathbb{R}$. It is associated with two canonically conjugated observables $\hat{x},\hat{p}$, often called _position_ and _momentum_. They obey the canonical commutation relation $[\hat{x},\hat{p}]=i\hbar$. We set $\hbar=1$.
+
+**Quadratures.**
+Define the operator $\hat{a}=\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$. We define $\hat{x}_{\theta}=\mathrm{Re}[e^{i\theta}\hat{a}]=\hat{x}\cos\theta+\hat{p}\sin\theta$.
+The operator $\hat{a}$ and its dagger $\hat{a}^{\dagger}$ are respectively called _annihilation_ and _creation_ operators. They obey the bosonic commmutation relation $[\hat{a},\hat{a}^{\dagger}]=1$.
+
+**Symplectic form.**
+Define the matrix:
+$$
+\begin{align*}
+  \bm{\omega}
+  =
+  \begin{pmatrix}
+    0 & 1\\ -1 & 0
+  \end{pmatrix}
+\end{align*}
+$$
+
+**Displacement.**
+Define the quadrature vector $(x,p)^{\intercal}$.
+$$
+\begin{align*}
+  \hat{D}(\alpha)
+  =
+  \exp\left(
+    \begin{pmatrix}
+      \alpha &\alpha^{\ast}
+    \end{pmatrix}
+    \begin{pmatrix}
+      0 &1\\ -1 &0
+    \end{pmatrix}
+  \begin{pmatrix}
+    \hat{a}\\\hat{a}^{\dagger}
+  \end{pmatrix}
+  \right)
+\end{align*}
+$$
+
+
+From position and momentum to quadratures.
 
 | Operator     | Real                | Complex                                           |
 | ------------ | ------------------- | ------------------------------------------------- |
