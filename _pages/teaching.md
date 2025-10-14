@@ -9,14 +9,18 @@ nav_order: 6
 
 ## Table of content
 
-- [\\int\\hat{D}(\\alpha)\\tfrac{\\mathrm{d}^2\\alpha}{\\pi}](#inthatdalphatfracmathrmd2alphapi)
-    - [Quantum kernels](#quantum-kernels)
-  - [Table of Wigner functions](#table-of-wigner-functions)
-  - [Inner products](#inner-products)
-    - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
-    - [Rotated position states](#rotated-position-states)
-    - [Displaced Fock states](#displaced-fock-states)
-  - [Gaussian kernel](#gaussian-kernel)
+- [Table of content](#table-of-content)
+- [Definitions](#definitions)
+  - [Basics](#basics)
+  - [Displacement](#displacement)
+  - [Kernels](#kernels)
+  - [Quantum kernels](#quantum-kernels)
+- [Table of Wigner functions](#table-of-wigner-functions)
+- [Inner products](#inner-products)
+  - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
+  - [Rotated position states](#rotated-position-states)
+  - [Displaced Fock states](#displaced-fock-states)
+- [Gaussian kernel](#gaussian-kernel)
 
 ## Definitions
 
@@ -34,34 +38,20 @@ The _momentum_ eigenstates $\ket{p}$ are Fourier dual to the position eigenstate
 **Mode operators.**
 The mode operators both encode position and momentum in a single (non-Hermitian) operator. Define the _annihilation_ operator $\hat{a}=(\hat{x}+i\hat{p})/\sqrt{2}$ and the _creation_ operator $\hat{a}^{\dagger}=(\hat{x}-i\hat{p})/\sqrt{2}$.
 
-| Operator     |                  Real                   |                      Complex                      |
-| ------------ | :-------------------------------------: | :-----------------------------------------------: |
-| Position     |                $\hat{x}$                | $\tfrac{1}{\sqrt{2}}(\hat{a}+\hat{a}^{\dagger})$  |
-| Momentum     |                $\hat{p}$                | $\tfrac{1}{\sqrt{2}i}(\hat{a}-\hat{a}^{\dagger})$ |
-| Annihilation | $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$ |                     $\hat{a}$                     |
-| Creation     | $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$ |                $\hat{a}^{\dagger}$                |
-
-**Vectorized operators.** Define the mode-vector $\hat{\boldsymbol{b}}=(\begin{smallmatrix} \hat{a} \\ \hat{a}^{\dagger} \end{smallmatrix})$ and the quadrature-vector $\hat{\boldsymbol{q}}=(\begin{smallmatrix} \hat{x} \\ \hat{p}\end{smallmatrix})$. Define the vectorial commutator $[\boldsymbol{x},\boldsymbol{y}]=\boldsymbol{x}\boldsymbol{y}^{\intercal}-\boldsymbol{y}\boldsymbol{x}^{\intercal}$.
+**Vectorized operators.** Define the mode-vector $\hat{\boldsymbol{b}}=(\begin{smallmatrix} \hat{a} \\ \hat{a}^{\dagger} \end{smallmatrix})$ and the quadrature-vector $\hat{\boldsymbol{q}}=(\begin{smallmatrix} \hat{x} \\ \hat{p}\end{smallmatrix})$. Define the vectorial commutator $[\boldsymbol{x},\boldsymbol{y}]=\boldsymbol{x}\boldsymbol{y}^{\intercal}-\boldsymbol{y}\boldsymbol{x}^{\intercal}$. And the vectorial complex number $\boldsymbol{\alpha}=(\begin{smallmatrix} \alpha\\ \alpha^{\ast} \end{smallmatrix})$.
 
 **Commutation relations.**
-Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i$. The mode operators obey the bosonic commutation relation $[\hat{a},\hat{a}^{\dagger}]=1$.
+Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i$. The mode operators obey the bosonic commutation relation $[\hat{a},\hat{a}^{\dagger}]=1$. Introducing the _symplectic form_ as the matrix $\boldsymbol{\omega}=(\begin{smallmatrix} 0 & 1 \\ -1 & 0 \end{smallmatrix})$, we can write $[\hat{\boldsymbol{b}},\hat{\boldsymbol{b}}]=\boldsymbol{\omega}$ and $[\hat{\boldsymbol{q}},\hat{\boldsymbol{q}}]=i\boldsymbol{\omega}$.
 
-**Symplectic form.**
-The commutation relations can be encoded in a compact way by defining the symplectic form as the matrix $\boldsymbol{\omega}=(\begin{smallmatrix} 0 & 1 \\ -1 & 0 \end{smallmatrix})$. Define the mode-vector $\hat{\boldsymbol{b}}=(\begin{smallmatrix} \hat{a} \\ \hat{a}^{\dagger} \end{smallmatrix})$ and the quadrature-vector $\hat{\boldsymbol{q}}=(\begin{smallmatrix} \hat{x} \\ \hat{p}\end{smallmatrix})$.
-Define the vectorial commutator $[\boldsymbol{x},\boldsymbol{y}]=\boldsymbol{x}\boldsymbol{y}^{\intercal}-\boldsymbol{y}\boldsymbol{x}^{\intercal}$.
-We have $[\hat{\boldsymbol{b}},\hat{\boldsymbol{b}}]=\boldsymbol{\omega}$ and $[\hat{\boldsymbol{q}},\hat{\boldsymbol{q}}]=i\boldsymbol{\omega}$.
+**Photon-number basis**. The photon-number operator $\hat{n}=\hat{a}^{\dagger}\hat{a}$ has a discrete spectrum. Its eigenstates form the Fock basis $\ket{n}$, related to the position basis as $\langle x\vert n\rangle=(\sqrt{\pi 2^n n!})^{-\tfrac12}H_n(x)\exp(-x^2/2)$.
+
+### Displacement
 
 **Displacement.**
-Define the complex-vector $\boldsymbol{\alpha}=(\begin{smallmatrix} \alpha \\ \alpha^{\ast} \end{smallmatrix})$
 The displacement operator is $\hat{D}(\alpha)=\exp(\boldsymbol{\alpha}^{\intercal}\boldsymbol{\omega}\boldsymbol{b})$.
 Equivalently, $\hat{D}(\alpha)=\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a})=\exp(i(p\hat{x}-x\hat{p}))$ with $\alpha=(x+ip)/\sqrt{2}$, $\hat{D}(\alpha)=\exp(i\boldsymbol{q}^{\intercal}\boldsymbol{\omega}\hat{\boldsymbol{q}})$.
 
-|                             $\hat{D}(\alpha)$                              |
-| :------------------------------------------------------------------------: |
-|  $\exp(\boldsymbol{\alpha}^{\intercal}\boldsymbol{\omega}\boldsymbol{b})$  |
-|            $\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a})$            |
-| $\exp(i\boldsymbol{q}^{\intercal}\boldsymbol{\omega}\hat{\boldsymbol{q}})$ |
-|                        $\exp(i(p\hat{x}-x\hat{p}))$                        |
+**Parity.** The parity operator is defined as $(-1)^{\hat{n}}$. Or $\int\vert x\rangle\langle -x\vert\mathrm{d}x$. We have the relation $\hat{\Pi}=\int\hat{D}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}$. Parity is not trace-class, but whenever $\mathrm{Tr}[\hat{\Pi}]=1/2$.
 
 **Convolutions.** We define 3 types of convolutions:
 
@@ -72,13 +62,9 @@ Equivalently, $\hat{D}(\alpha)=\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}
 
 ### Kernels
 
-$$
-\begin{align*}
-\int\hat{D}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
-=
-\hat{\Pi}
-\end{align*}
-$$
+**Thermal state.** The thermal state with mean photon-number $\bar{n}$ is $\hat{\tau}(\bar{n})=\frac{1}{\bar{n}+1}\sum_{n=0}^{\infty}\left(\frac{\bar{n}}{\bar{n}+1}\right)^n\ket{n}\bra{n}$.
+
+**Phase-point operator.** The phase-point operator is $\hat{\Delta}(\alpha)=2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$.
 
 
 | Operator      |        Notation        |                      Definition                      |
