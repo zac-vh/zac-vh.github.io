@@ -36,16 +36,14 @@ nav_order: 6
 > **Mode operators.**
 > Define the _annihilation_ operator $\hat{a}=\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$ and the _creation_ operator $\hat{a}^{\dagger}=\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$. They obey the bosonic commutation relation $[\hat{a},\hat{a}^{\dagger}]=1$.
 
-> **Quadratures.**
-> Define the operator $\hat{a}=\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$. We define $\hat{x}_{\theta}=\mathrm{Re}[e^{i\theta}\hat{a}]=\hat{x}\mathrm{cos}\theta+\hat{p}\mathrm{sin}\theta$. The operator $\hat{a}$ and its dagger $\hat{a}^{\dagger}$ are respectively called _annihilation_ and _creation_ operators. They obey the bosonic commmutation relation $[\hat{a},\hat{a}^{\dagger}]=1$.
+> **Symplectic form.**
+> The commutation relations can be encoded in a compact way by defining the symplectic form as the matrix $\boldsymbol{\omega}=(\begin{smallmatrix} 0 & 1 \\ -1 & 0 \end{smallmatrix})$. Define the mode-vector $\hat{\boldsymbol{b}}=(\begin{smallmatrix} \hat{a} \\\hat{a}^{\dagger} \end{smallmatrix})$ and the quadrature-vector $\hat{\boldsymbol{q}}=(\begin{smallmatrix} \hat{x} \\\hat{p}\end{smallmatrix})$.
+> Define the vectorial commutator $[\boldsymbol{x},\boldsymbol{y}]=\boldsymbol{x}\boldsymbol{y}^{\intercal}-\boldsymbol{y}\boldsymbol{x}^{\intercal}$.
+> We have $[\hat{\boldsymbol{b}},\hat{\boldsymbol{b}}]=\boldsymbol{\omega}$ and $[\hat{\boldsymbol{q}},\hat{\boldsymbol{q}}]=i\boldsymbol{\omega}$.
 
-**Symplectic form.**
-Define the matrix: $\boldsymbol{\omega}=(\begin{smallmatrix} 0 & 1 \\ -1 & 0 \end{smallmatrix})$. Define the vector $\hat{\boldsymbol{b}}=(\begin{smallmatrix} \hat{a} \\\hat{a}^{\dagger} \end{smallmatrix})$.
-Define the vector $\hat{\boldsymbol{q}}=(\begin{smallmatrix} \hat{x} \\\hat{p}\end{smallmatrix})$.
-We have $[\hat{\boldsymbol{b}},\hat{\boldsymbol{b}}]=\boldsymbol{\omega}$ and $[\hat{\boldsymbol{q}},\hat{\boldsymbol{q}}]=i\boldsymbol{\omega}$.
-
-**Displacement.**
-Define the quadrature vector $(x,p)^{\intercal}$.
+> **Displacement.**
+> Define the complex-vector $\boldsymbol{\alpha}=(\begin{smallmatrix} \alpha \\\alpha^{\ast} \end{smallmatrix})$
+> The displacement operator is $\hat{D}(\alpha)=\exp(\boldsymbol{\alpha}^{\intercal}\boldsymbol{\omega}\boldsymbol{b})$
 
 $$
 \begin{align*}
