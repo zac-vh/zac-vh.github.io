@@ -12,8 +12,6 @@ nav_order: 6
 - [Table of content](#table-of-content)
 - [Definitions](#definitions)
   - [Basics](#basics)
-  - [Displacement operator](#displacement-operator)
-  - [Quantum convolution](#quantum-convolution)
   - [Quantum kernels](#quantum-kernels)
 - [Table of Wigner functions](#table-of-wigner-functions)
 - [Inner products](#inner-products)
@@ -26,24 +24,28 @@ nav_order: 6
 
 ### Basics
 
-**Continuous variable.**
+**Continuous variable system.**
 A continuous variable (CV) system is a physical system defined with respect to a continuous degree of freedom taking values ranging over $\mathbb{R}$.
 
 **Position.**
-With each value $x\in\mathbb{R}$ of a quantum CV degree of freedom is associated a _position_ eigenstate $\vert x\rangle$. We use the spectral decomposition to define $\hat{x}=\int x\vert x\rangle\langle x\vert\mathrm{d}x$.
+With each value $x\in\mathbb{R}$ of a quantum CV degree of freedom is associated a _position_ eigenstate $\vert x\rangle$. The position operator is obtained through its spectral decomposition as $\hat{x}=\int x\vert x\rangle\langle x\vert\mathrm{d}x$.
 
 **Momentum.**
-We define the _momentum_ eigenstates $\vert p\rangle$ from the inner product $\langle x\vert p\rangle=\exp(ixp)/\sqrt{2\pi}$. Then, $\hat{p}=\int p\vert p\rangle\langle p\vert\mathrm{d}p$. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i$.
+The _momentum_ eigenstates $\ket{p}$ are Fourier dual to the position eigenstates. They are defined from the inner product $\langle x\vert p\rangle=\exp(ixp)/\sqrt{2\pi}$. The position operator is then defined as $\hat{p}=\int p\vert p\rangle\langle p\vert\mathrm{d}p$.
 
 **Mode operators.**
-Define the _annihilation_ operator $\hat{a}=\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$ and the _creation_ operator $\hat{a}^{\dagger}=\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$. They obey the bosonic commutation relation $[\hat{a},\hat{a}^{\dagger}]=1$.
+The mode operators encode position and momentum in a single operator.
+Define the _annihilation_ operator $\hat{a}=\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$ and the _creation_ operator $\hat{a}^{\dagger}=\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$.
 
-| Operator     | Real                | Complex                                           |
-| ------------ | ------------------- | ------------------------------------------------- |
-| Position     | $\hat{x}$           | $\tfrac{1}{\sqrt{2}}(\hat{a}+\hat{a}^{\dagger})$  |
-| Momentum     | $\hat{p}$           | $\tfrac{1}{\sqrt{2}i}(\hat{a}-\hat{a}^{\dagger})$ |
-| Annihilation | $\hat{a}$           | $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$           |
-| Creation     | $\hat{a}^{\dagger}$ | $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$           |
+| Operator     |                  Real                   |                      Complex                      |
+| ------------ | :-------------------------------------: | :-----------------------------------------------: |
+| Position     |                $\hat{x}$                | $\tfrac{1}{\sqrt{2}}(\hat{a}+\hat{a}^{\dagger})$  |
+| Momentum     |                $\hat{p}$                | $\tfrac{1}{\sqrt{2}i}(\hat{a}-\hat{a}^{\dagger})$ |
+| Annihilation | $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$ |                     $\hat{a}$                     |
+| Creation     | $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$ |                $\hat{a}^{\dagger}$                |
+
+**Commutation relations.**
+Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i$. The mode operators obey the bosonic commutation relation $[\hat{a},\hat{a}^{\dagger}]=1$.
 
 **Symplectic form.**
 The commutation relations can be encoded in a compact way by defining the symplectic form as the matrix $\boldsymbol{\omega}=(\begin{smallmatrix} 0 & 1 \\ -1 & 0 \end{smallmatrix})$. Define the mode-vector $\hat{\boldsymbol{b}}=(\begin{smallmatrix} \hat{a} \\ \hat{a}^{\dagger} \end{smallmatrix})$ and the quadrature-vector $\hat{\boldsymbol{q}}=(\begin{smallmatrix} \hat{x} \\ \hat{p}\end{smallmatrix})$.
@@ -52,7 +54,15 @@ We have $[\hat{\boldsymbol{b}},\hat{\boldsymbol{b}}]=\boldsymbol{\omega}$ and $[
 
 **Displacement.**
 Define the complex-vector $\boldsymbol{\alpha}=(\begin{smallmatrix} \alpha \\ \alpha^{\ast} \end{smallmatrix})$
-The displacement operator is $\hat{D}(\alpha)=\exp(\boldsymbol{\alpha}^{\intercal}\boldsymbol{\omega}\boldsymbol{b})$
+The displacement operator is $\hat{D}(\alpha)=\exp(\boldsymbol{\alpha}^{\intercal}\boldsymbol{\omega}\boldsymbol{b})$.
+Equivalently, $\hat{D}(\alpha)=\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a})=\exp(i(p\hat{x}-x\hat{p}))$ with $\alpha=(x+ip)/\sqrt{2}$, $\hat{D}(\alpha)=\exp(i\boldsymbol{q}^{\intercal}\boldsymbol{\omega}\hat{\boldsymbol{q}})$.
+
+|                             $\hat{D}(\alpha)$                              |
+| :------------------------------------------------------------------------: |
+|  $\exp(\boldsymbol{\alpha}^{\intercal}\boldsymbol{\omega}\boldsymbol{b})$  |
+|            $\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a})$            |
+| $\exp(i\boldsymbol{q}^{\intercal}\boldsymbol{\omega}\hat{\boldsymbol{q}})$ |
+|                        $\exp(i(p\hat{x}-x\hat{p}))$                        |
 
 **Convolutions.** We define 3 types of convolutions:
 
@@ -60,12 +70,7 @@ The displacement operator is $\hat{D}(\alpha)=\exp(\boldsymbol{\alpha}^{\interca
 - _Phase-space_ convolution, $(f\ast g)(\alpha):=\int f(\beta)g(\alpha-\beta)\tfrac{\mathrm{d}^2\beta}{\pi}$
 - _Hybrid_ convolution, $f\ast\hat{\rho}=\hat{\rho}\ast f:=\int f(\alpha)\hat{D}(\alpha)\hat{\rho}\hat{D}^{\dagger}(\alpha)\mathrm{d}^2\alpha$
 
-|                     Position                     |                     Momentum                      |              Annihilation               |                Creation                 |                         Displacement                         |
-| :----------------------------------------------: | :-----------------------------------------------: | :-------------------------------------: | :-------------------------------------: | :----------------------------------------------------------: |
-|                    $\hat{x}$                     |                     $\hat{p}$                     | $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$ | $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$ |             $\exp\big(i(p\hat{x}-x\hat{p})\big)$             |
-| $\tfrac{1}{\sqrt{2}}(\hat{a}+\hat{a}^{\dagger})$ | $\tfrac{1}{\sqrt{2}i}(\hat{a}-\hat{a}^{\dagger})$ |                $\hat{a}$                |           $\hat{a}^{\dagger}$           | $\exp\big(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}\big)$ |
 
-### Displacement operator
 
 | Operator      |        Notation        |                      Definition                      |
 | ------------- | :--------------------: | :--------------------------------------------------: |
@@ -76,25 +81,14 @@ The displacement operator is $\hat{D}(\alpha)=\exp(\boldsymbol{\alpha}^{\interca
 | Parity        |      $\hat{\Pi}$       |                   $(-1)^{\hat{n}}$                   |
 | Phase-point   | $\hat{\Delta}(\alpha)$ | $2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$ |
 
-### Quantum convolution
 
-$$
-\begin{align*}
-(f\ast g)(\alpha) &= \int f(\beta) g(\alpha-\beta)\tfrac{\mathrm{d}\beta}{\pi}
-\\
-(\hat{A}\ast\hat{B})(\alpha)&=\mathrm{Tr}\left[\hat{\rho}\hat{D}(\alpha)\hat{\Pi}\hat{\sigma}\hat{\Pi}\hat{D}^{\dagger}(\alpha)\right]
-\\
-f\ast \hat{A}=\hat{A}\ast f&=\int f(\alpha)\hat{D}(\alpha)\hat{A}\hat{D}^{\dagger}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
-\end{align*}
-$$
+**Wigner transform.** The Wigner transform of a quantum operator $\hat{\rho}$ is defined as $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$.
 
-> **Wigner transform.** The Wigner transform of a quantum operator $\hat{\rho}$ is defined as $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$.
-
-> **Inverse Wigner transform.** A quantum operator $\hat{\rho}$ can be reconstructed from its Wigner function via $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Delta}$.
+**Inverse Wigner transform.** A quantum operator $\hat{\rho}$ can be reconstructed from its Wigner function via $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Delta}$.
 
 Define the Hilbert-Schimdt (HS) inner product $\langle\hat{\rho},\hat{\sigma}\rangle=\mathrm{Tr}\big[\hat{\rho}^{\dagger}\hat{\sigma}\big]$, and the $L^{2}$ inner product $\langle f,g\rangle=\int f^{\ast}(\alpha)g(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}$.
 
-> **Traciality** (_Overlap formula_)**.** The Hilbert–Schmidt inner product between two operators equals the $L^2$ inner product of their Wigner functions: $\langle\hat{\rho},\hat{\sigma}\rangle=\langle W_{\hat{\rho}},W_{\hat{\sigma}}\rangle$.
+**Traciality** (_Overlap formula_)**.** The Hilbert–Schmidt inner product between two operators equals the $L^2$ inner product of their Wigner functions: $\langle\hat{\rho},\hat{\sigma}\rangle=\langle W_{\hat{\rho}},W_{\hat{\sigma}}\rangle$.
 
 ### Quantum kernels
 
