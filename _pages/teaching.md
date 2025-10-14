@@ -55,10 +55,10 @@ Define the complex-vector $\boldsymbol{\alpha}=(\begin{smallmatrix} \alpha \\ \a
 The displacement operator is $\hat{D}(\alpha)=\exp(\boldsymbol{\alpha}^{\intercal}\boldsymbol{\omega}\boldsymbol{b})$
 
 **Convolutions.** We define 3 types of convolutions:
+
 - _Quantum_ convolution, $(\hat{\rho}\ast\hat{\sigma})(\alpha):=\mathrm{Tr}\big[\hat{\rho}\hat{D}(\alpha)\hat{\Pi}\hat{\sigma}\hat{\Pi}\hat{D}^{\dagger}(\alpha)\big]$
 - _Phase-space_ convolution, $(f\ast g)(\alpha):=\int f(\beta)g(\alpha-\beta)\tfrac{\mathrm{d}^2\beta}{\pi}$
 - _Hybrid_ convolution, $f\ast\hat{\rho}=\hat{\rho}\ast f:=\int f(\alpha)\hat{D}(\alpha)\hat{\rho}\hat{D}^{\dagger}(\alpha)\mathrm{d}^2\alpha$
-
 
 |                     Position                     |                     Momentum                      |              Annihilation               |                Creation                 |                         Displacement                         |
 | :----------------------------------------------: | :-----------------------------------------------: | :-------------------------------------: | :-------------------------------------: | :----------------------------------------------------------: |
