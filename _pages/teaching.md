@@ -12,9 +12,7 @@ nav_order: 6
 - [Table of content](#table-of-content)
 - [Definitions](#definitions)
   - [Basics](#basics)
-  - [Displacement](#displacement)
   - [Kernels](#kernels)
-  - [Quantum kernels](#quantum-kernels)
 - [Table of Wigner functions](#table-of-wigner-functions)
 - [Inner products](#inner-products)
   - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
@@ -27,31 +25,29 @@ nav_order: 6
 ### Basics
 
 **Continuous variable system.**
-A continuous variable (CV) system is a physical system defined with respect to a continuous degree of freedom taking values ranging over $\mathbb{R}$.
+A continuous variable (CV) system is a physical system defined with respect to a continuous degree of freedom, taking values ranging over $\mathbb{R}$.
 
 **Position.**
-With each value $x\in\mathbb{R}$ of a quantum CV degree of freedom is associated a _position_ eigenstate $\vert x\rangle$. Position is the natural basis of the quantum system. The position operator is obtained through its spectral decomposition as $\hat{x}=\int x\vert x\rangle\langle x\vert\mathrm{d}x$.
+The _position_ basis is the natural basis of a quantum CV system. With each value $x\in\mathbb{R}$ is associated a position eigenstate $\vert x\rangle$. The position operator is obtained through its spectral decomposition as $\hat{x}=\int x\vert x\rangle\langle x\vert\mathrm{d}x$.
 
 **Momentum.**
-The _momentum_ eigenstates $\ket{p}$ are Fourier dual to the position eigenstates. They are defined from the inner product $\langle x\vert p\rangle=\exp(ixp)/\sqrt{2\pi}$. The position operator is then defined as $\hat{p}=\int p\vert p\rangle\langle p\vert\mathrm{d}p$.
+The _momentum_ basis is the Fourier dual of the position basis. Momentum eigenstates are defined from the inner product $\langle x\vert p\rangle=\exp(ixp)/\sqrt{2\pi}$. The position operator is then defined as $\hat{p}=\int p\vert p\rangle\langle p\vert\mathrm{d}p$.
 
 **Mode operators.**
 The mode operators both encode position and momentum in a single (non-Hermitian) operator. Define the _annihilation_ operator $\hat{a}=(\hat{x}+i\hat{p})/\sqrt{2}$ and the _creation_ operator $\hat{a}^{\dagger}=(\hat{x}-i\hat{p})/\sqrt{2}$.
 
-**Vectorized operators.** Define the mode-vector $\hat{\boldsymbol{b}}=(\begin{smallmatrix} \hat{a} \\ \hat{a}^{\dagger} \end{smallmatrix})$ and the quadrature-vector $\hat{\boldsymbol{q}}=(\begin{smallmatrix} \hat{x} \\ \hat{p}\end{smallmatrix})$. Define the vectorial commutator $[\boldsymbol{x},\boldsymbol{y}]=\boldsymbol{x}\boldsymbol{y}^{\intercal}-\boldsymbol{y}\boldsymbol{x}^{\intercal}$. And the vectorial complex number $\boldsymbol{\alpha}=(\begin{smallmatrix} \alpha\\ \alpha^{\ast} \end{smallmatrix})$.
+**Vector notation.** Define the mode-vector $\hat{\boldsymbol{b}}=(\begin{smallmatrix} \hat{a} \\ \hat{a}^{\dagger} \end{smallmatrix})$ and the quadrature-vector $\hat{\boldsymbol{q}}=(\begin{smallmatrix} \hat{x} \\ \hat{p}\end{smallmatrix})$. And the vectorial complex number $\boldsymbol{\alpha}=(\begin{smallmatrix} \alpha\\ \alpha^{\ast} \end{smallmatrix})$. Define the vectorial commutator $[\boldsymbol{x},\boldsymbol{y}]=\boldsymbol{x}\boldsymbol{y}^{\intercal}-\boldsymbol{y}\boldsymbol{x}^{\intercal}$.
 
 **Commutation relations.**
-Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i$. The mode operators obey the bosonic commutation relation $[\hat{a},\hat{a}^{\dagger}]=1$. Introducing the _symplectic form_ as the matrix $\boldsymbol{\omega}=(\begin{smallmatrix} 0 & 1 \\ -1 & 0 \end{smallmatrix})$, we can write $[\hat{\boldsymbol{b}},\hat{\boldsymbol{b}}]=\boldsymbol{\omega}$ and $[\hat{\boldsymbol{q}},\hat{\boldsymbol{q}}]=i\boldsymbol{\omega}$.
+Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i$. The mode operators obey the bosonic commutation relation $[\hat{a},\hat{a}^{\dagger}]=1$. Introducing the _symplectic form_ as the matrix $\boldsymbol{\omega}=(\begin{smallmatrix} 0 & 1 \\ -1 & 0 \end{smallmatrix})$, we write compactly $[\hat{\boldsymbol{q}},\hat{\boldsymbol{q}}]=i\boldsymbol{\omega}$ and $[\hat{\boldsymbol{b}},\hat{\boldsymbol{b}}]=\boldsymbol{\omega}$.
 
-**Photon-number basis**. The photon-number operator $\hat{n}=\hat{a}^{\dagger}\hat{a}$ has a discrete spectrum. Its eigenstates form the Fock basis $\ket{n}$, related to the position basis as $\langle x\vert n\rangle=(\sqrt{\pi 2^n n!})^{-\tfrac12}H_n(x)\exp(-x^2/2)$.
-
-### Displacement
+**Photon-number basis**. The photon-number operator $\hat{n}=\hat{a}^{\dagger}\hat{a}$ has a discrete spectrum. Its eigenstates form the Fock basis $\ket{n}$ with $n\in\mathbb{N}$, related to the position basis as $\langle x\vert n\rangle=(\sqrt{\pi 2^n n!})^{-\tfrac12}H_n(x)\exp(-x^2/2)$.
 
 **Displacement.**
 The displacement operator is $\hat{D}(\alpha)=\exp(\boldsymbol{\alpha}^{\intercal}\boldsymbol{\omega}\boldsymbol{b})$.
 Equivalently, $\hat{D}(\alpha)=\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a})=\exp(i(p\hat{x}-x\hat{p}))$ with $\alpha=(x+ip)/\sqrt{2}$, $\hat{D}(\alpha)=\exp(i\boldsymbol{q}^{\intercal}\boldsymbol{\omega}\hat{\boldsymbol{q}})$.
 
-**Parity.** The parity operator is defined as $(-1)^{\hat{n}}$. Or $\int\vert x\rangle\langle -x\vert\mathrm{d}x$. We have the relation $\hat{\Pi}=\int\hat{D}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}$. Parity is not trace-class, but whenever $\mathrm{Tr}[\hat{\Pi}]=1/2$.
+**Parity.** The parity operator is defined as $(-1)^{\hat{n}}$. Or $\int\vert x\rangle\langle -x\vert\mathrm{d}x$. We have the relation $\hat{\Pi}=\int\hat{D}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}$. Parity is not a trace-class operator, i, some bases its trace converges and gives $\mathrm{Tr}[\hat{\Pi}]=1/2$.
 
 **Convolutions.** We define 3 types of convolutions:
 
@@ -59,13 +55,11 @@ Equivalently, $\hat{D}(\alpha)=\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}
 - _Phase-space_ convolution, $(f\ast g)(\alpha):=\int f(\beta)g(\alpha-\beta)\tfrac{\mathrm{d}^2\beta}{\pi}$
 - _Hybrid_ convolution, $f\ast\hat{\rho}=\hat{\rho}\ast f:=\int f(\alpha)\hat{D}(\alpha)\hat{\rho}\hat{D}^{\dagger}(\alpha)\mathrm{d}^2\alpha$
 
-
 ### Kernels
 
 **Thermal state.** The thermal state with mean photon-number $\bar{n}$ is $\hat{\tau}(\bar{n})=\frac{1}{\bar{n}+1}\sum_{n=0}^{\infty}\left(\frac{\bar{n}}{\bar{n}+1}\right)^n\ket{n}\bra{n}$.
 
 **Phase-point operator.** The phase-point operator is $\hat{\Delta}(\alpha)=2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$.
-
 
 | Operator      |        Notation        |                      Definition                      |
 | ------------- | :--------------------: | :--------------------------------------------------: |
@@ -76,7 +70,6 @@ Equivalently, $\hat{D}(\alpha)=\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}
 | Parity        |      $\hat{\Pi}$       |                   $(-1)^{\hat{n}}$                   |
 | Phase-point   | $\hat{\Delta}(\alpha)$ | $2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$ |
 
-
 **Wigner transform.** The Wigner transform of a quantum operator $\hat{\rho}$ is defined as $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$.
 
 **Inverse Wigner transform.** A quantum operator $\hat{\rho}$ can be reconstructed from its Wigner function via $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Delta}$.
@@ -84,10 +77,6 @@ Equivalently, $\hat{D}(\alpha)=\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}
 Define the Hilbert-Schimdt (HS) inner product $\langle\hat{\rho},\hat{\sigma}\rangle=\mathrm{Tr}\big[\hat{\rho}^{\dagger}\hat{\sigma}\big]$, and the $L^{2}$ inner product $\langle f,g\rangle=\int f^{\ast}(\alpha)g(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}$.
 
 **Traciality** (_Overlap formula_)**.** The Hilbert–Schmidt inner product between two operators equals the $L^2$ inner product of their Wigner functions: $\langle\hat{\rho},\hat{\sigma}\rangle=\langle W_{\hat{\rho}},W_{\hat{\sigma}}\rangle$.
-
-### Quantum kernels
-
-Parity, Gaussian, Kirkwood-Dirac
 
 ## Table of Wigner functions
 
