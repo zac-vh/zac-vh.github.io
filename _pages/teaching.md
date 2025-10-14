@@ -9,69 +9,34 @@ nav_order: 6
 
 ## Table of content
 
-- [\\hat{D}(\\alpha)](#hatdalpha)
-    - [Displacement operator](#displacement-operator)
-    - [Quantum convolution](#quantum-convolution)
-    - [Quantum kernels](#quantum-kernels)
-  - [Table of Wigner functions](#table-of-wigner-functions)
-  - [Inner products](#inner-products)
-    - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
-    - [Rotated position states](#rotated-position-states)
-    - [Displaced Fock states](#displaced-fock-states)
-  - [Gaussian kernel](#gaussian-kernel)
+- [Table of content](#table-of-content)
+- [Definitions](#definitions)
+  - [Basics](#basics)
+  - [Displacement operator](#displacement-operator)
+  - [Quantum convolution](#quantum-convolution)
+  - [Quantum kernels](#quantum-kernels)
+- [Table of Wigner functions](#table-of-wigner-functions)
+- [Inner products](#inner-products)
+  - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
+  - [Rotated position states](#rotated-position-states)
+  - [Displaced Fock states](#displaced-fock-states)
+- [Gaussian kernel](#gaussian-kernel)
 
 ## Definitions
 
 ### Basics
 
-> **Continuous variable.**
-> A continuous variable (CV) system is a physical system defined with respect to a continuous degree of freedom taking values ranging over $\mathbb{R}$.
+**Continuous variable.**
+A continuous variable (CV) system is a physical system defined with respect to a continuous degree of freedom taking values ranging over $\mathbb{R}$.
 
-> **Position.**
-> To each value $x\in\mathbb{R}$ of a quantum CV degree of freedom is assocaited a _position_ eigenstate $\vert x\rangle$. We use the spectral decomposition to define $\hat{x}=\int x\vert x\rangle\langle x\vert\mathrm{d}x$.
+**Position.**
+With each value $x\in\mathbb{R}$ of a quantum CV degree of freedom is associated a _position_ eigenstate $\vert x\rangle$. We use the spectral decomposition to define $\hat{x}=\int x\vert x\rangle\langle x\vert\mathrm{d}x$.
 
-> **Momentum.**
-> We define the _momentum_ eigenstates $\vert p\rangle$ from the inner product $\langle x\vert p\rangle=\exp(ixp)/\sqrt{2\pi}$. Then, $\hat{p}=\int p\vert p\rangle\langle p\vert\mathrm{d}p$. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i$.
+**Momentum.**
+We define the _momentum_ eigenstates $\vert p\rangle$ from the inner product $\langle x\vert p\rangle=\exp(ixp)/\sqrt{2\pi}$. Then, $\hat{p}=\int p\vert p\rangle\langle p\vert\mathrm{d}p$. Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i$.
 
-> **Mode operators.**
-> Define the _annihilation_ operator $\hat{a}=\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$ and the _creation_ operator $\hat{a}^{\dagger}=\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$. They obey the bosonic commutation relation $[\hat{a},\hat{a}^{\dagger}]=1$.
-
-> **Symplectic form.**
-> The commutation relations can be encoded in a compact way by defining the symplectic form as the matrix $\boldsymbol{\omega}=(\begin{smallmatrix} 0 & 1 \\ -1 & 0 \end{smallmatrix})$. Define the mode-vector $\hat{\boldsymbol{b}}=(\begin{smallmatrix} \hat{a} \\\hat{a}^{\dagger} \end{smallmatrix})$ and the quadrature-vector $\hat{\boldsymbol{q}}=(\begin{smallmatrix} \hat{x} \\\hat{p}\end{smallmatrix})$.
-> Define the vectorial commutator $[\boldsymbol{x},\boldsymbol{y}]=\boldsymbol{x}\boldsymbol{y}^{\intercal}-\boldsymbol{y}\boldsymbol{x}^{\intercal}$.
-> We have $[\hat{\boldsymbol{b}},\hat{\boldsymbol{b}}]=\boldsymbol{\omega}$ and $[\hat{\boldsymbol{q}},\hat{\boldsymbol{q}}]=i\boldsymbol{\omega}$.
-
-> **Displacement.**
-> Define the complex-vector $\boldsymbol{\alpha}=(\begin{smallmatrix} \alpha \\\alpha^{\ast} \end{smallmatrix})$
-> The displacement operator is $\hat{D}(\alpha)=\exp(\boldsymbol{\alpha}^{\intercal}\boldsymbol{\omega}\boldsymbol{b})$
-
-$$
-\begin{align*}
-  \hat{D}(\alpha)
-  =
-  \exp\left(
-    \begin{pmatrix}
-      \alpha &\alpha^{\ast}
-    \end{pmatrix}
-    \begin{pmatrix}
-      0 &1\\ -1 &0
-    \end{pmatrix}
-  \begin{pmatrix}
-    \hat{a}\\\hat{a}^{\dagger}
-  \end{pmatrix}
-  \right)
-\end{align*}
-$$
-
-> **Convolutions.** We define 3 types of convolutions.
->
-> - _Quantum_ convolution, $(\hat{\rho}\ast\hat{\sigma})(\alpha)\vcentcolon=\mathrm{Tr}\big[\hat{\rho}\hat{D}(\alpha)\hat{\Pi}\hat{\sigma}\hat{\Pi}\hat{D}^{\dagger}(\alpha)\big]$
-> - _Phase-space_ convolution, $(f\ast g)(\alpha)\vcentcolon=\int f(\beta)g(\alpha-\beta)\tfrac{\mathrm{d}^2\beta}{\pi}$
-> - _Hybrid_ convolution, $f\ast\hat{\rho}=\hat{\rho}\ast f\vcentcolon=\int f(\alpha)\hat{D}(\alpha)\hat{\rho}\hat{D}^{\dagger}(\alpha)\mathrm{d}^2\alpha$
->
-> Each of them is associative and commutative.
-
-From position and momentum to quadratures.
+**Mode operators.**
+Define the _annihilation_ operator $\hat{a}=\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$ and the _creation_ operator $\hat{a}^{\dagger}=\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$. They obey the bosonic commutation relation $[\hat{a},\hat{a}^{\dagger}]=1$.
 
 | Operator     | Real                | Complex                                           |
 | ------------ | ------------------- | ------------------------------------------------- |
@@ -79,6 +44,21 @@ From position and momentum to quadratures.
 | Momentum     | $\hat{p}$           | $\tfrac{1}{\sqrt{2}i}(\hat{a}-\hat{a}^{\dagger})$ |
 | Annihilation | $\hat{a}$           | $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$           |
 | Creation     | $\hat{a}^{\dagger}$ | $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$           |
+
+**Symplectic form.**
+The commutation relations can be encoded in a compact way by defining the symplectic form as the matrix $\boldsymbol{\omega}=(\begin{smallmatrix} 0 & 1 \\ -1 & 0 \end{smallmatrix})$. Define the mode-vector $\hat{\boldsymbol{b}}=(\begin{smallmatrix} \hat{a} \\ \hat{a}^{\dagger} \end{smallmatrix})$ and the quadrature-vector $\hat{\boldsymbol{q}}=(\begin{smallmatrix} \hat{x} \\ \hat{p}\end{smallmatrix})$.
+Define the vectorial commutator $[\boldsymbol{x},\boldsymbol{y}]=\boldsymbol{x}\boldsymbol{y}^{\intercal}-\boldsymbol{y}\boldsymbol{x}^{\intercal}$.
+We have $[\hat{\boldsymbol{b}},\hat{\boldsymbol{b}}]=\boldsymbol{\omega}$ and $[\hat{\boldsymbol{q}},\hat{\boldsymbol{q}}]=i\boldsymbol{\omega}$.
+
+**Displacement.**
+Define the complex-vector $\boldsymbol{\alpha}=(\begin{smallmatrix} \alpha \\ \alpha^{\ast} \end{smallmatrix})$
+The displacement operator is $\hat{D}(\alpha)=\exp(\boldsymbol{\alpha}^{\intercal}\boldsymbol{\omega}\boldsymbol{b})$
+
+**Convolutions.** We define 3 types of convolutions:
+- _Quantum_ convolution, $(\hat{\rho}\ast\hat{\sigma})(\alpha):=\mathrm{Tr}\big[\hat{\rho}\hat{D}(\alpha)\hat{\Pi}\hat{\sigma}\hat{\Pi}\hat{D}^{\dagger}(\alpha)\big]$
+- _Phase-space_ convolution, $(f\ast g)(\alpha):=\int f(\beta)g(\alpha-\beta)\tfrac{\mathrm{d}^2\beta}{\pi}$
+- _Hybrid_ convolution, $f\ast\hat{\rho}=\hat{\rho}\ast f:=\int f(\alpha)\hat{D}(\alpha)\hat{\rho}\hat{D}^{\dagger}(\alpha)\mathrm{d}^2\alpha$
+
 
 |                     Position                     |                     Momentum                      |              Annihilation               |                Creation                 |                         Displacement                         |
 | :----------------------------------------------: | :-----------------------------------------------: | :-------------------------------------: | :-------------------------------------: | :----------------------------------------------------------: |
