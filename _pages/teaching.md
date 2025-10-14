@@ -9,16 +9,14 @@ nav_order: 6
 
 ## Table of content
 
-- [Table of content](#table-of-content)
-- [Definitions](#definitions)
-  - [Basics](#basics)
-  - [Quantum kernels](#quantum-kernels)
-- [Table of Wigner functions](#table-of-wigner-functions)
-- [Inner products](#inner-products)
-  - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
-  - [Rotated position states](#rotated-position-states)
-  - [Displaced Fock states](#displaced-fock-states)
-- [Gaussian kernel](#gaussian-kernel)
+- [\\int\\hat{D}(\\alpha)\\tfrac{\\mathrm{d}^2\\alpha}{\\pi}](#inthatdalphatfracmathrmd2alphapi)
+    - [Quantum kernels](#quantum-kernels)
+  - [Table of Wigner functions](#table-of-wigner-functions)
+  - [Inner products](#inner-products)
+    - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
+    - [Rotated position states](#rotated-position-states)
+    - [Displaced Fock states](#displaced-fock-states)
+  - [Gaussian kernel](#gaussian-kernel)
 
 ## Definitions
 
@@ -28,14 +26,13 @@ nav_order: 6
 A continuous variable (CV) system is a physical system defined with respect to a continuous degree of freedom taking values ranging over $\mathbb{R}$.
 
 **Position.**
-With each value $x\in\mathbb{R}$ of a quantum CV degree of freedom is associated a _position_ eigenstate $\vert x\rangle$. The position operator is obtained through its spectral decomposition as $\hat{x}=\int x\vert x\rangle\langle x\vert\mathrm{d}x$.
+With each value $x\in\mathbb{R}$ of a quantum CV degree of freedom is associated a _position_ eigenstate $\vert x\rangle$. Position is the natural basis of the quantum system. The position operator is obtained through its spectral decomposition as $\hat{x}=\int x\vert x\rangle\langle x\vert\mathrm{d}x$.
 
 **Momentum.**
 The _momentum_ eigenstates $\ket{p}$ are Fourier dual to the position eigenstates. They are defined from the inner product $\langle x\vert p\rangle=\exp(ixp)/\sqrt{2\pi}$. The position operator is then defined as $\hat{p}=\int p\vert p\rangle\langle p\vert\mathrm{d}p$.
 
 **Mode operators.**
-The mode operators encode position and momentum in a single operator.
-Define the _annihilation_ operator $\hat{a}=\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$ and the _creation_ operator $\hat{a}^{\dagger}=\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$.
+The mode operators both encode position and momentum in a single (non-Hermitian) operator. Define the _annihilation_ operator $\hat{a}=(\hat{x}+i\hat{p})/\sqrt{2}$ and the _creation_ operator $\hat{a}^{\dagger}=(\hat{x}-i\hat{p})/\sqrt{2}$.
 
 | Operator     |                  Real                   |                      Complex                      |
 | ------------ | :-------------------------------------: | :-----------------------------------------------: |
@@ -43,6 +40,8 @@ Define the _annihilation_ operator $\hat{a}=\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p}
 | Momentum     |                $\hat{p}$                | $\tfrac{1}{\sqrt{2}i}(\hat{a}-\hat{a}^{\dagger})$ |
 | Annihilation | $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$ |                     $\hat{a}$                     |
 | Creation     | $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$ |                $\hat{a}^{\dagger}$                |
+
+**Vectorized operators.** Define the mode-vector $\hat{\boldsymbol{b}}=(\begin{smallmatrix} \hat{a} \\ \hat{a}^{\dagger} \end{smallmatrix})$ and the quadrature-vector $\hat{\boldsymbol{q}}=(\begin{smallmatrix} \hat{x} \\ \hat{p}\end{smallmatrix})$. Define the vectorial commutator $[\boldsymbol{x},\boldsymbol{y}]=\boldsymbol{x}\boldsymbol{y}^{\intercal}-\boldsymbol{y}\boldsymbol{x}^{\intercal}$.
 
 **Commutation relations.**
 Position and momentum obey the canonical commutation relation $[\hat{x},\hat{p}]=i$. The mode operators obey the bosonic commutation relation $[\hat{a},\hat{a}^{\dagger}]=1$.
@@ -70,6 +69,16 @@ Equivalently, $\hat{D}(\alpha)=\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}
 - _Phase-space_ convolution, $(f\ast g)(\alpha):=\int f(\beta)g(\alpha-\beta)\tfrac{\mathrm{d}^2\beta}{\pi}$
 - _Hybrid_ convolution, $f\ast\hat{\rho}=\hat{\rho}\ast f:=\int f(\alpha)\hat{D}(\alpha)\hat{\rho}\hat{D}^{\dagger}(\alpha)\mathrm{d}^2\alpha$
 
+
+### Kernels
+
+$$
+\begin{align*}
+\int\hat{D}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}
+=
+\hat{\Pi}
+\end{align*}
+$$
 
 
 | Operator      |        Notation        |                      Definition                      |
