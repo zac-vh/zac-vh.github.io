@@ -22,6 +22,8 @@ nav_order: 6
 
 ## Basics
 
+---
+
 **Continuous variable system.**
 A continuous variable (CV) system is a physical system defined with respect to a continuous degree of freedom, taking values ranging over $\mathbb{R}$.
 
@@ -49,6 +51,8 @@ Equivalently, $\hat{D}(\alpha)=\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}
 
 ## Convolutions
 
+---
+
 **Phase-space convolution.** $(f\ast g)(\alpha):=\int f(\beta)g(\alpha-\beta)\tfrac{\mathrm{d}^2\beta}{\pi}$
 
 **Quantum convolution.** $(\hat{\rho}\ast\hat{\sigma})(\alpha):=\mathrm{Tr}\big[\hat{\rho}\hat{D}(\alpha)\hat{\Pi}\hat{\sigma}\hat{\Pi}\hat{D}^{\dagger}(\alpha)\big]$
@@ -56,6 +60,8 @@ Equivalently, $\hat{D}(\alpha)=\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}
 **Hybrid convolution.** $f\ast\hat{\rho}=\hat{\rho}\ast f:=\int f(\alpha)\hat{D}(\alpha)\hat{\rho}\hat{D}^{\dagger}(\alpha)\mathrm{d}^2\alpha$
 
 ## Kernels
+
+---
 
 The kernel is the tip of the pencil drawing the phase-space distribution.
 
@@ -70,6 +76,8 @@ The kernel is the tip of the pencil drawing the phase-space distribution.
 
 ## Phase space
 
+---
+
 **Wigner transform.** The Wigner transform of a quantum operator $\hat{\rho}$ is defined as $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$.
 
 **Inverse Wigner transform.** A quantum operator $\hat{\rho}$ can be reconstructed from its Wigner function via $\hat{\rho}=W_{\hat{\rho}}\ast\hat{\Delta}$.
@@ -79,6 +87,8 @@ Define the Hilbert-Schimdt (HS) inner product $\langle\hat{\rho},\hat{\sigma}\ra
 **Traciality** (_Overlap formula_)**.** The Hilbert–Schmidt inner product between two operators equals the $L^2$ inner product of their Wigner functions: $\langle\hat{\rho},\hat{\sigma}\rangle=\langle W_{\hat{\rho}},W_{\hat{\sigma}}\rangle$.
 
 ## Table of Wigner functions
+
+---
 
 | Operator $\hat{\rho}$ |   Wigner function $W_{\hat{\rho}}(\alpha)$    |
 | :-------------------: | :-------------------------------------------: |
@@ -91,6 +101,8 @@ Define the Hilbert-Schimdt (HS) inner product $\langle\hat{\rho},\hat{\sigma}\ra
 |       $\hat{H}$       |             $\vert\alpha\vert^2$              |
 
 ## Inner products
+
+---
 
 ### Position, momentum, photon-numer, coherent
 

@@ -1,5 +1,5 @@
 {
-  "basics": {
+  "info": {
     "name": "Zacharie Van Herstraeten",
     "label": "Scientist",
     "image": "",
@@ -28,7 +28,7 @@
       "position": "Postdoctoral Researcher II",
       "url": "https://qat.inria.fr/presentation/",
       "startDate": "2024-02-01",
-      "endDate": "2026-01-31",
+      "endDate": "today",
       "summary": "Postdoc with Ulysse Chabaud, at École Normale Supérieure.",
       "highlights": ["Phase-space"]
     },
@@ -49,26 +49,11 @@
       "location": "Brussels, Belgium",
       "url": "https://www.uzh.ch/",
       "area": "Quantum information",
-      "studyType": "PhD",
+      "studyType": "PhD student",
       "startDate": "2017-09-01",
       "endDate": "2021-12-01",
       "score": "10",
       "courses": ["Theory of Relativity"]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
     }
   ],
   "languages": [
@@ -87,14 +72,7 @@
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "keywords": ["Quantum Mechanics", "Quantum Information"]
     }
   ],
   "references": [
