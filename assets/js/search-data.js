@@ -483,18 +483,18 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0003-1810-0942", "_blank");
         },
       },{
-        id: 'social-researchgate',
-        title: 'ResearchGate',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.researchgate.net/profile/Zacharie-Van-Herstraeten/", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=SyKuBvQAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://arxiv.org/search/?searchtype=author&query=Van+Herstraeten%2C+Z", "_blank");
         },
       },{
       id: 'light-theme',
