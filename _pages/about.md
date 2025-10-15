@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Zacℏarie Van Herstraeten
+subtitle: __Zacharie__ Van Herstraeten
 
 profile:
   align: right

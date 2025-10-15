@@ -51,6 +51,6 @@ scholar_userid: SyKuBvQAAAAJ # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: arxiv.svg # can be png, svg, jpg
+  logo: https://github.com/zac-vh/zac-vh.github.io/blob/main/assets/img/arxiv.svg # can be png, svg, jpg
   title: arXiv
   url: https://arxiv.org/search/?searchtype=author&query=Van+Herstraeten%2C+Z
