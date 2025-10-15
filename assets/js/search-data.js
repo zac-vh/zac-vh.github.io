@@ -462,13 +462,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://arxiv.org/search/?searchtype=author&query=Van+Herstraeten%2C+Z", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
@@ -476,11 +469,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=SyKuBvQAAAAJ", "_blank");
         },
       },{
-        id: 'social-orcid',
-        title: 'ORCID',
+        id: 'social-custom_social',
+        title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://orcid.org/0000-0003-1810-0942", "_blank");
+          window.open("https://arxiv.org/search/?searchtype=author&query=Van+Herstraeten%2C+Z", "_blank");
         },
       },{
         id: 'social-linkedin',
