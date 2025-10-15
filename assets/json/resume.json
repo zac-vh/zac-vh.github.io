@@ -23,17 +23,19 @@
   },
   "work": [
     {
-      "name": "INRIA, Paris",
-      "position": "Postdoctoral Researcher",
+      "name": "INRIA, QAT team",
+      "location": "Paris, France",
+      "position": "Postdoctoral Researcher II",
       "url": "https://qat.inria.fr/presentation/",
       "startDate": "2024-02-01",
       "endDate": "2026-01-31",
-      "summary": "Postdoc in the QAT team, located at École Normale Supérieure.",
+      "summary": "Postdoc with Ulysse Chabaud, at École Normale Supérieure.",
       "highlights": ["Phase-space"]
     },
     {
       "name": "University of Arizona, Tucson",
-      "position": "Postdoctoral Researcher",
+      "location": "Tucson, AZ, USA",
+      "position": "Postdoctoral Researcher I",
       "url": "https://wp.optics.arizona.edu/sguha/",
       "startDate": "2022-01-01",
       "endDate": "2023-12-31",
