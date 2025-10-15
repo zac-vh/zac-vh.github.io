@@ -10,20 +10,17 @@ nav_order: 6
 ## Table of content
 
 - [Table of content](#table-of-content)
-- [Definitions](#definitions)
-  - [Basics](#basics)
-  - [Kernels](#kernels)
-  - [Convolution](#convolution)
-  - [Phase space](#phase-space)
+- [Basics](#basics)
+- [Convolutions](#convolutions)
+- [Kernels](#kernels)
+- [Phase space](#phase-space)
 - [Table of Wigner functions](#table-of-wigner-functions)
 - [Inner products](#inner-products)
   - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
   - [Rotated position states](#rotated-position-states)
   - [Displaced Fock states](#displaced-fock-states)
 
-## Definitions
-
-### Basics
+## Basics
 
 **Continuous variable system.**
 A continuous variable (CV) system is a physical system defined with respect to a continuous degree of freedom, taking values ranging over $\mathbb{R}$.
@@ -50,22 +47,7 @@ Equivalently, $\hat{D}(\alpha)=\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}
 
 **Parity.** The parity operator is defined as $(-1)^{\hat{n}}$. Or $\int\vert x\rangle\langle -x\vert\mathrm{d}x$. We have the relation $\hat{\Pi}=\int\hat{D}(\alpha)\tfrac{\mathrm{d}^2\alpha}{\pi}$. Parity is not a trace-class operator, i, some bases its trace converges and gives $\mathrm{Tr}[\hat{\Pi}]=1/2$.
 
-### Kernels
-
-**Thermal state.** The thermal state with mean photon-number $\bar{n}$ is $\hat{\tau}(\bar{n})=\frac{1}{\bar{n}+1}\sum_{n=0}^{\infty}\left(\frac{\bar{n}}{\bar{n}+1}\right)^n\ket{n}\bra{n}$.
-
-**Phase-point operator.** The phase-point operator is $\hat{\Delta}(\alpha)=2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$.
-
-| Operator      |        Notation        |                      Definition                      |
-| ------------- | :--------------------: | :--------------------------------------------------: |
-| Annihilation  |       $\hat{a}$        |       $\tfrac{1}{\sqrt{2}}(\hat{x}+i\hat{p})$        |
-| Creation      |  $\hat{a}^{\dagger}$   |       $\tfrac{1}{\sqrt{2}}(\hat{x}-i\hat{p})$        |
-| Displacement  |   $\hat{D}(\alpha)$    | $\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a})$ |
-| Photon-number |       $\hat{n}$        |              $\hat{a}^{\dagger}\hat{a}$              |
-| Parity        |      $\hat{\Pi}$       |                   $(-1)^{\hat{n}}$                   |
-| Phase-point   | $\hat{\Delta}(\alpha)$ | $2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$ |
-
-### Convolution
+## Convolutions
 
 **Phase-space convolution.** $(f\ast g)(\alpha):=\int f(\beta)g(\alpha-\beta)\tfrac{\mathrm{d}^2\beta}{\pi}$
 
@@ -73,7 +55,20 @@ Equivalently, $\hat{D}(\alpha)=\exp(\alpha\hat{a}^{\dagger}-\alpha^{\ast}\hat{a}
 
 **Hybrid convolution.** $f\ast\hat{\rho}=\hat{\rho}\ast f:=\int f(\alpha)\hat{D}(\alpha)\hat{\rho}\hat{D}^{\dagger}(\alpha)\mathrm{d}^2\alpha$
 
-### Phase space
+## Kernels
+
+The kernel is the tip of the pencil drawing the phase-space distribution.
+
+**Phase-point operator.** The phase-point operator is $\hat{\Delta}(\alpha)=2\hat{D}(\alpha)\hat{\Pi}\hat{D}^{\dagger}(\alpha)$.
+
+**Thermal state.** The thermal state with mean photon-number $\bar{n}$ is $\hat{\tau}(\bar{n})=\frac{1}{\bar{n}+1}\sum_{n=0}^{\infty}\left(\frac{\bar{n}}{\bar{n}+1}\right)^n\ket{n}\bra{n}$.
+
+|    Name     |       Notation        |                               Definition                                |
+| :---------: | :-------------------: | :---------------------------------------------------------------------: |
+| Phase-point |    $\hat{\Delta}$     |                              $2\hat{\Pi}$                               |
+|   Thermal   | $\hat{\tau}(\bar{n})$ | $\tfrac{1}{\bar{n}+1}\left(\tfrac{\bar{n}}{\bar{n}+1}\right)^{\hat{n}}$ |
+
+## Phase space
 
 **Wigner transform.** The Wigner transform of a quantum operator $\hat{\rho}$ is defined as $W_{\hat{\rho}}=\hat{\rho}\ast\hat{\Delta}$.
 
