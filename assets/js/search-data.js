@@ -455,11 +455,18 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-email',
-        title: 'email',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%7A%61%63%68%61%72%69%65.%76%61%6E-%68%65%72%73%74%72%61%65%74%65%6E@%69%6E%72%69%61.%66%72", "_blank");
+          window.open("https://github.com/zac-vh", "_blank");
+        },
+      },{
+        id: 'social-hal',
+        title: 'HAL',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://cv.hal.science/zacharie-van-herstraeten", "_blank");
         },
       },{
         id: 'social-inspire',
@@ -469,11 +476,25 @@ ninja.data = [{
           window.open("https://inspirehep.net/authors/1953485", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/zacharie-van-herstraeten-810023141", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-1810-0942", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Zacharie-Van-Herstraeten/", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -483,11 +504,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=SyKuBvQAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-work',
+        title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://qat.inria.fr/presentation/", "_blank");
         },
       },{
       id: 'light-theme',
