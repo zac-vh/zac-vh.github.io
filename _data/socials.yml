@@ -2,6 +2,14 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
+custom_social: # can be any name here other than the ones already defined above
+  logo: https://raw.githubusercontent.com/zac-vh/zac-vh.github.io/7dd90dc40ed492ddd7693001b7f8bc173baee202/assets/img/arxiv.svg # can be png, svg, jpg
+  title: arXiv
+  url: https://arxiv.org/search/?searchtype=author&query=Van+Herstraeten%2C+Z
+scholar_userid: SyKuBvQAAAAJ
+orcid_id: 0000-0003-1810-0942
+linkedin_username: zacharie-van-herstraeten-810023141
+github_username: zac-vh
 # academia_edu:  your organization and your username Ex. https://organization.academia.edu/UserName
 #  organization: princeton # your organization as appears in the subdomain
 #  username:  AlbertEinstein # your username
@@ -13,7 +21,7 @@
 # email: zacharie.van-herstraeten@inria.fr # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-github_username: zac-vh # your GitHub user name
+# github_username: zac-vh # your GitHub user name
 # gitlab_username: # your GitLab user name
 # hal_id: zacharie-van-herstraeten # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
@@ -24,17 +32,17 @@ github_username: zac-vh # your GitHub user name
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: zacharie-van-herstraeten-810023141 # your LinkedIn user name
+# linkedin_username: zacharie-van-herstraeten-810023141 # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-orcid_id: 0000-0003-1810-0942 # your ORCID ID
+# orcid_id: 0000-0003-1810-0942 # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: Zacharie-Van-Herstraeten # your profile on ResearchGate
 # rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: SyKuBvQAAAAJ # your Google Scholar ID
+# scholar_userid: SyKuBvQAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
@@ -50,7 +58,7 @@ scholar_userid: SyKuBvQAAAAJ # your Google Scholar ID
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://raw.githubusercontent.com/zac-vh/zac-vh.github.io/7dd90dc40ed492ddd7693001b7f8bc173baee202/assets/img/arxiv.svg # can be png, svg, jpg
-  title: arXiv
-  url: https://arxiv.org/search/?searchtype=author&query=Van+Herstraeten%2C+Z
+# custom_social: # can be any name here other than the ones already defined above
+#   logo: https://raw.githubusercontent.com/zac-vh/zac-vh.github.io/7dd90dc40ed492ddd7693001b7f8bc173baee202/assets/img/arxiv.svg # can be png, svg, jpg
+#   title: arXiv
+#   url: https://arxiv.org/search/?searchtype=author&query=Van+Herstraeten%2C+Z
