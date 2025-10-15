@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: __Zacharie__ Van Herstraeten
+subtitle: "<strong>Zacharie</strong> Van Herstraeten"
 
 profile:
   align: right
