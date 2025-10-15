@@ -462,25 +462,11 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-github',
-        title: 'GitHub',
+        id: 'social-custom_social',
+        title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/zac-vh", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/zacharie-van-herstraeten-810023141", "_blank");
-        },
-      },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0000-0003-1810-0942", "_blank");
+          window.open("https://arxiv.org/search/?searchtype=author&query=Van+Herstraeten%2C+Z", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -490,11 +476,25 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=SyKuBvQAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-orcid',
+        title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("https://arxiv.org/search/?searchtype=author&query=Van+Herstraeten%2C+Z", "_blank");
+          window.open("https://orcid.org/0000-0003-1810-0942", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/zacharie-van-herstraeten-810023141", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/zac-vh", "_blank");
         },
       },{
       id: 'light-theme',
