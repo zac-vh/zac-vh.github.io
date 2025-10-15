@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "nav-memo",
           title: "memo",
           description: "A short memo for quantum optics",
@@ -462,20 +469,6 @@ ninja.data = [{
           window.open("https://github.com/zac-vh", "_blank");
         },
       },{
-        id: 'social-hal',
-        title: 'HAL',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://cv.hal.science/zacharie-van-herstraeten", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1953485", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -502,13 +495,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=SyKuBvQAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-work',
-        title: 'Work',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://qat.inria.fr/presentation/", "_blank");
         },
       },{
       id: 'light-theme',
