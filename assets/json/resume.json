@@ -40,16 +40,16 @@
     {
       "name": "Inria \u2014 QAT team, at École Normale Supérieure",
       "location": "Paris, France",
-      "position": "Postdoctoral Researcher II",
+      "position": "Postdoctoral Researcher",
       "url": "https://qat.inria.fr/presentation/",
       "startDate": "2024-02-01",
       "summary": "Research in continuous-variable quantum information and phase-space resource theories, under the supervision of Ulysse Chabaud.",
-      "highlights": ["Wigner positivity", "Majorization for quasiprobabilitiies"]
+      "highlights": ["Wigner positivity", "Majorization for quasiprobabilities"]
     },
     {
       "name": "College of Optical Sciences \u2014 University of Arizona",
       "location": "Tucson, AZ, USA",
-      "position": "Postdoctoral Researcher I",
+      "position": "Postdoctoral Researcher",
       "url": "https://wp.optics.arizona.edu/sguha/",
       "startDate": "2022-01-01",
       "endDate": "2024-01-01",
@@ -95,7 +95,8 @@
       "studyType": "PhD",
       "startDate": "2017-09-01",
       "endDate": "2021-12-01",
-      "thesis": "Majorization theoretical approach to quantum uncertainty: From Wigner entropy to Gaussian bosonic channels"
+      "thesis": "Majorization theoretical approach to quantum uncertainty: From Wigner entropy to Gaussian bosonic channels",
+      "summary": "PhD thesis: Majorization theoretical approach to quantum uncertainty — From Wigner entropy to Gaussian bosonic channels."
     },
     {
       "institution": "École polytechnique de Bruxelles, Université libre de Bruxelles",
@@ -156,7 +157,7 @@
   "publications": [],
   "awards": [
     {
-      "title": "BAEF Post-doctoral Fellowship",
+      "title": "BAEF Postdoctoral Fellowship",
       "url": "https://baef.be/",
       "date": "2021-01-29",
       "awarder": "Belgian American Educational Foundation (BAEF)",
