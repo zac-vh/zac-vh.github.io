@@ -57,7 +57,33 @@
       "highlights": ["Communication over quantum channels", "Entanglement enhancement"]
     }
   ],
-  "volunteer": [],
+  "volunteer": [
+    {
+      "position": "Co-organizer",
+      "organization": "QuiDiQua 3",
+      "url": "https://quidiqua3.sciencesconf.org",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…"
+    },
+    {
+      "position": "Maintainer",
+      "organization": "Qopy package",
+      "url": "https://quidiqua3.sciencesconf.org",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…"
+    },
+    {
+      "organization": "People's Climate March",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Description"
+    }
+  ],
   "education": [
     {
       "institution": "Center for Quantum Information and Communication (QuIC), École polytechnique de Bruxelles, Université libre de Bruxelles",
