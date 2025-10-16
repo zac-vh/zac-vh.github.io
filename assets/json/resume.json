@@ -137,12 +137,14 @@
   "awards": [
     {
       "title": "BAEF Post-doctoral Fellowship",
+      "url": "https://baef.be/",
       "date": "2021-01-29",
       "awarder": "Belgian American Educational Foundation (BAEF)",
       "summary": "One-year postdoctoral fellowship supporting research in quantum communication and optics at the University of Arizona."
     },
     {
       "title": "F.R.S.-FNRS Doctoral Fellowship (FRIA)",
+      "url": "https://www.frs-fnrs.be/docs/Resultats/FRS-FNRS_FRIA-2017_candidatures_retenues.html",
       "date": "2017-12-15",
       "awarder": "Fonds de la Recherche Scientifique (FNRS), Belgium",
       "summary": "Four-year doctoral fellowship in quantum information theory at Université libre de Bruxelles."
