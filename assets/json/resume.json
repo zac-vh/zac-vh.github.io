@@ -47,7 +47,7 @@
       "highlights": ["Wigner positivity", "Majorization for quasiprobabilitiies"]
     },
     {
-      "name": "University of Arizona \u2014 College of Optical Sciences",
+      "name": "College of Optical Sciences \u2014 University of Arizona",
       "location": "Tucson, AZ, USA",
       "position": "Postdoctoral Researcher I",
       "url": "https://wp.optics.arizona.edu/sguha/",
@@ -92,7 +92,7 @@
   "skills": [
     {
       "name": "Quantum optics",
-      "level": "Expert",
+      "level": "Master",
       "keywords": ["Continuous variables", "Phase-space methods", "Quasiprobabilities"]
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "name": "Scientific computing",
-      "level": "Proficient",
+      "level": "Intermediate",
       "keywords": ["Python", "Mathematica", "LaTeX"]
     }
   ],
@@ -138,7 +138,7 @@
     {
       "title": "BAEF Post-doctoral Fellowship",
       "date": "2021-01-29",
-      "awarder": "Beglian American Educational Foundation (BAEF)",
+      "awarder": "Belgian American Educational Foundation (BAEF)",
       "summary": "One-year postdoctoral fellowship supporting research in quantum communication and optics at the University of Arizona."
     },
     {
