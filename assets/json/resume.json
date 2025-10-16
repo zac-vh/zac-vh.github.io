@@ -1,5 +1,6 @@
 {
-  "info": {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
     "name": "Zacharie Van Herstraeten",
     "image": "",
     "email": "zacharie.van-herstraeten@inria.fr",
@@ -13,7 +14,6 @@
       "position": "Postdoctoral Researcher II",
       "url": "https://qat.inria.fr/presentation/",
       "startDate": "2024-02-01",
-      "endDate": "today",
       "summary": "Postdoc with Ulysse Chabaud, at École Normale Supérieure.",
       "highlights": ["Phase-space"]
     },
@@ -39,6 +39,18 @@
       "endDate": "2021-12-01",
       "score": "10",
       "courses": ["Theory of Relativity"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Quantum information (continuous variables)",
+      "level": "Advanced",
+      "keywords": ["Wigner functions", "Gaussian channels", "Quasiprobabilities", "Majorization", "Convex analysis"]
+    },
+    {
+      "name": "Scientific computing",
+      "level": "Advanced",
+      "keywords": ["Python", "NumPy", "SciPy", "Matplotlib", "Git", "LaTeX"]
     }
   ],
   "languages": [
@@ -80,6 +92,15 @@
       "startDate": "2018-01-01",
       "endDate": "2018-01-01",
       "url": "https://example.com"
+    },
+    {
+      "name": "qopy — Quantum Optics in Phase-space",
+      "summary": "Open-source Python package for Wigner functions, Lorenz curves, and CV quantum-optics utilities.",
+      "highlights": ["Vectorized Wigner evaluators", "Lorenz-curve/majorization helpers", "Modern packaging and tests"],
+      "startDate": "2024-01-01",
+      "url": "https://github.com/zac-vh/qopy"
     }
-  ]
+  ],
+  "publications": [],
+  "awards": []
 }

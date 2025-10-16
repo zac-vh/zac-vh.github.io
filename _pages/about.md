@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<span style='font-variant: small-caps;'><strong>Zacharie</strong> Van Herstraeten</span>"
+subtitle: "<strong>Zacharie</strong> <span style='font-variant: small-caps;'>Van Herstraeten</span>"
 
 profile:
   align: right
