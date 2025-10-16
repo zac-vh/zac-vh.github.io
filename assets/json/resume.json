@@ -5,7 +5,13 @@
     "image": "",
     "email": "zacharie.van-herstraeten@inria.fr",
     "url": "https://zac-vh.github.io/",
-    "summary": "Postdoc in quantum information"
+    "summary": "Postdoc in quantum information",
+    "location": {
+      "address": "25 avenue Secrétan",
+      "postalCode": "75019",
+      "city": "Paris",
+      "countryCode": "FR"
+    }
   },
   "work": [
     {
@@ -18,7 +24,7 @@
       "highlights": ["Phase-space"]
     },
     {
-      "name": "University of Arizona, Tucson",
+      "name": "University of Arizona",
       "location": "Tucson, AZ, USA",
       "position": "Postdoctoral Researcher I",
       "url": "https://wp.optics.arizona.edu/sguha/",
@@ -28,9 +34,10 @@
       "highlights": ["Quantum communication"]
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "Université libre de Bruxelles",
+      "institution": "Center for Quantum Information and Communication, École polytechnique de Bruxelles, Université libre de Bruxelles",
       "location": "Brussels, Belgium",
       "url": "http://quic.ulb.ac.be/",
       "area": "Quantum information",
@@ -40,7 +47,7 @@
       "courses": []
     },
     {
-      "institution": "Université libre de Bruxelles",
+      "institution": "École polytechnique de Bruxelles, Université libre de Bruxelles",
       "location": "Brussels, Belgium",
       "url": "https://polytech.ulb.be/en/studies/masters/msc-in-physics",
       "area": "Quantum information",
@@ -62,13 +69,15 @@
   ],
   "skills": [
     {
-      "name": "Quantum information (continuous variables)",
-      "level": "Advanced",
-      "keywords": ["Wigner functions", "Gaussian channels", "Quasiprobabilities", "Majorization", "Convex analysis"]
+      "name": "Quantum optics",
+      "keywords": ["Wigner functions", "Gaussian channels", "Quasiprobabilities", "Continuous variables"]
+    },
+    {
+      "name": "Information theory",
+      "keywords": ["Majorization", "Entropies", "Channel capacities"]
     },
     {
       "name": "Scientific computing",
-      "level": "Advanced",
       "keywords": ["Python", "NumPy", "SciPy", "Matplotlib", "Git", "LaTeX"]
     }
   ],
@@ -88,38 +97,29 @@
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Quantum Mechanics", "Quantum Information"]
+      "keywords": ["Quantum Optics", "Quantum Information", "Quantum phase-space"]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    },
-    {
-      "name": "qopy — Quantum Optics in Phase-space",
-      "summary": "Open-source Python package for Wigner functions, Lorenz curves, and CV quantum-optics utilities.",
-      "highlights": ["Vectorized Wigner evaluators", "Lorenz-curve/majorization helpers", "Modern packaging and tests"],
-      "startDate": "2024-01-01",
+      "name": "qopy — Quantum Optics in Python",
+      "summary": "Open-source Python package for quantum optics, with a focus on Wigner functions.",
+      "highlights": ["Vectorized Wigner evaluators", "Lorenz-curve/majorization helpers"],
       "url": "https://github.com/zac-vh/qopy"
     }
   ],
   "publications": [],
-  "awards": []
+  "awards": [{
+    "title": "F.R.S.-FNRS Doctoral Fellowship (FRIA)",
+    "date": "2017-12-15",
+    "awarder": "Fonds de la Recherche Scientifique (FNRS), Belgium",
+    "summary": "Four-year PhD fellowship in quantum information theory at Université libre de Bruxelles."
+  },
+  {
+    "title": "BAEF Post-doctoral Fellowship",
+    "date": "2021-02-01",
+    "awarder": "Beglium American Educational Foundation (BAEF)",
+    "summary": "One-year postdoctoral fellowship to conduct research in quantum information at the University of Arizona (USA)."
+  }]
 }
