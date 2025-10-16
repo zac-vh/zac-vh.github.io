@@ -10,8 +10,31 @@
       "address": "25 avenue Secrétan",
       "postalCode": "75019",
       "city": "Paris",
+      "region": "Île-de-France",
       "countryCode": "FR"
-    }
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "Zacharie Van Herstraeten",
+        "url": "https://scholar.google.com/citations?user=SyKuBvQAAAAJ"
+      },
+      {
+        "network": "arXiv",
+        "username": "Z. Van Herstraeten",
+        "url": "https://arxiv.org/search/?searchtype=author&query=Van+Herstraeten%2C+Z"
+      },
+      {
+        "network": "ORCID",
+        "username": "0000-0003-1810-0942",
+        "url": "https://orcid.org/0000-0003-1810-0942"
+      },
+      {
+        "network": "GitHub",
+        "username": "zac-vh",
+        "url": "https://github.com/zac-vh"
+      }
+    ]
   },
   "work": [
     {
@@ -110,16 +133,18 @@
     }
   ],
   "publications": [],
-  "awards": [{
-    "title": "F.R.S.-FNRS Doctoral Fellowship (FRIA)",
-    "date": "2017-12-15",
-    "awarder": "Fonds de la Recherche Scientifique (FNRS), Belgium",
-    "summary": "Four-year PhD fellowship in quantum information theory at Université libre de Bruxelles."
-  },
-  {
-    "title": "BAEF Post-doctoral Fellowship",
-    "date": "2021-02-01",
-    "awarder": "Beglium American Educational Foundation (BAEF)",
-    "summary": "One-year postdoctoral fellowship to conduct research in quantum information at the University of Arizona (USA)."
-  }]
+  "awards": [
+    {
+      "title": "F.R.S.-FNRS Doctoral Fellowship (FRIA)",
+      "date": "2017-12-15",
+      "awarder": "Fonds de la Recherche Scientifique (FNRS), Belgium",
+      "summary": "Four-year PhD fellowship in quantum information theory at Université libre de Bruxelles."
+    },
+    {
+      "title": "BAEF Post-doctoral Fellowship",
+      "date": "2021-02-01",
+      "awarder": "Beglian American Educational Foundation (BAEF)",
+      "summary": "One-year postdoctoral fellowship to conduct research in quantum information at the University of Arizona (USA)."
+    }
+  ]
 }
