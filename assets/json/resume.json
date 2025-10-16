@@ -5,7 +5,7 @@
     "image": "",
     "email": "zacharie.van-herstraeten@inria.fr",
     "url": "https://zac-vh.github.io/",
-    "summary": "Postdoc in quantum information",
+    "summary": "Postdoctoral researcher in quantum information and quantum optics, specializing in continuous-variable systems, phase-space methods, and resource theories.",
     "location": {
       "address": "25 avenue Secrétan",
       "postalCode": "75019",
@@ -43,8 +43,8 @@
       "position": "Postdoctoral Researcher II",
       "url": "https://qat.inria.fr/presentation/",
       "startDate": "2024-02-01",
-      "summary": "Postdoc with Ulysse Chabaud.",
-      "highlights": ["Phase-space"]
+      "summary": "Research in continuous-variable quantum information and phase-space resource theories, under the supervision of Ulysse Chabaud.",
+      "highlights": ["Characterization of Wigner-positivity", "Majorization for quasi-probabilitiies"]
     },
     {
       "name": "University of Arizona \u2014 College of Optical Sciences",
@@ -53,8 +53,8 @@
       "url": "https://wp.optics.arizona.edu/sguha/",
       "startDate": "2022-01-01",
       "endDate": "2024-01-01",
-      "summary": "Postdoc with Saikat Guha.",
-      "highlights": ["Quantum communication"]
+      "summary": "Postdoctoral research with Saikat Guha on quantum communication and optical information processing.",
+      "highlights": ["Communication over non-Gaussian channels", "Entanglement-assisted communication"]
     }
   ],
   "volunteer": [],
@@ -67,27 +67,26 @@
       "studyType": "PhD",
       "startDate": "2017-09-01",
       "endDate": "2021-12-01",
-      "courses": []
+      "thesis": "Majorization theoretical approach to quantum uncertainty: From Wigner entropy to Gaussian bosonic channels"
     },
     {
       "institution": "École polytechnique de Bruxelles, Université libre de Bruxelles",
       "location": "Brussels, Belgium",
       "url": "https://polytech.ulb.be/en/studies/masters/msc-in-physics",
-      "area": "Quantum information",
+      "area": "Physical engineering",
       "studyType": "MSc",
       "startDate": "2015-09-01",
       "endDate": "2017-09-01",
       "courses": []
     },
     {
-      "institution": "NTNU",
+      "institution": "Norwegian University of Science and Technology (NTNU)",
       "location": "Trondheim, Norway",
       "url": "https://www.ntnu.edu",
-      "area": "Quantum information",
-      "studyType": "Exchange year",
+      "area": "Physical engineering",
+      "studyType": "Erasmus Programme",
       "startDate": "2015-09-01",
-      "endDate": "2016-09-01",
-      "courses": []
+      "endDate": "2016-09-01"
     }
   ],
   "skills": [
@@ -124,13 +123,7 @@
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": ["Quantum Optics", "Quantum Information", "Quantum phase-space"]
-    }
-  ],
+  "interests": [],
   "references": [],
   "projects": [
     {
@@ -146,13 +139,13 @@
       "title": "F.R.S.-FNRS Doctoral Fellowship (FRIA)",
       "date": "2017-12-15",
       "awarder": "Fonds de la Recherche Scientifique (FNRS), Belgium",
-      "summary": "Four-year PhD fellowship in quantum information theory at Université libre de Bruxelles."
+      "summary": "Four-year doctoral fellowship in quantum information theory at Université libre de Bruxelles."
     },
     {
       "title": "BAEF Post-doctoral Fellowship",
-      "date": "2021-02-01",
+      "date": "2021-01-29",
       "awarder": "Beglian American Educational Foundation (BAEF)",
-      "summary": "One-year postdoctoral fellowship to conduct research in quantum information at the University of Arizona (USA)."
+      "summary": "One-year postdoctoral fellowship supporting research in quantum communication and optics at the University of Arizona."
     }
   ]
 }
