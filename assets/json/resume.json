@@ -44,7 +44,7 @@
       "url": "https://qat.inria.fr/presentation/",
       "startDate": "2024-02-01",
       "summary": "Research in continuous-variable quantum information and phase-space resource theories, under the supervision of Ulysse Chabaud.",
-      "highlights": ["Characterization of Wigner-positivity", "Majorization for quasi-probabilitiies"]
+      "highlights": ["Wigner positivity", "Majorization for quasiprobabilitiies"]
     },
     {
       "name": "University of Arizona \u2014 College of Optical Sciences",
@@ -54,7 +54,7 @@
       "startDate": "2022-01-01",
       "endDate": "2024-01-01",
       "summary": "Postdoctoral research with Saikat Guha on quantum communication and optical information processing.",
-      "highlights": ["Communication over non-Gaussian channels", "Entanglement-assisted communication"]
+      "highlights": ["Communication over quantum channels", "Entanglement enhancement"]
     }
   ],
   "volunteer": [],
