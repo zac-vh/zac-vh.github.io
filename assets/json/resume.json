@@ -1,25 +1,10 @@
 {
   "info": {
     "name": "Zacharie Van Herstraeten",
-    "label": "Scientist",
     "image": "",
     "email": "zacharie.van-herstraeten@inria.fr",
     "url": "https://zac-vh.github.io/",
-    "summary": "Postdoc in quantum information",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "summary": "Postdoc in quantum information"
   },
   "work": [
     {
