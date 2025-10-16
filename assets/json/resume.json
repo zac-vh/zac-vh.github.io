@@ -23,22 +23,41 @@
       "position": "Postdoctoral Researcher I",
       "url": "https://wp.optics.arizona.edu/sguha/",
       "startDate": "2022-01-01",
-      "endDate": "2023-12-31",
+      "endDate": "2024-01-01",
       "summary": "Postdoc with Saikat Guha.",
       "highlights": ["Quantum communication"]
     }
   ],
   "education": [
     {
-      "institution": "Université libre de Bruxelles, Belgium",
+      "institution": "Université libre de Bruxelles",
       "location": "Brussels, Belgium",
-      "url": "https://www.uzh.ch/",
+      "url": "http://quic.ulb.ac.be/",
       "area": "Quantum information",
-      "studyType": "PhD student",
+      "studyType": "PhD",
       "startDate": "2017-09-01",
       "endDate": "2021-12-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": []
+    },
+    {
+      "institution": "Université libre de Bruxelles",
+      "location": "Brussels, Belgium",
+      "url": "https://polytech.ulb.be/en/studies/masters/msc-in-physics",
+      "area": "Quantum information",
+      "studyType": "MSc",
+      "startDate": "2015-09-01",
+      "endDate": "2017-09-01",
+      "courses": []
+    },
+    {
+      "institution": "NTNU",
+      "location": "Trondheim, Norway",
+      "url": "https://www.ntnu.edu",
+      "area": "Quantum information",
+      "studyType": "Exchange year",
+      "startDate": "2015-09-01",
+      "endDate": "2016-09-01",
+      "courses": []
     }
   ],
   "skills": [
