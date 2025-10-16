@@ -60,28 +60,30 @@
   "volunteer": [
     {
       "position": "Co-organizer",
-      "organization": "QuiDiQua 3",
+      "organization": "QuiDiQua 3 \u2014 Quasiprobability Distributions in Quantum Mechanics, Optics and Information",
       "url": "https://quidiqua3.sciencesconf.org",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…"
+      "startDate": "2025-11-05",
+      "endDate": "2025-11-07",
+      "summary": "Member of the organizing committee of the international conference QuiDiQua 3 (Paris, 2025), focusing on quasiprobability distributions and phase-space methods."
     },
     {
       "position": "Maintainer",
-      "organization": "Qopy package",
-      "url": "https://quidiqua3.sciencesconf.org",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…"
+      "organization": "Qopy — Quantum Optics in Python",
+      "url": "https://github.com/zac-vh/qopy/",
+      "summary": "Maintainer of an open-source Python package for quantum optics, with tools for Wigner functions, Lorenz curves, and Gaussian-state analysis."
     },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Description"
+      "position": "Teaching assistant",
+      "organization": "École polytechnique de Bruxelles, Université libre de Bruxelles (ULB)",
+      "location": "Brussels, Belgium",
+      "startDate": "2017-04-01",
+      "endDate": "2021-09-01",
+      "summary": "Teaching assistant for undergraduate courses in quantum mechanics."
+    },
+    {
+      "position": "Reviewer",
+      "organization": "Quantum, Physical Review A, Quantum Information Processing",
+      "summary": "Reviewer for various journals in quantum information and quantum physics."
     }
   ],
   "education": [
@@ -103,7 +105,6 @@
       "studyType": "MSc",
       "startDate": "2015-09-01",
       "endDate": "2017-09-01",
-      "courses": []
     },
     {
       "institution": "Norwegian University of Science and Technology (NTNU)",
@@ -127,7 +128,7 @@
       "keywords": ["Resource theories", "Gaussian channels", "Entropic inequalities"]
     },
     {
-      "name": "Mathematical physics",
+      "name": "Mathematical methods",
       "level": "Advanced",
       "keywords": ["Majorization", "Functional analysis", "Convex analysis"]
     },
@@ -151,14 +152,7 @@
   ],
   "interests": [],
   "references": [],
-  "projects": [
-    {
-      "name": "qopy — Quantum Optics in Python",
-      "summary": "Open-source Python package for quantum optics, with a focus on Wigner functions.",
-      "highlights": ["Vectorized Wigner evaluators", "Lorenz-curve/majorization helpers"],
-      "url": "https://github.com/zac-vh/qopy"
-    }
-  ],
+  "projects": [],
   "publications": [],
   "awards": [
     {
