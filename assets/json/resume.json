@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Zacharie Van Herstraeten",
-    "label": "Researcher in Quantum Information and Quantum Optics",
+    "label": "Quantum information & optics researcher",
     "image": "",
     "email": "zacharie.van-herstraeten@inria.fr",
     "url": "https://zac-vh.github.io/",
-    "summary": "Researcher in quantum information and quantum optics, specializing in continuous-variable systems, phase-space methods, and resource theories.",
+    "summary": "Seeking photons in their most genuinely quantum regimes, tracking their Wigner functions across quantum phase space, and observing them through the lens of information theory.",
     "location": {
       "address": "45 rue d'Ulm",
       "postalCode": "75005",
