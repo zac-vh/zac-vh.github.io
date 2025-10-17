@@ -43,8 +43,8 @@
       "position": "Postdoctoral Researcher",
       "url": "https://qat.inria.fr/presentation/",
       "startDate": "2024-02-01",
-      "summary": "Postdoctoral research within the QAT team, under the supervision of Dr. Ulysse Chabaud.",
-      "highlights": ["Wigner positivity", "Majorization for quasiprobabilities"]
+      "summary": "Postdoctoral research in the QAT team with Dr. Ulysse Chabaud, employing phase-space methods to identify and characterize quantum resources.",
+      "highlights": ["Operational description of Wigner positive states", "Extending majorization theory to quasiprobabilities"]
     },
     {
       "name": "College of Optical Sciences, University of Arizona",
@@ -53,8 +53,8 @@
       "url": "https://wp.optics.arizona.edu/sguha/",
       "startDate": "2022-01-01",
       "endDate": "2024-01-01",
-      "summary": "Postdoctoral research with Prof. Saikat Guha on quantum communication and optical information processing.",
-      "highlights": ["Communication over quantum channels", "Entanglement enhancement"]
+      "summary": "Postdoctoral research in the Quantum Photonic Applications Group of Prof. Saikat Guha, focusing on quantum communication within continuous-variable quantum information theory.",
+      "highlights": ["Capacity of non-Gaussian bosonic channels", "Entanglement enhancement via photon subtraction"]
     }
   ],
   "volunteer": [
@@ -63,16 +63,16 @@
       "organization": "QuiDiQua 3 \u2014 Quasiprobability Distributions in Quantum Mechanics, Optics and Information",
       "url": "https://quidiqua3.sciencesconf.org",
       "location": "Paris, France",
-      "startDate": "2025-11-05",
-      "endDate": "2025-11-07",
+      "startDate": "2025-05-01",
+      "endDate": "2025-11-15",
       "summary": "Member of the organizing committee of the international conference QuiDiQua 3 (Paris, 2025), focusing on quasiprobability distributions and phase-space methods."
     },
     {
       "position": "Maintainer",
-      "organization": "Qopy — Quantum Optics in Python",
+      "organization": "qopy — Quantum Optics in Python",
       "url": "https://github.com/zac-vh/qopy/",
       "startDate": "2025-05-23",
-      "summary": "Maintainer of an open-source Python package for quantum optics, with tools for Wigner functions, Lorenz curves, and Gaussian-state analysis."
+      "summary": "Developer and maintainer of an open-source Python toolkit for Wigner functions, bosonic channels, and visualization in quantum optics."
     },
     {
       "position": "Teaching assistant",
@@ -80,7 +80,7 @@
       "location": "Brussels, Belgium",
       "startDate": "2017-09-01",
       "endDate": "2021-12-01",
-      "summary": "Teaching assistant for undergraduate courses in quantum mechanics."
+      "summary": "Taught exercise sessions and lectures in the quantum mechanics course for third-year engineering students. Supervised the master's theses of two students."
     },
     {
       "position": "Reviewer",
@@ -96,7 +96,7 @@
       "location": "Brussels, Belgium",
       "url": "http://quic.ulb.ac.be/",
       "area": "Doctoral research conducted at the Center for Quantum Information and Communication (QuIC), under the supervision of Prof. Nicolas J. Cerf. PhD thesis: Majorization theoretical approach to quantum uncertainty — From Wigner entropy to Gaussian bosonic channels.",
-      "studyType": "PhD",
+      "studyType": "PhD in Quantum Information",
       "startDate": "2017-09-01",
       "endDate": "2021-12-01",
       "thesis": "Majorization theoretical approach to quantum uncertainty: From Wigner entropy to Gaussian bosonic channels",
@@ -106,8 +106,8 @@
       "institution": "École polytechnique de Bruxelles, Université libre de Bruxelles (ULB)",
       "location": "Brussels, Belgium",
       "url": "https://polytech.ulb.be/en/studies/masters/msc-in-physics",
-      "area": "Physical engineering",
-      "studyType": "MSc",
+      "area": "Specialized in Quantum applications and Photonics.",
+      "studyType": "MSc in Physical Engineering",
       "startDate": "2015-09-01",
       "endDate": "2017-09-01"
     },
@@ -115,8 +115,8 @@
       "institution": "Norwegian University of Science and Technology (NTNU)",
       "location": "Trondheim, Norway",
       "url": "https://www.ntnu.edu",
-      "area": "Physical engineering",
-      "studyType": "Erasmus Programme",
+      "area": "First year of the master’s degree completed as part of the Erasmus program.",
+      "studyType": "Erasmus exchange",
       "startDate": "2015-09-01",
       "endDate": "2016-09-01"
     }
@@ -130,12 +130,12 @@
     {
       "name": "Quantum information theory",
       "level": "Advanced",
-      "keywords": ["Resource theories", "Gaussian channels", "Entropic inequalities"]
+      "keywords": ["Resource theories", "Bosonic channels", "Entropic inequalities"]
     },
     {
       "name": "Mathematical methods",
       "level": "Advanced",
-      "keywords": ["Majorization", "Functional analysis", "Convex analysis"]
+      "keywords": ["Majorization theory", "Functional analysis", "Convex analysis"]
     },
     {
       "name": "Scientific computing",
