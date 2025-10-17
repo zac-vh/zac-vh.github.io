@@ -7,8 +7,8 @@
     "url": "https://zac-vh.github.io/",
     "summary": "Postdoctoral researcher in quantum information and quantum optics, specializing in continuous-variable systems, phase-space methods, and resource theories.",
     "location": {
-      "address": "25 avenue Secrétan",
-      "postalCode": "75019",
+      "address": "45 rue d'Ulm",
+      "postalCode": "75005",
       "city": "Paris",
       "region": "Île-de-France",
       "countryCode": "FR"
@@ -139,7 +139,7 @@
     {
       "name": "Scientific computing",
       "level": "Intermediate",
-      "keywords": ["Python", "Mathematica", "LaTeX"]
+      "keywords": ["Python", "Matplotlib", "Mathematica"]
     }
   ],
   "languages": [
@@ -164,14 +164,14 @@
       "url": "https://baef.be/",
       "date": "2021-01-29",
       "awarder": "Belgian American Educational Foundation (BAEF)",
-      "summary": "One-year postdoctoral fellowship supporting research in quantum communication and optics at the University of Arizona."
+      "summary": "One-year postdoctoral fellowship awarded to support Belgian scholars conducting research in the United States."
     },
     {
       "title": "F.R.S.-FNRS Doctoral Fellowship (FRIA)",
-      "url": "https://www.frs-fnrs.be/docs/Resultats/FRS-FNRS_FRIA-2017_candidatures_retenues.html",
+      "url": "https://www.frs-fnrs.be/en/financements/chercheur-doctorant#fria",
       "date": "2017-12-15",
       "awarder": "Fonds de la Recherche Scientifique (FNRS), Belgium",
-      "summary": "Four-year doctoral fellowship in quantum information theory at Université libre de Bruxelles."
+      "summary": "Competitive four-year doctoral fellowship supporting PhD training in the exact and natural sciences."
     }
   ]
 }
