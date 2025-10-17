@@ -2,10 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Zacharie Van Herstraeten",
+    "label": "Researcher in Quantum Information and Quantum Optics",
     "image": "",
     "email": "zacharie.van-herstraeten@inria.fr",
     "url": "https://zac-vh.github.io/",
-    "summary": "Researcher in quantum optics and quantum information, specializing in continuous-variable systems, phase-space methods, and resource theories.",
+    "summary": "Researcher in quantum information and quantum optics, specializing in continuous-variable systems, phase-space methods, and resource theories.",
     "location": {
       "address": "45 rue d'Ulm",
       "postalCode": "75005",
@@ -44,7 +45,7 @@
       "url": "https://qat.inria.fr/presentation/",
       "startDate": "2024-02-01",
       "summary": "Postdoctoral research in the QAT team with Dr. Ulysse Chabaud, employing phase-space methods to identify and characterize quantum resources.",
-      "highlights": ["Operational description of Wigner positive states", "Extending majorization theory to quasiprobabilities"]
+      "highlights": ["Operational description of Wigner-positive states", "Extending majorization theory to quasiprobabilities"]
     },
     {
       "name": "College of Optical Sciences, University of Arizona",
@@ -53,7 +54,7 @@
       "url": "https://wp.optics.arizona.edu/sguha/",
       "startDate": "2022-01-01",
       "endDate": "2024-01-01",
-      "summary": "Postdoctoral research in the Quantum Photonic Applications Group of Prof. Saikat Guha, focusing on quantum communication within continuous-variable quantum information theory.",
+      "summary": "Postdoctoral research in the Quantum Photonic Applications Group of Prof. Saikat Guha, focusing on quantum communication with continuous-variable systems.",
       "highlights": ["Capacity of non-Gaussian bosonic channels", "Entanglement enhancement via photon subtraction"]
     }
   ],
