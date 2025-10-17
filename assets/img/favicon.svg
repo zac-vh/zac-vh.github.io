@@ -1,19 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="-3 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    
-    <title>pin_fill_sharp_circle [#634]</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
 
-</defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Dribbble-Light-Preview" transform="translate(-223.000000, -5399.000000)" fill="#000000">
-            <g id="icons" transform="translate(56.000000, 160.000000)">
-                <path d="M174,5248.219 C172.895,5248.219 172,5247.324 172,5246.219 C172,5245.114 172.895,5244.219 174,5244.219 C175.105,5244.219 176,5245.114 176,5246.219 C176,5247.324 175.105,5248.219 174,5248.219 M174,5239 C170.134,5239 167,5242.134 167,5246 C167,5249.866 174,5259 174,5259 C174,5259 181,5249.866 181,5246 C181,5242.134 177.866,5239 174,5239" id="pin_fill_sharp_circle-[#634]">
-
-</path>
-            </g>
-        </g>
+<svg
+   width="560"
+   height="800"
+   viewBox="-3 0 14 20"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="pin-fill-sharp-circle-634-svgrepo-com.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#ffffff"
+     inkscape:zoom="1.06"
+     inkscape:cx="280.18868"
+     inkscape:cy="701.88679"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1512"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <title
+     id="title1">pin_fill_sharp_circle [#634]</title>
+  <desc
+     id="desc1">Created with Sketch.</desc>
+  <defs
+     id="defs1" />
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     transform="translate(-3)">
+    <g
+       id="Dribbble-Light-Preview"
+       transform="translate(-223,-5399)"
+       fill="#000000">
+      <g
+         id="icons"
+         transform="translate(56,160)">
+        <path
+           d="m 174,5248.219 c -1.105,0 -2,-0.895 -2,-2 0,-1.105 0.895,-2 2,-2 1.105,0 2,0.895 2,2 0,1.105 -0.895,2 -2,2 m 0,-9.219 c -3.866,0 -7,3.134 -7,7 0,3.866 7,13 7,13 0,0 7,-9.134 7,-13 0,-3.866 -3.134,-7 -7,-7"
+           id="pin_fill_sharp_circle-[#634]" />
+      </g>
     </g>
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>pin_fill_sharp_circle [#634]</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
