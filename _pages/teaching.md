@@ -3,7 +3,7 @@ layout: page
 permalink: /memo/
 title: memo
 description: A short memo for quantum optics
-nav: true
+nav: false
 nav_order: 6
 ---
 

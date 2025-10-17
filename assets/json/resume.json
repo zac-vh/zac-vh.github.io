@@ -70,6 +70,7 @@
       "position": "Maintainer",
       "organization": "Qopy — Quantum Optics in Python",
       "url": "https://github.com/zac-vh/qopy/",
+      "startDate": "2025-05-23",
       "summary": "Maintainer of an open-source Python package for quantum optics, with tools for Wigner functions, Lorenz curves, and Gaussian-state analysis."
     },
     {
@@ -82,8 +83,10 @@
     },
     {
       "position": "Reviewer",
-      "organization": "Quantum, Physical Review A, Quantum Information Processing",
-      "summary": "Reviewer for various journals in quantum information and quantum physics."
+      "organization": "Peer-reviewed scientific journals",
+      "startDate": "2024-01-01",
+      "summary": "Reviewer for various journals in quantum information and quantum physics.",
+      "highlights": ["Quantum", "Physical Review A", "Quantum Information Processing"]
     }
   ],
   "education": [
@@ -91,7 +94,7 @@
       "institution": "École polytechnique de Bruxelles, Université libre de Bruxelles (ULB)",
       "location": "Brussels, Belgium",
       "url": "http://quic.ulb.ac.be/",
-      "area": "Quantum information",
+      "area": "Doctoral research conducted at the Center for Quantum Information and Communication (QuIC), under the supervision of Prof. Nicolas J. Cerf. PhD thesis: Majorization theoretical approach to quantum uncertainty — From Wigner entropy to Gaussian bosonic channels.",
       "studyType": "PhD",
       "startDate": "2017-09-01",
       "endDate": "2021-12-01",
