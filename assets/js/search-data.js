@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-memo",
-          title: "memo",
-          description: "A short memo for quantum optics",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/memo/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
