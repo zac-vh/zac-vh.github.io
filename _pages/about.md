@@ -25,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Light is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and nonclassical correlations. It also plays a central role in quantum technologies, from long-distance communication through optical fibers to the development of photonic quantum computers.
+**Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and nonclassical correlations. It also plays a central role in quantum technologies, from long-distance communication through optical fibers to the development of photonic quantum computers.
 
-The quantum phase space provides an elegant way to describe and visualize these phenomena. It treats all quadratures equally and allows quantum states, measurements, and evolutions to be expressed in a unified geometric framework. Negativities in phase-space distributions, for instance, offer a direct glimpse into the nonclassical nature of light.
+The **quantum phase space** provides an elegant way to describe and visualize these phenomena. It treats all quadratures equally and allows quantum states, measurements, and evolutions to be expressed in a unified geometric framework. Negativities in phase-space distributions, for instance, offer a direct glimpse into the nonclassical nature of light.
 
-Information theory brings yet another layer of insight. By quantifying uncertainty, coherence, and correlations, it helps reformulate key quantum concepts in precise, operational terms. At the intersection of information theory and phase-space methods lies a rich perspective on what makes a system truly quantum.
+**Information theory** brings yet another layer of insight. By quantifying uncertainty, coherence, and correlations, it helps reformulate key quantum concepts in precise, operational terms. At the intersection of information theory and phase-space methods lies a rich perspective on what makes a system truly quantum.
