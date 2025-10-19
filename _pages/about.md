@@ -25,10 +25,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-**Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communication to photonic quantum computing. The **quantum phase space** provides a natural setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual and operational precision to our understanding of quantum phenomena.
+<br>
 
-Within this broader perspective, my research develops along three interconnected directions:
+**Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. The **quantum phase space** provides a natural setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual and operational precision to our understanding of quantum phenomena. <br>
 
-- **Physicality and geometry in phase space**
-- **Operational and entropic measures of nonclassicality**
-- **Information flow in optical interactions**
+Within this general landscape, my research develops along three interconnected directions:
+
+- <u>Physicality and geometry in phase space</u>
+- <u>Operational and entropic measures of nonclassicality</u>
+- <u>Information flow in optical interactions</u>
