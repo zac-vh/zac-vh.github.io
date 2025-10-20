@@ -30,6 +30,11 @@ latest_posts:
 Within this general landscape, my research develops along three interconnected directions:
 
 - <u>Physicality as geometry in phase space</u>
+
   In phase-space representations, determining whether a quasiprobability distribution corresponds to a physically valid quantum state is often nontrivial. This direction seeks geometric or visual criteria—beyond abstract operator conditions—that reveal how quantum constraints shape the very structure of phase space and delineate the boundary between the quantum and classical worlds.
+
 - <u>Operational and entropic measures of nonclassicality</u>
+
+  Resource theories.
+
 - <u>Information flow in optical interactions</u>
