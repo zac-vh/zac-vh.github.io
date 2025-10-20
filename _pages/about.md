@@ -25,12 +25,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<br>
-
-**Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual and operational precision to our understanding of quantum phenomena. <br>
+**Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual and operational precision to our understanding of quantum phenomena.
 
 Within this general landscape, my research develops along three interconnected directions:
 
-- <u>Physicality and geometry in phase space</u>
+- <u>Physicality as geometry in phase space</u>
+  In phase-space representations, determining whether a quasiprobability distribution corresponds to a physically valid quantum state is often nontrivial. This direction seeks geometric or visual criteria—beyond abstract operator conditions—that reveal how quantum constraints shape the very structure of phase space and delineate the boundary between the quantum and classical worlds.
 - <u>Operational and entropic measures of nonclassicality</u>
 - <u>Information flow in optical interactions</u>
