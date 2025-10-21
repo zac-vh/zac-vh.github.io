@@ -42,7 +42,7 @@ Within this general landscape, my research develops along three interconnected d
 
 In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—extending uncertainty relations to a finer level of detail—that reveal how physicality manifests in phase space.
 
-- **Operational and entropic measures of nonclassicality**
+- **Entropic measures of nonclassicality**
 
 Intrinsically non-classical quantum behaviour often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behaviour.
 
