@@ -6,7 +6,7 @@ subtitle: Welcome to my website — a space to share my work and research intere
 
 profile:
   align: right
-  image: hills.png
+  image: zacharie.png
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Currently, I'm a postdoc in the <a href="https://qat.inria.fr/presentation/" target="_blank" rel="noopener">Inria — QAT team</a>, located at École Normale Supérieure, 45 rue d’Ulm, Paris.</p>
@@ -29,12 +29,12 @@ latest_posts:
 
 Within this general landscape, my research develops along three interconnected directions:
 
-- <u>Physicality as geometry in phase space</u>
+- **Physicality constraints in phase space**
 
-  In phase-space representations, determining whether a quasiprobability distribution corresponds to a physically valid quantum state is often nontrivial. This direction seeks geometric or visual criteria—beyond abstract operator conditions—that reveal how quantum constraints shape the very structure of phase space and delineate the boundary between the quantum and classical worlds.
+In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial. This direction aims to identify geometric and structural constraints—beyond uncertainty relations and abstract operator conditions—that reveal how physicality manifests in phase space.
 
-- <u>Operational and entropic measures of nonclassicality</u>
+- **Operational and entropic measures of nonclassicality**
 
-  Resource theories.
+Intrinsically non-classical quantum behaviour often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase-space representations, as a natural way to capture their informational content.
 
-- <u>Information flow in optical interactions</u>
+- **Information flow in optical interactions**
