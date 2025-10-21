@@ -25,13 +25,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+## Light though the lens of quantum information theory
+
 **Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual and operational precision to our understanding of quantum phenomena.
+
+---
+
+## My research
 
 Within this general landscape, my research develops along three interconnected directions:
 
 - **Physicality constraints in phase space**
 
-In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial. This direction aims to identify geometric and structural constraints—beyond uncertainty relations and abstract operator conditions—that reveal how physicality manifests in phase space.
+In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—extending uncertainty relations to a finer level of detail—that reveal how physicality manifests in phase space.
 
 - **Operational and entropic measures of nonclassicality**
 
