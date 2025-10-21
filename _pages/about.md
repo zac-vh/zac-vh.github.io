@@ -25,11 +25,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-### Light though the lens of quantum information theory
+<div style="margin-top: 3em;"></div>
+
+### Quantum light through the lens of information theory
 
 **Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual and operational precision to our understanding of quantum phenomena.
 
-### My research
+<div style="margin-top: 3em;"></div>
+
+### My research themes
 
 Within this general landscape, my research develops along three interconnected directions:
 
@@ -45,6 +49,6 @@ Intrinsically non-classical quantum behaviour often relies on a combination of r
 
 Understanding how information propagates through optical interactions remains a central question in quantum communication. This direction examines fundamental processes—such as the beam splitter—whose description is remarkably simple in phase space but far more intricate in the operator formalism, with rich interference effects. Bridging these two representations offers a promising route to uncover how information can be most efficiently conveyed through quantum optical channels, particularly beyond the well-understood Gaussian regime.
 
----
+<div style="margin-top: 5em;"></div>
 
 If you’d like to learn more, you can browse [my publications](https://zac-vh.github.io/publications/) and [my CV](https://zac-vh.github.io/cv/).
