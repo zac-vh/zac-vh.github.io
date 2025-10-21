@@ -26,19 +26,19 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div style="margin-top: 4em;"></div>
+<div style="margin-top: 5em;"></div>
 
 <h3 style="font-size:1.6em;">Quantum light through the lens of information theory</h3>
 
-<div style="margin-top: 1em;"></div>
+<div style="margin-top: 1.5em;"></div>
 
 **Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual and operational precision to our understanding of quantum phenomena.
 
-<div style="margin-top: 4em;"></div>
+<div style="margin-top: 5em;"></div>
 
 <h3 style="font-size:1.6em;">My research themes</h3>
 
-<div style="margin-top: 1em;"></div>
+<div style="margin-top: 1.5em;"></div>
 
 Within this general landscape, my research develops along three interconnected directions:
 
