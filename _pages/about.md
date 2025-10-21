@@ -34,7 +34,7 @@ latest_posts:
 
 **Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual and operational precision to our understanding of quantum phenomena.
 
-<div style="margin-top: 5em;"></div>
+<div style="margin-top: 4em;"></div>
 
 <h3 style="font-size:1.6em;">My research themes</h3>
 
@@ -44,14 +44,10 @@ Within this general landscape, my research develops along three interconnected d
 
 **Physicality constraints in phase space.** In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—extending uncertainty relations to a finer level of detail—that reveal how physicality manifests in phase space.
 
-<div style="margin-top: 1em;"></div>
-
 **Entropic measures of nonclassicality.** Intrinsically nonclassical quantum behavior often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behavior.
-
-<div style="margin-top: 1em;"></div>
 
 **Information flow in optical interactions.** Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-understood Gaussian regime. Focusing on simple yet expressive optical components such as the beam splitter, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of quantum information flow.
 
-<div style="margin-top: 5em;"></div>
+<div style="margin-top: 3em;"></div>
 
 If you’d like to learn more, you can browse [my publications](https://zac-vh.github.io/publications/) and [my CV](https://zac-vh.github.io/cv/).
