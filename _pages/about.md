@@ -48,6 +48,7 @@ Within this general landscape, my research develops along three interconnected d
 
 <div style="text-align: justify;">
 In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—extending uncertainty relations to a finer level of detail—that reveal how physicality manifests in phase space.
+</div>
 
 - **Entropic measures of nonclassicality**
 
