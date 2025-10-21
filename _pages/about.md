@@ -42,16 +42,14 @@ latest_posts:
 
 Within this general landscape, my research develops along three interconnected directions:
 
-**Physicality constraints in phase space.** In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—extending uncertainty relations to a finer level of detail—that reveal how physicality manifests in phase space. <br>
-**Keywords:** `positivity` `uncertainty` `quasiprobability geometry`
+**Physicality constraints in phase space.** In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—extending uncertainty relations to a finer level of detail—that reveal how physicality manifests in phase space.
+<br><small><em>Keywords:</em> `phase-space theory` · `uncertainty relations` · `positive semi-definiteness` </small>
 
-**Entropic measures of nonclassicality.** Intrinsically nonclassical quantum behavior often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behavior. <br>
-<small><em>Keywords:</em> Quantumness · Entropy · Resource theory</small>
+**Entropic measures of nonclassicality.** Intrinsically nonclassical quantum behavior often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behavior.
+<br><small><em>Keywords:</em> `resource theory` · `majorization` · `Rényi entropy` </small>
 
-
-**Information flow in optical interactions.** Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-understood Gaussian regime. Focusing on simple yet expressive optical components such as the beam splitter, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of quantum information flow. <br>
-*Keywords:* `quantum communication` `bosonic channels` `minimum output entropy`
-
+**Information flow in optical interactions.** Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-understood Gaussian regime. Focusing on simple yet expressive optical components such as the beam splitter, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of quantum information flow.
+<br><small><em>Keywords:</em> `quantum communication` · `channel capacity` · `minimum output entropy`</small>
 
 <div style="margin-top: 3em;"></div>
 
