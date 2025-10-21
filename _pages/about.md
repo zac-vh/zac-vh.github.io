@@ -27,7 +27,7 @@ latest_posts:
 
 <div style="margin-top: 5em;"></div>
 
-### Quantum light through information theory
+<h3 style="font-size:1.2em;">Quantum light through the lens of information theory</h3>
 
 **Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual and operational precision to our understanding of quantum phenomena.
 
