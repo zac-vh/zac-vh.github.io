@@ -42,38 +42,15 @@ latest_posts:
 
 Within this general landscape, my research develops along three interconnected directions:
 
-- **Physicality constraints in phase space**
+**Physicality constraints in phase space.** In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—extending uncertainty relations to a finer level of detail—that reveal how physicality manifests in phase space.
 
-In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—extending uncertainty relations to a finer level of detail—that reveal how physicality manifests in phase space.
+<div style="margin-top: 1em;"></div>
 
-- **Entropic measures of nonclassicality**
+**Entropic measures of nonclassicality.** Intrinsically nonclassical quantum behavior often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behavior.
 
-Intrinsically nonclassical quantum behavior often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behavior.
+<div style="margin-top: 1em;"></div>
 
-- **Information flow in optical interactions**
-
-Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-understood Gaussian regime. Focusing on simple yet expressive optical components such as the beam splitter, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of quantum information flow.
-
-<div class="research-card">
-  <h4>⚖️ Physicality constraints in phase space</h4>
-  <p>
-  In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints, refining uncertainty relations into a more detailed hierarchy, to reveal how physicality manifests in phase space.
-  </p>
-</div>
-
-<div class="research-card">
-  <h4>🔥 Entropic measures of nonclassicality</h4>
-  <p>
-  Intrinsically nonclassical quantum behavior often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness, sometimes inspired by resource-theoretic ideas, and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behavior.
-  </p>
-</div>
-
-<div class="research-card">
-  <h4>🔄 Information flow in optical interactions</h4>
-  <p>
-  Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-understood Gaussian regime. Focusing on elementary optical systems, such as the beam splitter, that already capture the richness of quantum interference, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of quantum information flow.
-  </p>
-</div>
+**Information flow in optical interactions.** Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-understood Gaussian regime. Focusing on simple yet expressive optical components such as the beam splitter, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of quantum information flow.
 
 <div style="margin-top: 5em;"></div>
 
