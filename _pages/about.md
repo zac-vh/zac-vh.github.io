@@ -10,6 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Currently, I'm a postdoc in the <a href="https://qat.inria.fr/presentation/" target="_blank" rel="noopener">Inria — QAT team</a>, located at École Normale Supérieure, 45 rue d’Ulm, Paris.</p>
+    <div style="margin-top: 3em;"></div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -47,7 +48,7 @@ Intrinsically non-classical quantum behaviour often relies on a combination of r
 
 - **Information flow in optical interactions**
 
-Understanding how information propagates through optical interactions remains a central question in quantum communication. This direction examines fundamental processes—such as the beam splitter—whose description is remarkably simple in phase space but far more intricate in the operator formalism, with rich interference effects. Bridging these two representations offers a promising route to uncover how information can be most efficiently conveyed through quantum optical channels, particularly beyond the well-understood Gaussian regime.
+Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-understood Gaussian regime. Focusing on elementary optical systems—such as the beam splitter—that already capture the richness of quantum interference, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of information flow.
 
 <div style="margin-top: 5em;"></div>
 
