@@ -54,7 +54,6 @@ Intrinsically nonclassical quantum behavior often relies on a combination of res
 
 Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-understood Gaussian regime. Focusing on simple yet expressive optical components such as the beam splitter, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of quantum information flow.
 
-
 <div class="research-card">
   <h4>⚖️ Physicality constraints in phase space</h4>
   <p>
