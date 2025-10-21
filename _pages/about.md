@@ -9,7 +9,7 @@ profile:
   image: zacharie.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Currently, I'm a postdoc in the <a href="https://qat.inria.fr/presentation/" target="_blank" rel="noopener">Inria — QAT team</a>, located at École Normale Supérieure, 45 rue d’Ulm, Paris.</p>
+    <p>Currently, I'm a postdoc in the <a href="https://qat.inria.fr/presentation/" target="_blank" rel="noopener">QAT team</a>, located at École Normale Supérieure, 45 rue d’Ulm, Paris.</p>
     <div style="margin-top: 3em;"></div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
