@@ -25,28 +25,26 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-## Light though the lens of quantum information theory
+### Light though the lens of quantum information theory
 
 **Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual and operational precision to our understanding of quantum phenomena.
 
----
+### My research
 
-## My research
+Within this general landscape, my research develops along three interconnected directions:
 
-Within this general landscape, my research develops along three interconnected directions.
-
-### Physicality constraints in phase space
+- **Physicality constraints in phase space**
 
 In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—extending uncertainty relations to a finer level of detail—that reveal how physicality manifests in phase space.
 
-### Operational and entropic measures of nonclassicality
+- **Operational and entropic measures of nonclassicality**
 
 Intrinsically non-classical quantum behaviour often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behaviour.
 
-### Information flow in optical interactions
+- **Information flow in optical interactions**
 
 Understanding how information propagates through optical interactions remains a central question in quantum communication. This direction examines fundamental processes—such as the beam splitter—whose description is remarkably simple in phase space but far more intricate in the operator formalism, with rich interference effects. Bridging these two representations offers a promising route to uncover how information can be most efficiently conveyed through quantum optical channels, particularly beyond the well-understood Gaussian regime.
 
---- 
+---
 
 If you’d like to learn more, you can browse [my publications](https://zac-vh.github.io/publications/) and [my CV](https://zac-vh.github.io/cv/).
