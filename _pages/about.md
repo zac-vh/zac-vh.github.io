@@ -38,3 +38,5 @@ In phase-space representations, determining whether a quasiprobability distribut
 Intrinsically non-classical quantum behaviour often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behaviour.
 
 - **Information flow in optical interactions**
+
+Understanding how information propagates through optical interactions remains a central question in quantum communication. This direction examines fundamental processes—such as the beam splitter—whose description is remarkably simple in phase space but far more intricate in the operator formalism, with rich interference effects. Bridging these two representations offers a promising route to uncover how information can be most efficiently conveyed through quantum optical channels, particularly beyond the well-understood Gaussian regime.
