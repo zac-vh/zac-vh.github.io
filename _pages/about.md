@@ -53,7 +53,7 @@ In phase-space representations, determining whether a quasiprobability distribut
 - **Entropic measures of nonclassicality**
 
 <div style="text-align: justify;">
-Intrinsically non-classical quantum behavior often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behavior.
+Intrinsically nonclassical quantum behavior often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behavior.
 </div>
 
 - **Information flow in optical interactions**
