@@ -45,7 +45,7 @@ latest_posts:
 Within this general landscape, my research develops along three interconnected directions:
 
 **Physicality constraints in phase space.** In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—extending uncertainty relations to a finer level of detail—that reveal how physicality manifests in phase space.
-<br><small><em>Keywords:</em> `phase-space theory` · `uncertainty relations` · `positive semi-definiteness` </small>
+<br><small><em>Keywords:</em> `phase-space theory` · `uncertainty relations` · `positivity conditions` </small>
 
 **Entropic measures of nonclassicality.** Intrinsically nonclassical quantum behavior often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behavior.
 <br><small><em>Keywords:</em> `resource theory` · `majorization` · `Rényi entropy` </small>
