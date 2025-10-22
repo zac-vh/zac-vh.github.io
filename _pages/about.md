@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div style="margin-top: 5em;"></div>
+<div style="margin-top: 3em;"></div>
 
 <h3 style="font-size:1.6em;">Quantum light through the lens of information theory</h3>
 
@@ -36,7 +36,7 @@ latest_posts:
 
 <p style="text-align:center; font-size:2em; margin:1.5em 0; opacity:0.7;">⁂</p>
 
-<div style="margin-top: 4em;"></div>
+<div style="margin-top: 3em;"></div>
 
 <h3 style="font-size:1.6em;">My research themes</h3>
 
