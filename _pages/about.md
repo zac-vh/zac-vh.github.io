@@ -51,7 +51,7 @@ Within this general landscape, my research develops along three interconnected d
 <br><small><em>Keywords:</em> `resource theory` · `majorization` · `Rényi entropy` </small>
 
 **Information flow in optical interactions.** Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-understood Gaussian regime. Focusing on simple yet expressive optical components such as the beam splitter, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of quantum information flow.
-<br><small><em>Keywords:</em> `quantum communication` · `channel capacity` · `minimum output entropy`</small>
+<br><small><em>Keywords:</em> `channel capacity` · `non-Gaussian attenuator` · `minimum output entropy`</small>
 
 <div style="margin-top: 3em;"></div>
 
