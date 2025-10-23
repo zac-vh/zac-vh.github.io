@@ -159,13 +159,25 @@ In the latter equation we have introducd the notation $\alpha^{[p]}=\alpha^{p}$ 
 
 ### TEST
 
-<img src="{{ '/assets/img/dir1.svg' | relative_url }}" alt="" aria-hidden="true" style="width:1.6em;height:1.6em;vertical-align:text-top;margin-right:0.35em;display:inline-block;opacity:.9"> <strong>Physicality constraints in phase space.</strong> In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—sharpening and extending uncertainty relations— to uncover deeper principles governing physicality within phase space. <br><small><em>Keywords:</em> phase-space theory · uncertainty relations · positivity conditions </small>
-
 <span aria-hidden="true"
       style="display:inline-block;
              width:1.6em;height:1.6em;
              vertical-align:text-top;
              margin-right:0.35em;
+             opacity:.9;
+             background:currentColor;
+             -webkit-mask:url({{ '/assets/img/dir1.svg' | relative_url }}) no-repeat center / contain;
+                     mask:url({{ '/assets/img/dir1.svg' | relative_url }}) no-repeat center / contain;">
+</span>
+<strong>Physicality constraints in phase space.</strong>
+In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—sharpening and extending uncertainty relations—to uncover deeper principles governing physicality within phase space.
+<br><small><em>Keywords:</em> phase-space theory · uncertainty relations · positivity conditions</small>
+
+<span aria-hidden="true"
+      style="display:inline-block;
+             width:1.6em;height:1.6em;
+             vertical-align:-0.25em;   /* ↓ descend un peu l’icône */
+             margin-right:0.3em;
              opacity:.9;
              background:currentColor;
              -webkit-mask:url({{ '/assets/img/dir1.svg' | relative_url }}) no-repeat center / contain;
