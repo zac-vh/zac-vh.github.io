@@ -32,7 +32,7 @@ latest_posts:
 
 <div style="margin-top: 1.5em;"></div>
 
-**Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual and operational precision to our understanding of quantum phenomena.
+**Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual clarity and operational precision to our understanding of quantum phenomena.
 
 <p style="text-align:center; font-size:2em; margin:1.5em 0; opacity:0.7;">⁂</p>
 
@@ -42,7 +42,7 @@ latest_posts:
 
 <div style="margin-top: 1.6em;"></div>
 
-Across this broad landscape, I’m drawn to the phase-space representation to explore how quantum information and nonclassical phenomena emerge in continuous-variable systems. My research develops along three interconnected directions:
+Across this broad landscape, I’m drawn to the phase-space representation to explore how quantum resources and nonclassical signatures emerge in continuous-variable systems. My research develops along three interconnected directions:
 
 <div style="margin-top: 1.6em;"></div>
 
