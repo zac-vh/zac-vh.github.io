@@ -40,11 +40,11 @@ latest_posts:
 
 <h3 style="font-size:1.6em;">My research themes</h3>
 
-<div style="margin-top: 1.5em;"></div>
+<div style="margin-top: 1.6em;"></div>
 
-Within this general landscape, my research develops along three interconnected directions:
+Within this broad landscape, I’m drawn to the phase-space representation as a way to explore how quantum information and nonclassical phenomena manifest in continuous-variable systems. My research mainly develops along three interconnected directions:
 
-<div style="margin-top: 1.4em;"></div>
+<div style="margin-top: 1.6em;"></div>
 
 <span aria-hidden="true"
       style="display:inline-block;
@@ -60,7 +60,7 @@ Within this general landscape, my research develops along three interconnected d
 In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—sharpening and extending uncertainty relations— to uncover deeper principles governing physicality within phase space.
 <br><small><em>Keywords:</em> `phase-space theory` · `uncertainty relations` · `positivity conditions` </small>
 
-<div style="margin-top: 1.4em;"></div>
+<div style="margin-top: 1.6em;"></div>
 
 <span aria-hidden="true"
       style="display:inline-block;
@@ -92,6 +92,8 @@ Intrinsically nonclassical quantum behavior often relies on a combination of res
 Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-understood Gaussian regime. Focusing on simple yet expressive optical components such as the beam splitter, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of quantum information flow.
 <br><small><em>Keywords:</em> `channel capacity` · `non-Gaussian attenuator` · `minimum output entropy`</small>
 
-<div style="margin-top: 3em;"></div>
+<div style="margin-top: 4em;"></div>
 
 If you’d like to learn more, you can browse [my publications](https://zac-vh.github.io/publications/) and [my CV](https://zac-vh.github.io/cv/).
+
+<div style="margin-top: 1.4em;"></div>
