@@ -159,47 +159,6 @@ In the latter equation we have introducd the notation $\alpha^{[p]}=\alpha^{p}$ 
 
 ### TEST
 
-<span aria-hidden="true"
-      style="display:inline-block;
-             width:1.6em;height:1.6em;
-             vertical-align:text-top;
-             margin-right:0.35em;
-             opacity:.9;
-             background:currentColor;
-             -webkit-mask:url({{ '/assets/img/dir1.svg' | relative_url }}) no-repeat center / contain;
-                     mask:url({{ '/assets/img/dir1.svg' | relative_url }}) no-repeat center / contain;">
-</span>
-<strong>Physicality constraints in phase space.</strong>
-In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—sharpening and extending uncertainty relations—to uncover deeper principles governing physicality within phase space.
-<br><small><em>Keywords:</em> phase-space theory · uncertainty relations · positivity conditions</small>
-
-<span aria-hidden="true"
-      style="display:inline-block;
-             width:1.6em;height:1.6em;
-             vertical-align:-0.25em;   /* ↓ descend un peu l’icône */
-             margin-right:0.3em;
-             opacity:.9;
-             background:currentColor;
-             -webkit-mask:url({{ '/assets/img/dir1.svg' | relative_url }}) no-repeat center / contain;
-                     mask:url({{ '/assets/img/dir1.svg' | relative_url }}) no-repeat center / contain;">
-</span>
-<strong>Physicality constraints in phase space.</strong>
-In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—sharpening and extending uncertainty relations—to uncover deeper principles governing physicality within phase space.
-<br><small><em>Keywords:</em> phase-space theory · uncertainty relations · positivity conditions</small>
-
-<span aria-hidden="true"
-      style="display:inline-block;
-             width:1.8em;height:1.8em;
-             vertical-align:-0.32em;   /* aligne visuellement le bas de l’icône sur la ligne de texte */
-             margin-right:0.35em;
-             opacity:.9;
-             background:currentColor;
-             -webkit-mask:url({{ '/assets/img/dir1.svg' | relative_url }}) no-repeat center / contain;
-                     mask:url({{ '/assets/img/dir1.svg' | relative_url }}) no-repeat center / contain;">
-</span>
-<strong>Physicality constraints in phase space.</strong>
-In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—sharpening and extending uncertainty relations—to uncover deeper principles governing physicality within phase space.
-<br><small><em>Keywords:</em> phase-space theory · uncertainty relations · positivity conditions</small>
 
 <span aria-hidden="true"
       style="display:inline-block;
@@ -213,3 +172,29 @@ In phase-space representations, determining whether a quasiprobability distribut
 </span><strong>Physicality constraints in phase space.</strong>
 In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—sharpening and extending uncertainty relations—to uncover deeper principles governing physicality within phase space.
 <br><small><em>Keywords:</em> phase-space theory · uncertainty relations · positivity conditions</small>
+
+<span aria-hidden="true"
+      style="display:inline-block;
+             width:1.7em;height:1.7em;
+             vertical-align:-0.28em;
+             margin-right:0.3em;
+             opacity:.9;
+             background:currentColor;
+             -webkit-mask:url({{ '/assets/img/dir2.svg' | relative_url }}) no-repeat center / contain;
+                     mask:url({{ '/assets/img/dir2.svg' | relative_url }}) no-repeat center / contain;">
+</span><strong>Entropic measures of nonclassicality.</strong>
+Intrinsically nonclassical quantum behavior often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behavior.
+<br><small><em>Keywords:</em> `resource theories` · `majorization` · `Rényi entropy` </small>
+
+<span aria-hidden="true"
+      style="display:inline-block;
+             width:1.7em;height:1.7em;
+             vertical-align:-0.28em;
+             margin-right:0.3em;
+             opacity:.9;
+             background:currentColor;
+             -webkit-mask:url({{ '/assets/img/dir3.svg' | relative_url }}) no-repeat center / contain;
+                     mask:url({{ '/assets/img/dir3.svg' | relative_url }}) no-repeat center / contain;">
+</span><strong>Information flow in optical interactions.</strong>
+Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-understood Gaussian regime. Focusing on simple yet expressive optical components such as the beam splitter, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of quantum information flow.
+<br><small><em>Keywords:</em> `channel capacity` · `non-Gaussian attenuator` · `minimum output entropy`</small>
