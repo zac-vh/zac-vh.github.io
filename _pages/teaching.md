@@ -19,6 +19,7 @@ nav_order: 6
   - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
   - [Rotated position states](#rotated-position-states)
   - [Displaced Fock states](#displaced-fock-states)
+  - [TEST](#test)
 
 ## Basics
 
@@ -155,3 +156,7 @@ $$
 $$
 
 In the latter equation we have introducd the notation $\alpha^{[p]}=\alpha^{p}$ if $p\geq 0$ and $\alpha^{[p]}=(\alpha^{\ast})^{-p}$ if $p<0$.
+
+### TEST
+
+<img src="{{ '/assets/img/dir1.svg' | relative_url }}" alt="" aria-hidden="true" style="width:1.6em;height:1.6em;vertical-align:text-top;margin-right:0.35em;display:inline-block;opacity:.9"> <strong>Physicality constraints in phase space.</strong> In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—sharpening and extending uncertainty relations— to uncover deeper principles governing physicality within phase space. <br><small><em>Keywords:</em> phase-space theory · uncertainty relations · positivity conditions </small>
