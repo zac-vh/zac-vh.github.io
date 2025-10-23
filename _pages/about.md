@@ -42,7 +42,7 @@ latest_posts:
 
 <div style="margin-top: 1.6em;"></div>
 
-Across this broad landscape, I’m drawn to the phase-space representation to explore how quantum resources and nonclassical signatures emerge in continuous-variable systems. My research develops along three interconnected directions:
+Across this broad landscape, I’m drawn to the phase-space picture to explore how quantum resources and nonclassical signatures emerge in continuous-variable systems. My research develops along three interconnected directions:
 
 <div style="margin-top: 1.6em;"></div>
 
