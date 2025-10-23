@@ -74,7 +74,7 @@ In phase-space representations, determining whether a quasiprobability distribut
 </span>
 <strong>Entropic measures of nonclassicality.</strong>
 Intrinsically nonclassical quantum behavior often relies on a combination of resources whose precise roles are difficult to isolate. This direction seeks to define meaningful, operational measures of quantumness—sometimes inspired by resource-theoretic ideas—and to explore entropic approaches, possibly within phase space, as an insightful way to capture the richness and subtlety of quantum behavior.
-<br><small><em>Keywords:</em> `resource theories` · `majorization` · `Rényi entropies` </small>
+<br><small><em>Keywords:</em> `resource theories` · `majorization` · `generalized Rényi entropies` </small>
 
 <div style="margin-top: 1.4em;"></div>
 
