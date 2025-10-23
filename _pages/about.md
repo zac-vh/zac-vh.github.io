@@ -57,7 +57,7 @@ Across this broad landscape, I’m drawn to the phase-space representation to ex
                      mask:url({{ '/assets/img/dir1.svg' | relative_url }}) no-repeat center / contain;">
 </span>
 <strong>Physicality constraints in phase space.</strong>
-In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—sharpening and extending uncertainty relations— to uncover deeper principles governing physicality within phase space.
+In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—sharpening and extending uncertainty relations—to uncover deeper principles governing physicality within phase space.
 <br><small><em>Keywords:</em> `phase-space theory` · `uncertainty relations` · `positivity conditions` </small>
 
 <div style="margin-top: 1.6em;"></div>
@@ -89,7 +89,7 @@ Intrinsically nonclassical quantum behavior often relies on a combination of res
                      mask:url({{ '/assets/img/dir3.svg' | relative_url }}) no-repeat center / contain;">
 </span>
 <strong>Information flow in optical interactions.</strong>
-Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-understood Gaussian regime. Focusing on simple yet expressive optical components such as the beam splitter, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of quantum information flow.
+Understanding how information propagates through bosonic channels remains a central question in quantum communication, particularly beyond the well-studied Gaussian regime. Focusing on simple yet expressive optical components such as the beam splitter, this direction aims to bridge the phase-space and operator representations to clarify the fundamental mechanisms of quantum information flow.
 <br><small><em>Keywords:</em> `channel capacity` · `non-Gaussian attenuator` · `minimum output entropy`</small>
 
 <div style="margin-top: 4em;"></div>
