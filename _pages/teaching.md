@@ -200,3 +200,16 @@ In phase-space representations, determining whether a quasiprobability distribut
 <strong>Physicality constraints in phase space.</strong>
 In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—sharpening and extending uncertainty relations—to uncover deeper principles governing physicality within phase space.
 <br><small><em>Keywords:</em> phase-space theory · uncertainty relations · positivity conditions</small>
+
+<span aria-hidden="true"
+      style="display:inline-block;
+             width:1.7em;height:1.7em;
+             vertical-align:-0.28em;
+             margin-right:0.3em;
+             opacity:.9;
+             background:currentColor;
+             -webkit-mask:url({{ '/assets/img/dir1.svg' | relative_url }}) no-repeat center / contain;
+                     mask:url({{ '/assets/img/dir1.svg' | relative_url }}) no-repeat center / contain;">
+</span><strong>Physicality constraints in phase space.</strong>
+In phase-space representations, determining whether a quasiprobability distribution represents a physically valid quantum state is often nontrivial, typically relying on abstract mathematical conditions. This direction aims to identify geometric and structural constraints—sharpening and extending uncertainty relations—to uncover deeper principles governing physicality within phase space.
+<br><small><em>Keywords:</em> phase-space theory · uncertainty relations · positivity conditions</small>
