@@ -42,7 +42,7 @@ latest_posts:
 
 <div style="margin-top: 1.6em;"></div>
 
-Within this broad landscape, I’m drawn to the phase-space representation as a way to explore how quantum information and nonclassical phenomena manifest in continuous-variable systems. My research mainly develops along three interconnected directions:
+Across this broad landscape, I’m drawn to the phase-space representation as a way to explore how quantum information and nonclassical phenomena manifest in continuous-variable systems. My research mainly develops along three interconnected directions:
 
 <div style="margin-top: 1.6em;"></div>
 
