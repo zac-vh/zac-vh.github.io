@@ -19,7 +19,6 @@ nav_order: 6
   - [Position, momentum, photon-numer, coherent](#position-momentum-photon-numer-coherent)
   - [Rotated position states](#rotated-position-states)
   - [Displaced Fock states](#displaced-fock-states)
-  - [TEST](#test)
 
 ## Basics
 
@@ -156,23 +155,3 @@ $$
 $$
 
 In the latter equation we have introducd the notation $\alpha^{[p]}=\alpha^{p}$ if $p\geq 0$ and $\alpha^{[p]}=(\alpha^{\ast})^{-p}$ if $p<0$.
-
-### TEST
-
-**Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual clarity and operational precision to our understanding of quantum phenomena.
-
-**Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. 
-<br> The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. 
-<br> **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual clarity and operational precision to our understanding of quantum phenomena.
-
-> **Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. 
-> The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. 
-> **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual clarity and operational precision to our understanding of quantum phenomena.
-
-> **Light** is a unique physical system that naturally exhibits the features of quantum mechanics—interference, entanglement, and other nonclassical correlations—while serving as a central platform for quantum technologies, from optical communications to photonic quantum computing. <br>
-
-> The **quantum phase space** offers a privileged setting for continuous-variable systems such as light, where statistical and wave-like aspects unfold within a unified geometric framework that makes quantum behavior tangible. 
-
-> **Information theory** extends this perspective by quantifying uncertainty, coherence, and correlations, bringing conceptual clarity and operational precision to our understanding of quantum phenomena.
-
-
