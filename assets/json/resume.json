@@ -108,7 +108,7 @@
       "institution": "École polytechnique de Bruxelles, Université libre de Bruxelles (ULB)",
       "location": "Brussels, Belgium",
       "url": "https://polytech.ulb.be/en/studies/masters/msc-in-physics",
-      "area": "Specialized in Quantum applications and Photonics.",
+      "area": "Specialized in photonics and quantum applications.",
       "studyType": "MSc in Physics Engineering",
       "startDate": "2015-09-15",
       "endDate": "2017-09-01"
@@ -119,8 +119,17 @@
       "url": "https://www.ntnu.edu",
       "area": "First year of the master’s degree completed as part of the Erasmus program.",
       "studyType": "International exchange",
-      "startDate": "2015-09-01",
+      "startDate": "2015-09-15",
       "endDate": "2016-09-01"
+    },
+    {
+      "institution": "École polytechnique de Bruxelles, Université libre de Bruxelles (ULB)",
+      "location": "Brussels, Belgium",
+      "url": "https://polytech.ulb.be/fr/etudes/bacheliers/ingenieur-civil-1",
+      "area": "General engineering curriculum with strong foundations in mathematics and physics.",
+      "studyType": "BSc in Engineering",
+      "startDate": "2012-09-15",
+      "endDate": "2015-09-01"
     }
   ],
   "skills": [
