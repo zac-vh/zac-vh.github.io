@@ -126,7 +126,7 @@
       "institution": "École polytechnique de Bruxelles, Université libre de Bruxelles (ULB)",
       "location": "Brussels, Belgium",
       "url": "https://polytech.ulb.be/fr/etudes/bacheliers/ingenieur-civil-1",
-      "area": "General engineering curriculum with strong foundations in mathematics and physics.",
+      "area": "General engineering curriculum.",
       "studyType": "BSc in Engineering",
       "startDate": "2012-09-15",
       "endDate": "2015-09-01"
@@ -167,7 +167,15 @@
   "interests": [],
   "references": [],
   "projects": [],
-  "publications": [],
+  "publications": [
+    {
+      "name": "Quantum thermodynamics in a multipartite setting: A resource theory of local Gaussian work extraction for multimode bosonic systems",
+      "publisher": "Phys. Rev. A",
+      "releaseDate": "1905-06-30",
+      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
+      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+    }
+  ],
   "awards": [
     {
       "title": "BAEF Postdoctoral Fellowship",
