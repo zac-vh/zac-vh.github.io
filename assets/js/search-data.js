@@ -437,7 +437,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://arxiv.org/search/?searchtype=author&query=Van+Herstraeten%2C+Z", "_blank");
+          window.open("https://arxiv.org/a/0000-0003-1810-0942.html", "_blank");
         },
       },{
         id: 'social-linkedin',
